@@ -128,19 +128,19 @@ int main(void)
     result = cyhal_pwm_set_duty_cycle(&pwm_led_control, PWM_DUTY_CYCLE, PWM_FREQUENCY);
     cyhal_system_delay_ms(4000);
     /* Loop infinitely */
-    float deltaDC = 0.924f;
+    float deltaDC = 0.024f;
     for (;;)
     {
-    	cyhal_system_delay_ms(500);
+    	cyhal_system_delay_ms(250);
     	result = cyhal_pwm_set_duty_cycle(&pwm_led_control, PWM_DUTY_CYCLE+deltaDC, PWM_FREQUENCY);
 
-    	if ((PWM_DUTY_CYCLE+deltaDC) >= 100.0f)
+    	if ((PWM_DUTY_CYCLE+deltaDC) >= 10.0f)
     	{
-    		deltaDC -= 0.924f;
+    		deltaDC -= 0.024;
     	}
-    	else
+    	else // lower bound = 5.2f
     	{
-    		deltaDC += 0.924f;
+    		deltaDC += 0.024;
     	}
     }
 }
