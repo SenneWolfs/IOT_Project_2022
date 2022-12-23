@@ -1,6 +1,8 @@
 #ifndef SENSORDATA_H_
 #define SENSORDATA_H_
 
+// id = 100 -> Battery, id = 200 -> Motorspeed, id = 201 -> SteeringAngle
+
 typedef struct sensor_data_msg
 {
     int id;
