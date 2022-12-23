@@ -1,0 +1,266 @@
+Loading the manifest data
+Loading super manfiest files from all sources
+Getting manifests from remote and/or local sources
+Processing system manifest 'https://modustoolbox.infineon.com/manifests/mtb-super-manifest/v2.X/mtb-super-manifest-fv2.xml'
+Downloading super manifest file 'https://modustoolbox.infineon.com/manifests/mtb-super-manifest/v2.X/mtb-super-manifest-fv2.xml'
+Finished loading super manifest files from all sources
+Finished download of file 'https://modustoolbox.infineon.com/manifests/mtb-super-manifest/v2.X/mtb-super-manifest-fv2.xml'
+Starting to parse super manifest with URL 'https://modustoolbox.infineon.com/manifests/mtb-super-manifest/v2.X/mtb-super-manifest-fv2.xml'
+Finished parsing super manifest with URL 'https://modustoolbox.infineon.com/manifests/mtb-super-manifest/v2.X/mtb-super-manifest-fv2.xml'
+Downloading manifest file 'https://github.com/Infineon/mtb-ce-manifest/raw/v2.X/mtb-ce-manifest.xml'
+Downloading manifest file 'https://github.com/Infineon/mtb-ce-manifest/raw/v2.X/mtb-ce-manifest-fv2.xml'
+Downloading manifest file 'https://github.com/Infineon/mtb-bt-app-manifest/raw/v2.X/mtb-bt-app-manifest.xml'
+Downloading manifest file 'https://github.com/Infineon/mtb-bt-app-manifest/raw/v2.X/mtb-bt-app-manifest-fv2.xml'
+Downloading manifest file 'https://github.com/memfault/mtb-memfault-ce-manifest/raw/main/mtb-memfault-ce-manifest-fv2.xml'
+Downloading manifest file 'https://github.com/Infineon/cce-app-manifest/raw/v2.X/cce-app-manifest-fv2.xml'
+Downloading manifest file 'https://github.com/edgeimpulse/edgeimpulse-ce-manifest/raw/main/edgeimpulse-ce-manifest-fv2.xml'
+Downloading manifest file 'https://github.com/golioth/mtb-golioth-ce-manifest/raw/main/mtb-golioth-ce-manifest-fv2.xml'
+Downloading manifest file 'https://github.com/Infineon/mtb-bsp-manifest/raw/v2.X/mtb-bsp-manifest.xml'
+Downloading manifest file 'https://github.com/Infineon/mtb-bsp-manifest/raw/v2.X/mtb-bsp-manifest-fv2.xml'
+Downloading manifest file 'https://github.com/Infineon/mtb-bsp-manifest/raw/v2.X/mtb-bsp-dependencies-manifest.xml'
+Downloading manifest file 'https://github.com/Infineon/mtb-bt-bsp-manifest/raw/v2.X/mtb-bt-bsp-manifest.xml'
+Downloading manifest file 'https://github.com/Infineon/mtb-bt-bsp-manifest/raw/v2.X/mtb-bt-bsp-manifest-fv2.xml'
+Downloading manifest file 'https://github.com/Infineon/mtb-bt-bsp-manifest/raw/v2.X/mtb-bt-bsp-dependencies-manifest.xml'
+Downloading manifest file 'https://github.com/Infineon/mtb-mw-manifest/raw/v2.X/mtb-mw-manifest.xml'
+Downloading manifest file 'https://github.com/Infineon/mtb-mw-manifest/raw/v2.X/mtb-mw-manifest-fv2.xml'
+Downloading manifest file 'https://github.com/Infineon/mtb-mw-manifest/raw/v2.X/mtb-mw-dependencies-manifest.xml'
+Downloading manifest file 'https://github.com/Infineon/mtb-bt-mw-manifest/raw/v2.X/mtb-bt-mw-manifest.xml'
+Downloading manifest file 'https://github.com/Infineon/mtb-bt-mw-manifest/raw/v2.X/mtb-bt-mw-manifest-fv2.xml'
+Downloading manifest file 'https://github.com/Infineon/mtb-bt-mw-manifest/raw/v2.X/mtb-bt-mw-dependencies-manifest.xml'
+Downloading manifest file 'https://github.com/Infineon/mtb-wifi-mw-manifest/raw/v2.X/mtb-wifi-mw-manifest.xml'
+Downloading manifest file 'https://github.com/Infineon/mtb-wifi-mw-manifest/raw/v2.X/mtb-wifi-mw-manifest-fv2.xml'
+Downloading manifest file 'https://github.com/Infineon/mtb-wifi-mw-manifest/raw/v2.X/mtb-wifi-mw-dependencies-manifest.xml'
+Downloading manifest file 'https://github.com/memfault/mtb-memfault-mw-manifest/raw/main/mtb-memfault-mw-manifest-fv2.xml'
+Downloading manifest file 'https://github.com/golioth/mtb-golioth-mw-manifest/raw/main/mtb-golioth-mw-manifest-fv2.xml'
+Finished download of file 'https://github.com/Infineon/mtb-ce-manifest/raw/v2.X/mtb-ce-manifest.xml'
+Finished download of file 'https://github.com/Infineon/mtb-ce-manifest/raw/v2.X/mtb-ce-manifest-fv2.xml'
+Finished download of file 'https://github.com/Infineon/mtb-bt-app-manifest/raw/v2.X/mtb-bt-app-manifest.xml'
+Finished download of file 'https://github.com/Infineon/mtb-bt-app-manifest/raw/v2.X/mtb-bt-app-manifest-fv2.xml'
+Finished download of file 'https://github.com/memfault/mtb-memfault-ce-manifest/raw/main/mtb-memfault-ce-manifest-fv2.xml'
+Finished download of file 'https://github.com/Infineon/cce-app-manifest/raw/v2.X/cce-app-manifest-fv2.xml'
+Finished download of file 'https://github.com/edgeimpulse/edgeimpulse-ce-manifest/raw/main/edgeimpulse-ce-manifest-fv2.xml'
+Finished download of file 'https://github.com/golioth/mtb-golioth-ce-manifest/raw/main/mtb-golioth-ce-manifest-fv2.xml'
+Finished download of file 'https://github.com/Infineon/mtb-bsp-manifest/raw/v2.X/mtb-bsp-manifest.xml'
+Finished download of file 'https://github.com/Infineon/mtb-bsp-manifest/raw/v2.X/mtb-bsp-manifest-fv2.xml'
+Finished download of file 'https://github.com/Infineon/mtb-bsp-manifest/raw/v2.X/mtb-bsp-dependencies-manifest.xml'
+Finished download of file 'https://github.com/Infineon/mtb-bt-bsp-manifest/raw/v2.X/mtb-bt-bsp-manifest.xml'
+Finished download of file 'https://github.com/Infineon/mtb-bt-bsp-manifest/raw/v2.X/mtb-bt-bsp-manifest-fv2.xml'
+Finished download of file 'https://github.com/Infineon/mtb-bt-bsp-manifest/raw/v2.X/mtb-bt-bsp-dependencies-manifest.xml'
+Finished download of file 'https://github.com/Infineon/mtb-mw-manifest/raw/v2.X/mtb-mw-manifest.xml'
+Finished download of file 'https://github.com/Infineon/mtb-mw-manifest/raw/v2.X/mtb-mw-manifest-fv2.xml'
+Finished download of file 'https://github.com/Infineon/mtb-mw-manifest/raw/v2.X/mtb-mw-dependencies-manifest.xml'
+Finished download of file 'https://github.com/Infineon/mtb-bt-mw-manifest/raw/v2.X/mtb-bt-mw-manifest.xml'
+Finished download of file 'https://github.com/Infineon/mtb-bt-mw-manifest/raw/v2.X/mtb-bt-mw-manifest-fv2.xml'
+Finished download of file 'https://github.com/Infineon/mtb-bt-mw-manifest/raw/v2.X/mtb-bt-mw-dependencies-manifest.xml'
+Finished download of file 'https://github.com/Infineon/mtb-wifi-mw-manifest/raw/v2.X/mtb-wifi-mw-manifest.xml'
+Finished download of file 'https://github.com/Infineon/mtb-wifi-mw-manifest/raw/v2.X/mtb-wifi-mw-manifest-fv2.xml'
+Finished download of file 'https://github.com/Infineon/mtb-wifi-mw-manifest/raw/v2.X/mtb-wifi-mw-dependencies-manifest.xml'
+Finished download of file 'https://github.com/memfault/mtb-memfault-mw-manifest/raw/main/mtb-memfault-mw-manifest-fv2.xml'
+Finished download of file 'https://github.com/golioth/mtb-golioth-mw-manifest/raw/main/mtb-golioth-mw-manifest-fv2.xml'
+Finished loading the manifest data (2009 ms)
+Loading the device db
+Finished loading the device db (3055 ms)
+INFO:Using the executable path for the tools directory.
+0 error(s), 0 warning(s)
+INFO:Using the executable path for the tools directory.
+
+Summary: 
+
+BSP: CY8CPROTO-062-4343W
+Template Application(s): ADC basic
+Application(s) Root Path: C:/project
+
+Press "Create" to create the selected application(s).
+
+Collecting application data...
+
+Info: The following entered on the command line will create the exact same project as that created with the GUI tool:
+C:/Users/Senne/ModusToolbox/tools_3.0/project-creator/project-creator-cli.exe --board-id CY8CPROTO-062-4343W --board-uri https://github.com/cypresssemiconductorco/TARGET_CY8CPROTO-062-4343W --board-commit latest-v4.X --app-id mtb-example-psoc6-adc-basic --app-uri https://github.com/cypresssemiconductorco/mtb-example-psoc6-adc-basic --app-commit latest-v2.X --cypress-tools C:/Users/Senne/ModusToolbox/tools_3.0 --target-dir C:/project --user-app-name ADC_basic --use-modus-shell
+
+Starting application creation for 'C:/project/ADC_basic'.
+Acquiring the application source 'https://github.com/cypresssemiconductorco/mtb-example-psoc6-adc-basic'.
+Acquired application source successfully.
+Loading the application.
+Loaded the application successfully.
+Processing project 'ADC_basic'.
+Starting to commit changes to the filesystem and project 'mtb-example-psoc6-adc-basic'.
+Writing mtb file for asset 'CY8CPROTO-062-4343W' to the folder 'C:/project/ADC_basic/deps'.
+Writing mtb file for asset 'cat1cm0p' to the folder 'C:/project/ADC_basic/libs'.
+Writing mtb file for asset 'core-lib' to the folder 'C:/project/ADC_basic/libs'.
+Writing mtb file for asset 'core-make' to the folder 'C:/project/ADC_basic/libs'.
+Writing mtb file for asset 'mtb-hal-cat1' to the folder 'C:/project/ADC_basic/libs'.
+Writing mtb file for asset 'mtb-pdl-cat1' to the folder 'C:/project/ADC_basic/libs'.
+Writing mtb file for asset 'recipe-make-cat1a' to the folder 'C:/project/ADC_basic/libs'.
+Writing mtb file for asset 'cmsis' to the folder 'C:/project/ADC_basic/libs'.
+Writing mtb file for asset 'retarget-io' to the folder 'C:/project/ADC_basic/deps'.
+Starting: git -C C:/Users/Senne/.modustoolbox/git/cache/git/https___github.com_cypresssemiconductorco_TARGET_CY8CPROTO-062-4343W/TARGET_CY8CPROTO-062-4343W config remote.origin.fetch 'refs/heads/*:refs/heads/*'
+Starting: git -C C:/Users/Senne/.modustoolbox/git/cache/git/https___github.com_cypresssemiconductorco_retarget-io/retarget-io config remote.origin.fetch 'refs/heads/*:refs/heads/*'
+Starting: git -C C:/project/mtb_shared/cat1cm0p/release-v1.0.0 config remote.origin.fetch 'refs/heads/*:refs/heads/*'
+Starting: git -C C:/project/mtb_shared/core-lib/release-v1.3.1 config remote.origin.fetch 'refs/heads/*:refs/heads/*'
+Starting: git -C C:/project/mtb_shared/core-make/release-v3.0.2 config remote.origin.fetch 'refs/heads/*:refs/heads/*'
+Starting: git -C C:/project/mtb_shared/mtb-hal-cat1/release-v2.2.0 config remote.origin.fetch 'refs/heads/*:refs/heads/*'
+Starting: git -C C:/project/mtb_shared/mtb-pdl-cat1/release-v3.1.0 config remote.origin.fetch 'refs/heads/*:refs/heads/*'
+Starting: git -C C:/project/mtb_shared/recipe-make-cat1a/release-v2.0.0 config remote.origin.fetch 'refs/heads/*:refs/heads/*'
+Starting: git -C C:/project/mtb_shared/cmsis/release-v5.8.0 config remote.origin.fetch 'refs/heads/*:refs/heads/*'
+Success: git -C C:/project/mtb_shared/cmsis/release-v5.8.0 config remote.origin.fetch 'refs/heads/*:refs/heads/*'
+Starting: git -C C:/project/mtb_shared/cmsis/release-v5.8.0 fetch cypress --tags --force --quiet
+Success: git -C C:/Users/Senne/.modustoolbox/git/cache/git/https___github.com_cypresssemiconductorco_TARGET_CY8CPROTO-062-4343W/TARGET_CY8CPROTO-062-4343W config remote.origin.fetch 'refs/heads/*:refs/heads/*'
+Starting: git -C C:/Users/Senne/.modustoolbox/git/cache/git/https___github.com_cypresssemiconductorco_TARGET_CY8CPROTO-062-4343W/TARGET_CY8CPROTO-062-4343W fetch --all --tags --force --quiet
+Success: git -C C:/project/mtb_shared/cat1cm0p/release-v1.0.0 config remote.origin.fetch 'refs/heads/*:refs/heads/*'
+Starting: git -C C:/project/mtb_shared/cat1cm0p/release-v1.0.0 fetch cypress --tags --force --quiet
+Success: git -C C:/project/mtb_shared/mtb-pdl-cat1/release-v3.1.0 config remote.origin.fetch 'refs/heads/*:refs/heads/*'
+Starting: git -C C:/project/mtb_shared/mtb-pdl-cat1/release-v3.1.0 fetch cypress --tags --force --quiet
+Success: git -C C:/Users/Senne/.modustoolbox/git/cache/git/https___github.com_cypresssemiconductorco_retarget-io/retarget-io config remote.origin.fetch 'refs/heads/*:refs/heads/*'
+Starting: git -C C:/Users/Senne/.modustoolbox/git/cache/git/https___github.com_cypresssemiconductorco_retarget-io/retarget-io fetch --all --tags --force --quiet
+Success: git -C C:/project/mtb_shared/recipe-make-cat1a/release-v2.0.0 config remote.origin.fetch 'refs/heads/*:refs/heads/*'
+Starting: git -C C:/project/mtb_shared/recipe-make-cat1a/release-v2.0.0 fetch cypress --tags --force --quiet
+Success: git -C C:/project/mtb_shared/core-lib/release-v1.3.1 config remote.origin.fetch 'refs/heads/*:refs/heads/*'
+Starting: git -C C:/project/mtb_shared/core-lib/release-v1.3.1 fetch cypress --tags --force --quiet
+Success: git -C C:/project/mtb_shared/core-make/release-v3.0.2 config remote.origin.fetch 'refs/heads/*:refs/heads/*'
+Starting: git -C C:/project/mtb_shared/core-make/release-v3.0.2 fetch cypress --tags --force --quiet
+Success: git -C C:/project/mtb_shared/mtb-hal-cat1/release-v2.2.0 config remote.origin.fetch 'refs/heads/*:refs/heads/*'
+Starting: git -C C:/project/mtb_shared/mtb-hal-cat1/release-v2.2.0 fetch cypress --tags --force --quiet
+Success: git -C C:/project/mtb_shared/cmsis/release-v5.8.0 fetch cypress --tags --force --quiet
+Starting: git -C C:/project/mtb_shared/cmsis/release-v5.8.0 checkout release-v5.8.0
+Success: git -C C:/project/mtb_shared/cat1cm0p/release-v1.0.0 fetch cypress --tags --force --quiet
+Starting: git -C C:/project/mtb_shared/cat1cm0p/release-v1.0.0 checkout release-v1.0.0
+Success: git -C C:/project/mtb_shared/mtb-pdl-cat1/release-v3.1.0 fetch cypress --tags --force --quiet
+Starting: git -C C:/project/mtb_shared/mtb-pdl-cat1/release-v3.1.0 checkout release-v3.1.0
+Success: git -C C:/project/mtb_shared/recipe-make-cat1a/release-v2.0.0 fetch cypress --tags --force --quiet
+Starting: git -C C:/project/mtb_shared/recipe-make-cat1a/release-v2.0.0 checkout release-v2.0.0
+Success: git -C C:/project/mtb_shared/core-lib/release-v1.3.1 fetch cypress --tags --force --quiet
+Starting: git -C C:/project/mtb_shared/core-lib/release-v1.3.1 checkout release-v1.3.1
+Success: git -C C:/project/mtb_shared/mtb-hal-cat1/release-v2.2.0 fetch cypress --tags --force --quiet
+Starting: git -C C:/project/mtb_shared/mtb-hal-cat1/release-v2.2.0 checkout release-v2.2.0
+HEAD is now at ce02f64 Upload cmsis 5.8.0.50
+Success: git -C C:/project/mtb_shared/cmsis/release-v5.8.0 checkout release-v5.8.0
+HEAD is now at b3d4b82 Upload cat1cm0p 1.0.0.148
+Success: git -C C:/project/mtb_shared/cat1cm0p/release-v1.0.0 checkout release-v1.0.0
+Success: git -C C:/project/mtb_shared/core-make/release-v3.0.2 fetch cypress --tags --force --quiet
+Starting: git -C C:/project/mtb_shared/core-make/release-v3.0.2 checkout release-v3.0.2
+HEAD is now at 28d875a Upload recipe-make-cat1a 2.0.0.4056
+Success: git -C C:/project/mtb_shared/recipe-make-cat1a/release-v2.0.0 checkout release-v2.0.0
+HEAD is now at 36592d7 Upload core-make 3.0.2.4113
+Success: git -C C:/project/mtb_shared/core-make/release-v3.0.2 checkout release-v3.0.2
+HEAD is now at 1c1cb8a Upload core-lib 1.3.1.29660
+Success: git -C C:/project/mtb_shared/core-lib/release-v1.3.1 checkout release-v1.3.1
+HEAD is now at c3e71c0 Upload mtb-hal-cat1 2.2.0.29808
+Success: git -C C:/project/mtb_shared/mtb-hal-cat1/release-v2.2.0 checkout release-v2.2.0
+HEAD is now at 35b8a57 Upload mtb-pdl-cat1 3.1.0.19883 [86]
+Success: git -C C:/project/mtb_shared/mtb-pdl-cat1/release-v3.1.0 checkout release-v3.1.0
+Success: git -C C:/Users/Senne/.modustoolbox/git/cache/git/https___github.com_cypresssemiconductorco_retarget-io/retarget-io fetch --all --tags --force --quiet
+Starting: git -C C:/project/mtb_shared/retarget-io clone --origin cypress --no-checkout C:/Users/Senne/.modustoolbox/git/cache/git/https___github.com_cypresssemiconductorco_retarget-io/retarget-io release-v1.4.0
+Cloning into 'release-v1.4.0'...
+Success: git -C C:/Users/Senne/.modustoolbox/git/cache/git/https___github.com_cypresssemiconductorco_TARGET_CY8CPROTO-062-4343W/TARGET_CY8CPROTO-062-4343W fetch --all --tags --force --quiet
+Starting: git -C C:/project/ADC_basic/libs clone --origin cypress --no-checkout C:/Users/Senne/.modustoolbox/git/cache/git/https___github.com_cypresssemiconductorco_TARGET_CY8CPROTO-062-4343W/TARGET_CY8CPROTO-062-4343W TARGET_CY8CPROTO-062-4343W
+Cloning into 'TARGET_CY8CPROTO-062-4343W'...
+done.
+Success: git -C C:/project/ADC_basic/libs clone --origin cypress --no-checkout C:/Users/Senne/.modustoolbox/git/cache/git/https___github.com_cypresssemiconductorco_TARGET_CY8CPROTO-062-4343W/TARGET_CY8CPROTO-062-4343W TARGET_CY8CPROTO-062-4343W
+Starting: git -C C:/project/ADC_basic/libs/TARGET_CY8CPROTO-062-4343W checkout release-v4.0.0
+done.
+Success: git -C C:/project/mtb_shared/retarget-io clone --origin cypress --no-checkout C:/Users/Senne/.modustoolbox/git/cache/git/https___github.com_cypresssemiconductorco_retarget-io/retarget-io release-v1.4.0
+Starting: git -C C:/project/mtb_shared/retarget-io/release-v1.4.0 checkout release-v1.4.0
+Note: switching to 'release-v4.0.0'.
+
+You are in 'detached HEAD' state. You can look around, make experimental
+changes and commit them, and you can discard any commits you make in this
+state without impacting any branches by switching back to a branch.
+
+If you want to create a new branch to retain commits you create, you may
+do so (now or later) by using -c with the switch command. Example:
+
+  git switch -c <new-branch-name>
+
+Or undo this operation with:
+
+  git switch -
+
+Turn off this advice by setting config variable advice.detachedHead to false
+
+HEAD is now at cef390f Upload TARGET_CY8CPROTO-062-4343W 4.0.0.29660
+Success: git -C C:/project/ADC_basic/libs/TARGET_CY8CPROTO-062-4343W checkout release-v4.0.0
+Starting: git -C C:/project/ADC_basic/libs/TARGET_CY8CPROTO-062-4343W remote set-url cypress https://github.com/cypresssemiconductorco/TARGET_CY8CPROTO-062-4343W
+Note: switching to 'release-v1.4.0'.
+
+You are in 'detached HEAD' state. You can look around, make experimental
+changes and commit them, and you can discard any commits you make in this
+state without impacting any branches by switching back to a branch.
+
+If you want to create a new branch to retain commits you create, you may
+do so (now or later) by using -c with the switch command. Example:
+
+  git switch -c <new-branch-name>
+
+Or undo this operation with:
+
+  git switch -
+
+Turn off this advice by setting config variable advice.detachedHead to false
+
+HEAD is now at 3072757 Upload retarget-io [123]
+Success: git -C C:/project/mtb_shared/retarget-io/release-v1.4.0 checkout release-v1.4.0
+Starting: git -C C:/project/mtb_shared/retarget-io/release-v1.4.0 remote set-url cypress https://github.com/cypresssemiconductorco/retarget-io
+Success: git -C C:/project/ADC_basic/libs/TARGET_CY8CPROTO-062-4343W remote set-url cypress https://github.com/cypresssemiconductorco/TARGET_CY8CPROTO-062-4343W
+Starting: git -C C:/project/ADC_basic/libs/TARGET_CY8CPROTO-062-4343W remote set-url --push cypress https://github.com/cypresssemiconductorco/TARGET_CY8CPROTO-062-4343W
+Success: git -C C:/project/mtb_shared/retarget-io/release-v1.4.0 remote set-url cypress https://github.com/cypresssemiconductorco/retarget-io
+Starting: git -C C:/project/mtb_shared/retarget-io/release-v1.4.0 remote set-url --push cypress https://github.com/cypresssemiconductorco/retarget-io
+Success: git -C C:/project/ADC_basic/libs/TARGET_CY8CPROTO-062-4343W remote set-url --push cypress https://github.com/cypresssemiconductorco/TARGET_CY8CPROTO-062-4343W
+Starting: git -C C:/project/ADC_basic/libs/TARGET_CY8CPROTO-062-4343W remote add cypress-offline C:/Users/Senne/.modustoolbox/offline/git/https___github.com_cypresssemiconductorco_TARGET_CY8CPROTO-062-4343W/TARGET_CY8CPROTO-062-4343W
+Success: git -C C:/project/mtb_shared/retarget-io/release-v1.4.0 remote set-url --push cypress https://github.com/cypresssemiconductorco/retarget-io
+Starting: git -C C:/project/mtb_shared/retarget-io/release-v1.4.0 remote add cypress-offline C:/Users/Senne/.modustoolbox/offline/git/https___github.com_cypresssemiconductorco_retarget-io/retarget-io
+Success: git -C C:/project/ADC_basic/libs/TARGET_CY8CPROTO-062-4343W remote add cypress-offline C:/Users/Senne/.modustoolbox/offline/git/https___github.com_cypresssemiconductorco_TARGET_CY8CPROTO-062-4343W/TARGET_CY8CPROTO-062-4343W
+Success: git -C C:/project/mtb_shared/retarget-io/release-v1.4.0 remote add cypress-offline C:/Users/Senne/.modustoolbox/offline/git/https___github.com_cypresssemiconductorco_retarget-io/retarget-io
+Requested to change the active target to 'APP_CY8CPROTO-062-4343W'.
+Removed the file 'C:/project/ADC_basic/deps/TARGET_CY8CPROTO-062-4343W.mtb'.
+Writing the file 'C:/project/ADC_basic/libs/app.mk'.
+Successfully committed changes to the project 'mtb-example-psoc6-adc-basic'.
+Project "ADC_basic" created successfully.
+Successfully created "ADC_basic" application.
+==============================================================================
+= Export "ADC_basic" application to Eclipse IDE for ModusToolbox™ =
+==============================================================================
+C:/Users/Senne/ModusToolbox/tools_3.0/modus-shell/bin/make.exe eclipse CY_IDE_PRJNAME=ADC_basic CY_MAKE_IDE=eclipse CY_MAKE_IDE_VERSION=3.0 CY_TOOLS_PATHS=C:/Users/Senne/ModusToolbox/tools_3.0 MTB_MAKE_ECLIPSE_FORCE_REGENERATE_PROJECT=1
+Tools Directory: C:/Users/Senne/ModusToolbox/tools_3.0
+Searching installed tools in progress...
+Searching installed tools complete
+
+
+
+
+Prebuild operations complete
+
+Auto-discovery in progress...
+Auto-discovery complete
+Commencing build operations...
+
+Tools Directory: C:/Users/Senne/ModusToolbox/tools_3.0
+
+Initializing build: mtb-example-psoc6-adc-basic Debug APP_CY8CPROTO-062-4343W GCC_ARM
+
+Constructing build rules...
+Build rules construction complete
+
+==============================================================================
+= Generating IDE files =
+==============================================================================
+Generated C:/project/ADC_basic/.mtbLaunchConfigs/ADC_basic Attach (JLink).launch
+Generated C:/project/ADC_basic/.mtbLaunchConfigs/ADC_basic Attach (KitProg3_MiniProg4).launch
+Generated C:/project/ADC_basic/.mtbLaunchConfigs/ADC_basic Debug (JLink).launch
+Generated C:/project/ADC_basic/.mtbLaunchConfigs/ADC_basic Debug (KitProg3_MiniProg4).launch
+Generated C:/project/ADC_basic/.mtbLaunchConfigs/ADC_basic Erase (JLink).launch
+Generated C:/project/ADC_basic/.mtbLaunchConfigs/ADC_basic Erase (KitProg3_MiniProg4).launch
+Generated C:/project/ADC_basic/.mtbLaunchConfigs/ADC_basic Program (JLink).launch
+Generated C:/project/ADC_basic/.mtbLaunchConfigs/ADC_basic Program (KitProg3_MiniProg4).launch
+Generated C:/project/ADC_basic/.project
+Generated C:/project/ADC_basic/.cproject
+Instructions:
+1. Open Eclipse IDE for ModusToolbox
+2. Select 'Import Existing Application In-Place' from the QuickPanel
+3. Browse to the application root directory
+  
+The application "ADC_basic" was successfully exported to Eclipse IDE for ModusToolbox™.
+0 error(s), 0 warning(s)
+
+Summary:
+
+Successfully created and exported "ADC_basic" application.
