@@ -14,6 +14,8 @@ local.properties
 .loadpath
 .recommenders
 
+*/mtb_shared/
+
 # External tool builders
 .externalToolBuilders/
 
