@@ -149,13 +149,14 @@ void adc_single_channel_process(void)
      * Nominal = 3*3.8 V = 11.4 V (= 50%) ~ 2732 mV
      *
      * Linearization:
-     * 		minimum = Nominal - 3*0.4 V = 10.2 V ~ minVoltage = 2437 mV
-     * 		maximum = Nominal + 3*0.4 V = 12.6 V ~ maxVoltage = 2790 mV
+     * 		minimum = Nominal - 3*0.4 V = 10.2 V ~ minVoltage = 2391 mV tol
+     * 		maximum = Nominal + 3*0.4 V = 12.6 V ~ maxVoltage = 2769 mV
      *
      *
      */
-    static int32_t minVoltage = 2437;
-    static int32_t maxVoltage = 2790;
+    static int32_t minVoltage = 2391;
+    static int32_t maxVoltage = 2769;
+    static int old_sensor_battery_data = 0;
     sensor_data_msg_t sensor_battery;
     sensor_battery.id = 100;
 
@@ -168,10 +169,14 @@ void adc_single_channel_process(void)
 
     //printf("Channel 0 input: %4ldmV\r\n", (long int)adc_result_0);
     sensor_battery.data = map(adc_result_0, minVoltage, maxVoltage, 0, 100);
-    printf("Battery level: %d%%\r\n", sensor_battery.data);
-
+    if (old_sensor_battery_data != sensor_battery.data)
+    {
+    	printf("Battery level: %d%%\r\n", sensor_battery.data);
+		printf("Battery ADC: %d\r\n", adc_result_0);
+    }
+    old_sensor_battery_data = sensor_battery.data;
     xQueueSend(queue_battery_handle, &sensor_battery, 0UL);
-    printf("Task Battery: Battery data sent.\r\n");
+    // printf("Task Battery: Battery data sent.\r\n");
 }
 
 int map(int x, int inMin, int inMax, int outMin, int outMax)
