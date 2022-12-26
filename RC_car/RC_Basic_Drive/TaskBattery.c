@@ -149,7 +149,7 @@ void adc_single_channel_process(void)
      * Nominal = 3*3.8 V = 11.4 V (= 50%) ~ 2732 mV
      *
      * Linearization:
-     * 		minimum = Nominal - 3*0.4 V = 10.2 V ~ minVoltage = 2391 mV tol
+     * 		minimum = Nominal - 3*0.4 V = 10.2 V ~ minVoltage = 2391 mV
      * 		maximum = Nominal + 3*0.4 V = 12.6 V ~ maxVoltage = 2769 mV
      *
      *
