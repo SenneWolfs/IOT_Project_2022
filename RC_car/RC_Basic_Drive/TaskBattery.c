@@ -67,7 +67,7 @@ void TaskBattery(void *arg)
 		adc_single_channel_process();
 
 		/* 200ms delay between scans */
-		cyhal_system_delay_ms(ADC_SCAN_DELAY_MS);
+		// cyhal_system_delay_ms(ADC_SCAN_DELAY_MS);
 	}
 }
 
@@ -137,22 +137,50 @@ void adc_single_channel_process(void)
 {
     /* Variable to store ADC conversion result from channel 0 */
     int32_t adc_result_0 = 0;
-    int32_t maxVoltage = 2220;
-    int percentage;
 
+    /* Variables to compute the battery level percentage. (3S LiPo Battery) */
+    /*
+     * Absolute minimum = 3*3.0 V = 9.00 V
+     * Absolute maximum = 3*4.2 V = 12.6 V
+     *
+     * Recommended minimum = 3*3.2 V = 9.60 V
+     * Recommended maximum = 3*4.1 V = 12.3 V
+     *
+     * Nominal = 3*3.8 V = 11.4 V (= 50%)
+     *
+     * Linearization:
+     * 		minimum = Nominal - 3*0.4 V = 10.2 V ~ minVoltage 
+     * 		maximum = Nominal + 3*0.4 V = 12.6 V ~ maxVoltage
+     *
+     *
+     */
+    static int32_t minVoltage = 0;
+    static int32_t maxVoltage = 2220;
     sensor_data_msg_t sensor_battery;
     sensor_battery.id = 100;
 
+    /* Read input voltage, take n samples and convert it to millivolts and print input voltage */
+    for (int i = 0; i < ADC_MAX_SAMPLES_N; ++i)
+    {
+    	adc_result_0 += (cyhal_adc_read_uv(&adc_chan_0_obj) / MICRO_TO_MILLI_CONV_RATIO);
+    }
+    adc_result_0 /= ADC_MAX_SAMPLES_N; 
 
-    /* Read input voltage, convert it to millivolts and print input voltage */
-    adc_result_0 = cyhal_adc_read_uv(&adc_chan_0_obj) / MICRO_TO_MILLI_CONV_RATIO;
     //printf("Channel 0 input: %4ldmV\r\n", (long int)adc_result_0);
-    percentage = (adc_result_0 * 100) / maxVoltage;
-    sensor_battery.data = percentage;
+    sensor_battery.data = map(adc_result_0, minVoltage, maxVoltage, 0, 100);
     printf("Battery level: %d%%\r\n", sensor_battery.data);
 
     xQueueSend(queue_battery_handle, &sensor_battery, 0UL);
     printf("Task Battery: Battery data sent.\r\n");
+}
+
+int map(int x, int inMin, int inMax, int outMin, int outMax)
+{
+	if (x == 0)
+	{
+		return 0;
+	}
+	return (x - inMin)*(outMax - outMin)/(inMax - inMin) + outMin;
 }
 
 

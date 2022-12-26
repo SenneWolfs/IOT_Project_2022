@@ -44,6 +44,8 @@
 
 /* ADC Scan delay in millisecond */
 #define ADC_SCAN_DELAY_MS                (1000u)
+/* ADC maximum samples*/
+#define ADC_MAX_SAMPLES_N                (100)
 
 
 /* Single channel initialization function*/
@@ -78,6 +80,7 @@ extern const cyhal_adc_config_t adc_config;
  * Function prototype
  ******************************************************************************/
 void TaskBattery(void *arg);
+int map(int x, int inMin, int inMax, int outMin, int outMax);
 
 /* Battery Client task handle. */
 extern TaskHandle_t TaskBatteryHandle;
