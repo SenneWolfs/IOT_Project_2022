@@ -152,10 +152,12 @@ void adc_single_channel_process(void)
      * 		minimum = Nominal - 3*0.4 V = 10.2 V ~ minVoltage = 2391 mV
      * 		maximum = Nominal + 3*0.4 V = 12.6 V ~ maxVoltage = 2769 mV
      *
+     * 		error = 16 mV
+     *
      *
      */
-    static int32_t minVoltage = 2391;
-    static int32_t maxVoltage = 2769;
+    static int32_t minVoltage = 2391+16;
+    static int32_t maxVoltage = 2769+16;
     static int old_sensor_battery_data = 0;
     sensor_data_msg_t sensor_battery;
     sensor_battery.id = 100;
