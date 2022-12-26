@@ -146,7 +146,7 @@ void adc_single_channel_process(void)
      * Recommended minimum = 3*3.2 V = 9.60 V
      * Recommended maximum = 3*4.1 V = 12.3 V
      *
-     * Nominal = 3*3.8 V = 11.4 V (= 50%) ~ 2732 mV
+     * Nominal = 3*3.8 V = 11.4 V (= 50%) ~ 2583 mV
      *
      * Linearization:
      * 		minimum = Nominal - 3*0.4 V = 10.2 V ~ minVoltage = 2391 mV
