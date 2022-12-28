@@ -96,19 +96,29 @@ void TaskActuation(void *arg)
     {
         // printf("Task Actuation: queue receive capsense data...\r\n");
         xQueueReceive(queue_controller_handle, (void*)controller_data_msg, portMAX_DELAY);
-
+        printf("Task Actuation: Received controller data: id = %d, data = %d\r\n", 
+            controller_data_msg->id, controller_data_msg->value);
         switch (controller_data_msg->id)
         {
-            case 0:
+            case 0: // empty
                 
             break;
-            case 202: // right_trigger
-                
+            case 202: // right_trigger        
+                pwmBLDCDutyCycle = PWM_DUTY_CYCLE + deltaDC*(float)controller_data_msg->value;
+                cyhal_pwm_set_duty_cycle(&pwm_bldc_motor, pwmBLDCDutyCycle, PWM_FREQUENCY);
+                printf("Task Actuation: BLDC duty cycle = %f\r\n", pwmBLDCDutyCycle);
             break;
             case 201: // left_trigger
-
+                pwmBLDCDutyCycle = PWM_DUTY_CYCLE;
+                cyhal_pwm_set_duty_cycle(&pwm_bldc_motor, pwmBLDCDutyCycle, PWM_FREQUENCY);
+                printf("Task Actuation: BLDC duty cycle = %f\r\n", pwmBLDCDutyCycle);
+                printf("Task Actuation: RC CAR is halted.\r\n");
             break;
-            default:
+            case 101: // l_thumb_x
+                pwmServoDutyCycle = PWM_DUTY_CYCLE - deltaDC*(float)controller_data_msg->value;
+                cyhal_pwm_set_duty_cycle(&pwm_servo_motor, pwmServoDutyCycle, PWM_FREQUENCY);
+                printf("Task Actuation: Servo duty cycle = %f\r\n", pwmServoDutyCycle);
+            default: // scam!
 
             break;
         }
