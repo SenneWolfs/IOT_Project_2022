@@ -104,7 +104,7 @@ void TaskActuation(void *arg)
                 
             break;
             case 202: // right_trigger        
-                pwmBLDCDutyCycle = PWM_DUTY_CYCLE + deltaDC*(float)controller_data_msg->value;
+                pwmBLDCDutyCycle = PWM_DUTY_CYCLE + deltaDC*controller_data_msg->value;
                 cyhal_pwm_set_duty_cycle(&pwm_bldc_motor, pwmBLDCDutyCycle, PWM_FREQUENCY);
                 printf("Task Actuation: BLDC duty cycle = %f\r\n", pwmBLDCDutyCycle);
             break;
@@ -115,9 +115,10 @@ void TaskActuation(void *arg)
                 printf("Task Actuation: RC CAR is halted.\r\n");
             break;
             case 101: // l_thumb_x
-                pwmServoDutyCycle = PWM_DUTY_CYCLE - deltaDC*(float)controller_data_msg->value;
+                pwmServoDutyCycle = PWM_DUTY_CYCLE + 2.0f*deltaDC*controller_data_msg->value;
                 cyhal_pwm_set_duty_cycle(&pwm_servo_motor, pwmServoDutyCycle, PWM_FREQUENCY);
                 printf("Task Actuation: Servo duty cycle = %f\r\n", pwmServoDutyCycle);
+			break;
             default: // scam!
 
             break;

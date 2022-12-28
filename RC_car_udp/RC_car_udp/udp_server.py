@@ -21,7 +21,7 @@ from pyglet import event # python -m pip install pyglet
 # structs according to
 # http://msdn.microsoft.com/en-gb/library/windows/desktop/ee417001%28v=vs.85%29.aspx
 
-DEFAULT_IP   = "192.168.0.121"   # IP address of the UDP server
+DEFAULT_IP   = "192.168.0.175"   # IP address of the UDP server
 DEFAULT_PORT = 57345            # Port of the UDP server
 
 LED_ON = '1'
