@@ -389,6 +389,8 @@ def sample_first_joystick(sock, addr):
             print("Controller data sent.")
         if right_speed == 1.0:
             j.set_vibration(0.0, right_speed)
+        elif left_speed == 1.0:
+            j.set_vibration(left_speed, 0.0)
         else:
             j.set_vibration(0.0, 0.0)
 
