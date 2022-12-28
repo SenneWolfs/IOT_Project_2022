@@ -357,14 +357,13 @@ def sample_first_joystick(sock, addr):
     print(battery)
 
     @j.event
-    def on_button(button, pressed, sock, addr):
+    def on_button(button, pressed):
         print('button', button, pressed)
-
     left_speed = 0
     right_speed = 0
 
     @j.event
-    def on_axis(axis, value, sock, addr):
+    def on_axis(axis, value):
         left_speed = 0
         right_speed = 0
 
@@ -372,29 +371,30 @@ def sample_first_joystick(sock, addr):
         print('axis', axis, value)
         if axis == "left_trigger":
             controller_data = struct.pack('ii', 201, int(value*100.0))
-            sock.sendto(bytes(controller_data, "utf-8"), addr)
+            print("Sending controller data to the client...")
+            sock.sendto(controller_data, addr)
+            print("Controller data sent.")
             left_speed = value
             
         elif axis == "right_trigger":
             controller_data = struct.pack('ii', 202, int(value*100.0))
-            sock.sendto(bytes(controller_data, "utf-8"), addr)
+            print("Sending controller data to the client...")
+            sock.sendto(controller_data, addr)
+            print("Controller data sent.")
             right_speed = value
         elif axis == "l_thumb_x":
             controller_data = struct.pack('ii', 101, int(value*100.0))
-            sock.sendto(bytes(controller_data, "utf-8"), addr)
+            print("Sending controller data to the client...")
+            sock.sendto(controller_data, addr)
+            print("Controller data sent.")
         if right_speed == 1.0:
             j.set_vibration(0.0, right_speed)
+        else:
+            j.set_vibration(0.0, 0.0)
 
     while True:
         j.dispatch_events()
-        # time.sleep(.01)
-
-
-
-        # data, addr = sock.recvfrom(4096)
-        # controller_data = struct.unpack('ii', data)
-        # print("Button = " + str(controller_data[0]))
-        # print("Value = " + str(controller_data[1])) 
+        
 
 def enter_command(sock, addr):
     print("============================================================")
@@ -408,7 +408,7 @@ def enter_command(sock, addr):
 
 def echo_server(host, port):
     print("============================================================")
-    print("UDP Server")
+    print("IoT Project 2022: RC CAR UDP Server")
     print("============================================================")
     # Create a UDP socket
     sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
@@ -425,7 +425,6 @@ def echo_server(host, port):
             ACKed = True
 
     while (ACKed == True):
-        sock.sendto(bytes(LED_ON, "utf-8"), addr)
         sample_first_joystick(sock, addr)
         
 

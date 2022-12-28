@@ -62,12 +62,14 @@ void TaskController(void *arg)
 
     /* Variable to store the number of bytes sent to the UDP server. */
     uint32_t bytes_sent = 0;
+    uint32_t bytes_received = 0;
 
     /* Data struct to receive controller from udp_client_recv_handler. */
-    controller_data_msg_t controller_data_msg;
+    controller_data_msg_t* controller_data_msg;
+    controller_data_msg = malloc(1*sizeof(controller_data_msg_t));
 
-    controller_data_msg.id = 0;
-    controller_data_msg.value = 0;
+    controller_data_msg->id = 0;
+    controller_data_msg->value = 0;
 
     /* IP address and UDP port number of the UDP server */
     cy_socket_sockaddr_t udp_server_addr = {
@@ -79,7 +81,7 @@ void TaskController(void *arg)
     /* Connect to Wi-Fi AP */
     if(connect_to_wifi_ap() != CY_RSLT_SUCCESS )
     {
-        printf("\n Failed to connect to Wi-FI AP.\n");
+        printf("\nTask Controller: Failed to connect to Wi-FI AP.\n");
         CY_ASSERT(0);
     }
 
@@ -87,15 +89,15 @@ void TaskController(void *arg)
     result = cy_socket_init();
     if (result != CY_RSLT_SUCCESS)
     {
-        printf("Secure Sockets initialization failed!\n");
+        printf("Task Controller: Secure Sockets initialization failed!\n");
         CY_ASSERT(0);
     }
-    printf("Secure Sockets initialized\n");
+    printf("Task Controller: Secure Sockets initialized\n");
 
     result = create_udp_client_socket();
     if (result != CY_RSLT_SUCCESS)
     {
-        printf("UDP Client Socket creation failed!\n");
+        printf("Task Controller: UDP Client Socket creation failed!\n");
         CY_ASSERT(0);
     }
 
@@ -104,31 +106,26 @@ void TaskController(void *arg)
                                 &udp_server_addr, sizeof(cy_socket_sockaddr_t), &bytes_sent);
     if(result == CY_RSLT_SUCCESS)
     {
-        printf("Data sent to server\n");
+        printf("Task Controller: Data sent to server\n");
+        cyhal_gpio_write(CYBSP_USER_LED, 1);
     }
     else
     {
-        printf("Failed to send data to server. Error : %"PRIu32"\n", result);
+        printf("Task Controller: Failed to send data to server. Error : %"PRIu32"\n", result);
     }
 
     for(;;)
     {
         printf("Task Controller: Waiting for gamepad data...\r\n");
         /* Wait till Controller command is received from UDP Server . */
-        xTaskNotifyWait(0, 0, &controller_data_msg, portMAX_DELAY);
+        /* Receive incoming message from UDP server. */
+        result = cy_socket_recvfrom(client_handle, (void*)controller_data_msg, sizeof(controller_data_msg_t),
+                                    CY_SOCKET_FLAGS_RECVFROM_NONE, NULL, 0, &bytes_received);
+        printf("Task Controller: received gamepad data: id = %d, value = %d\r\n",
+            controller_data_msg->id, controller_data_msg->value);
 
-        xQueueSend(queue_controller_handle, &controller_data_msg, 0UL);
+        xQueueSend(queue_controller_handle, (void*)controller_data_msg, 0UL);
         
-        /* Send acknowledgment to server after input processing. */
-        switch (controller_data_msg.id)
-        {
-            case 0:
-                
-            break;
-            default:
-
-            break;
-        }
     }
  }
 
@@ -156,10 +153,10 @@ cy_rslt_t connect_to_wifi_ap(void)
 
     if (result != CY_RSLT_SUCCESS)
     {
-        printf("Wi-Fi Connection Manager initialization failed!\n");
+        printf("Task Controller: Wi-Fi Connection Manager initialization failed!\n");
         return result;
     }
-    printf("Wi-Fi Connection Manager initialized.\r\n");
+    printf("Task Controller: Wi-Fi Connection Manager initialized.\r\n");
 
      /* Set the Wi-Fi SSID, password and security type. */
     memset(&wifi_conn_param, 0, sizeof(cy_wcm_connect_params_t));
@@ -174,22 +171,22 @@ cy_rslt_t connect_to_wifi_ap(void)
 
         if(result == CY_RSLT_SUCCESS)
         {
-            printf("Successfully connected to Wi-Fi network '%s'.\n",
+            printf("Task Controller: Successfully connected to Wi-Fi network '%s'.\n",
                                 wifi_conn_param.ap_credentials.SSID);
-            printf("IP Address Assigned: %d.%d.%d.%d\n", (uint8)ip_address.ip.v4,
+            printf("Task Controller: IP Address Assigned: %d.%d.%d.%d\n", (uint8)ip_address.ip.v4,
                     (uint8)(ip_address.ip.v4 >> 8), (uint8)(ip_address.ip.v4 >> 16),
                     (uint8)(ip_address.ip.v4 >> 24));
             return result;
         }
 
-        printf("Connection to Wi-Fi network failed with error code %d."
+        printf("Task Controller: Connection to Wi-Fi network failed with error code %d."
                "Retrying in %d ms...\n", (int)result, WIFI_CONN_RETRY_INTERVAL_MSEC);
 
         vTaskDelay(pdMS_TO_TICKS(WIFI_CONN_RETRY_INTERVAL_MSEC));
     }
 
     /* Stop retrying after maximum retry attempts. */
-    printf("Exceeded maximum Wi-Fi connection attempts\n");
+    printf("Task Controller: Exceeded maximum Wi-Fi connection attempts\n");
 
     return result;
 }
@@ -246,14 +243,11 @@ cy_rslt_t udp_client_recv_handler(cy_socket_t socket_handle, void *arg)
     /* Variable to store the number of bytes received. */
     uint32_t bytes_received = 0;
     /* Buffer to store received data. */
-    char rx_buffer[2] = {-1, -1};
+    char rx_buffer[1] = {0};
 
     /* Receive incoming message from UDP server. */
     result = cy_socket_recvfrom(client_handle, rx_buffer, MAX_UDP_RECV_BUFFER_SIZE,
                                     CY_SOCKET_FLAGS_RECVFROM_NONE, NULL, 0, &bytes_received);
-
-    /* Send notification to the controller task and send acknowledgment to the server. */
-    xTaskNotify(TaskControllerHandle, rx_buffer, eSetValueWithoutOverwrite);
 
     return result;
 }

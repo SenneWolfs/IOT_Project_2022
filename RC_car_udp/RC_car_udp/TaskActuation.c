@@ -79,25 +79,34 @@ void TaskActuation(void *arg)
     }
     result = cyhal_pwm_set_duty_cycle(&pwm_servo_motor, PWM_DUTY_CYCLE, PWM_FREQUENCY);
 
-    controller_data_msg_t controller_data_msg;
+    controller_data_msg_t* controller_data_msg;
 
-    controller_data_msg.id = 0;
-    controller_data_msg.value = 0;
+    controller_data_msg = malloc(sizeof(controller_data_msg_t));
+
+    controller_data_msg->id = 0;
+    controller_data_msg->value = 0;
 
 
     float deltaDC = 0.024f;
     float pwmBLDCDutyCycle = PWM_DUTY_CYCLE;
     float pwmServoDutyCycle = PWM_DUTY_CYCLE;
 
+    printf("Task Actuation: peripherals configured.\r\n");
     for (;;)
     {
         // printf("Task Actuation: queue receive capsense data...\r\n");
-        xQueueReceive(queue_controller_handle, &controller_data_msg, portMAX_DELAY);
+        xQueueReceive(queue_controller_handle, (void*)controller_data_msg, portMAX_DELAY);
 
-        switch (controller_data_msg.id)
+        switch (controller_data_msg->id)
         {
             case 0:
                 
+            break;
+            case 202: // right_trigger
+                
+            break;
+            case 201: // left_trigger
+
             break;
             default:
 

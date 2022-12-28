@@ -95,7 +95,7 @@ void adc_single_channel_init(void)
     result = cyhal_adc_init(&adc_obj, VPLUS_CHANNEL_0, NULL);
     if(result != CY_RSLT_SUCCESS)
     {
-        printf("ADC initialization failed. Error: %ld\n", (long unsigned int)result);
+        printf("Task Battery: ADC initialization failed. Error: %ld\n", (long unsigned int)result);
         CY_ASSERT(0);
     }
 
@@ -110,12 +110,12 @@ void adc_single_channel_init(void)
                                           CYHAL_ADC_VNEG, &channel_config);
     if(result != CY_RSLT_SUCCESS)
     {
-        printf("ADC single ended channel initialization failed. Error: %ld\n", (long unsigned int)result);
+        printf("Task Battery: ADC single ended channel initialization failed. Error: %ld\n", (long unsigned int)result);
         CY_ASSERT(0);
     }
 
-    printf("ADC is configured in single channel configuration\r\n\n");
-    printf("Provide input voltage at the channel 0 input pin. \r\n\n");
+    printf("Task Battery: ADC is configured in single channel configuration\r\n\n");
+    printf("Task Battery: Provide input voltage at the channel 0 input pin. \r\n\n");
 }
 
 /*******************************************************************************
@@ -173,8 +173,8 @@ void adc_single_channel_process(void)
     sensor_battery.data = map(adc_result_0, minVoltage, maxVoltage, 0, 100);
     if (old_sensor_battery_data != sensor_battery.data)
     {
-    	printf("Battery level: %d%%\r\n", sensor_battery.data);
-		printf("Battery ADC: %d\r\n", adc_result_0);
+    	// printf("Task Battery: Battery level: %d%%\r\n", sensor_battery.data);
+		// printf("Task Battery: Battery ADC: %d\r\n", adc_result_0);
     }
     old_sensor_battery_data = sensor_battery.data;
     xQueueSend(queue_battery_handle, &sensor_battery, 0UL);
