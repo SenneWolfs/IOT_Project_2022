@@ -56,7 +56,7 @@ cy_socket_t client_handle;
 cy_socket_sockaddr_t peer_addr;
 QueueHandle_t queue_controller_handle;
 
-void TaskControllerClient(void *arg)
+void TaskController(void *arg)
 {
     cy_rslt_t result;
 
@@ -67,7 +67,7 @@ void TaskControllerClient(void *arg)
     controller_data_msg_t controller_data_msg;
 
     controller_data_msg.id = 0;
-    controller_data_msg.data = 0;
+    controller_data_msg.value = 0;
 
     /* IP address and UDP port number of the UDP server */
     cy_socket_sockaddr_t udp_server_addr = {
@@ -129,9 +129,6 @@ void TaskControllerClient(void *arg)
 
             break;
         }
-
-        
-        print_heap_usage("After controlling the LED and ACKing the server");
     }
  }
 

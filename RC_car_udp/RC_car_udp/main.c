@@ -49,8 +49,10 @@
 #include <task.h>
 #include <queue.h>
 
+#include "ControllerData.h"
 #include "SensorData.h"
-// #include "TaskCapsense.h"
+
+#include "TaskController.h"
 #include "TaskActuation.h"
 #include "TaskBattery.h"
 
@@ -67,9 +69,7 @@
 #define SINGLE_ELEMENT_QUEUE (1u)
 
 TaskHandle_t TaskControllerHandle;
-
 TaskHandle_t TaskActuationHandle;
-
 TaskHandle_t TaskBatteryHandle;
 
 uint8_t uart_read_value;
@@ -112,22 +112,16 @@ int main(void)
 		    cy_serial_flash_qspi_enable_xip(true);
 		#endif
 
-
-
-
 		printf("\x1b[2J\x1b[;H");
 		printf("============================================================\n");
 		printf("IoT Project 2022: RC CAR ALL PERIPHERALS AND UDP CONTROLLER: FREERTOS\n");
 		printf("============================================================\n\n");
 
-		capsense_command_q = xQueueCreate(SINGLE_ELEMENT_QUEUE,
-		                                      sizeof(capsense_command_t));
-
-		xTaskCreate(TaskCapsense, "Task Controller", TASKCAPSENSE_STACK_SIZE, NULL, TASKCAPSENSE_PRIORITY, &TaskCapsenseHandle);
-		xTaskCreate(TaskActuation, "Task Actuation", TASKCAPSENSE_STACK_SIZE, NULL, TASKCAPSENSE_PRIORITY, &TaskActuationHandle);
+		xTaskCreate(TaskController, "Task Controller", TASKCONTROLLER_STACK_SIZE, NULL, TASKCONTROLLER_PRIORITY, &TaskControllerHandle);
+		xTaskCreate(TaskActuation, "Task Actuation", TASKACTUATION_STACK_SIZE, NULL, TASKACTUATION_PRIORITY, &TaskActuationHandle);
 		xTaskCreate(TaskBattery, "Task Battery", TASKBATTERY_STACK_SIZE, NULL, TASKBATTERY_PRIORITY, &TaskBatteryHandle);
 
-		queue_controller_handle = xQueueCreate(1, sizeof(sensor_data_msg_t));
+		queue_controller_handle = xQueueCreate(1, sizeof(controller_data_msg_t));
 		queue_battery_handle = xQueueCreate(1, sizeof(sensor_data_msg_t));
 
 		vTaskStartScheduler();

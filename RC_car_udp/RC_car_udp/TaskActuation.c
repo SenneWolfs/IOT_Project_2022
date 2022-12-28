@@ -21,7 +21,8 @@
 #include <task.h>
 #include <queue.h>
 
-#include "SensorData.h"
+#include "ControllerData.h"
+#include "TaskController.h"
 
 /* PWM Frequency = 2Hz */
 #define PWM_FREQUENCY (50u)
@@ -78,13 +79,11 @@ void TaskActuation(void *arg)
     }
     result = cyhal_pwm_set_duty_cycle(&pwm_servo_motor, PWM_DUTY_CYCLE, PWM_FREQUENCY);
 
-    int capsense_button_count = 0;
-    int capsense_button_count_prev = 0;
+    controller_data_msg_t controller_data_msg;
 
-    sensor_data_msg_t* sensor_data = malloc(sizeof(sensor_data_msg_t));
+    controller_data_msg.id = 0;
+    controller_data_msg.value = 0;
 
-
-    int sliderVal = 0;
 
     float deltaDC = 0.024f;
     float pwmBLDCDutyCycle = PWM_DUTY_CYCLE;
@@ -93,7 +92,7 @@ void TaskActuation(void *arg)
     for (;;)
     {
         // printf("Task Actuation: queue receive capsense data...\r\n");
-        xQueueReceive(queue_controller_handle, (void*)sensor_data, portMAX_DELAY);
+        xQueueReceive(queue_controller_handle, &controller_data_msg, portMAX_DELAY);
 
         switch (controller_data_msg.id)
         {

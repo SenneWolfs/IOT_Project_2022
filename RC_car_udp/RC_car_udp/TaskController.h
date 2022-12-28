@@ -43,17 +43,16 @@
 #define UDP_SERVER_PORT                   (57345)
 
 /*******************************************************************************
-* Global variable
+* Global variables
 ********************************************************************************/
 extern QueueHandle_t queue_controller_handle;
+/* Controller task handle. */
+extern TaskHandle_t TaskControllerHandle;
 
 /*******************************************************************************
 * Function Prototype
 ********************************************************************************/
-void TaskControllerClient(void *arg);
-
-/* Controller task handle. */
-extern TaskHandle_t TaskControllerHandle;
+void TaskController(void *arg);
 
 #endif /* CONTROLLER_H_ */
 
