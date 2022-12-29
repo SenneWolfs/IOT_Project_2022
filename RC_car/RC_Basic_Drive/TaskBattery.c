@@ -16,6 +16,7 @@
 #include <stdlib.h>
 
 QueueHandle_t queue_battery_handle;
+static TimerHandle_t timer_handle_battery;
 
 /* ADC Object */
 cyhal_adc_t adc_obj;
@@ -44,6 +45,15 @@ enum ADC_CHANNELS
   NUM_CHANNELS
 } adc_channel;
 
+void timer_callback_battery(TimerHandle_t xTimer)
+{
+	/* Sample input voltage at channel 0 */
+	adc_single_channel_process();
+
+	/* 200ms delay between scans */
+	// cyhal_system_delay_ms(ADC_SCAN_DELAY_MS);
+}
+
 void TaskBattery(void *arg)
 {
 	/* Variable to capture return value of functions */
@@ -59,15 +69,11 @@ void TaskBattery(void *arg)
 		printf("ADC configuration update failed. Error: %ld\n", (long unsigned int)result);
 		CY_ASSERT(0);
 	}
+	timer_handle_battery = xTimerCreate("Timer battery", pdMS_TO_TICKS(10000UL), pdTRUE, NULL, timer_callback_battery);
+	xTimerStart(timer_handle_battery, 0);
 
 	for (;;)
 	{
-
-		/* Sample input voltage at channel 0 */
-		adc_single_channel_process();
-
-		/* 200ms delay between scans */
-		// cyhal_system_delay_ms(ADC_SCAN_DELAY_MS);
 	}
 }
 
