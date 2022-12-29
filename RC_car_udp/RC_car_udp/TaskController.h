@@ -50,6 +50,7 @@
 extern QueueHandle_t queue_controller_handle;
 /* Controller task handle. */
 extern TaskHandle_t TaskControllerHandle;
+extern TimerHandle_t timer_handle_controller;
 
 /*******************************************************************************
 * Function Prototype
