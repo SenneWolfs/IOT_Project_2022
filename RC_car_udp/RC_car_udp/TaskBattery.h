@@ -65,6 +65,7 @@ void adc_single_channel_process(void);
 * Global variables
 ******************************************************************************/
 extern QueueHandle_t queue_battery_handle;
+extern TimerHandle_t timer_handle_battery;
 extern sensor_data_msg_t sensor_battery;
 
 /* ADC Object */
