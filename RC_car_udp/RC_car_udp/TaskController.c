@@ -55,11 +55,10 @@ void print_heap_usage(char* msg);
 cy_socket_t client_handle;
 cy_socket_sockaddr_t peer_addr;
 QueueHandle_t queue_controller_handle;
+static TimerHandle_t timer_handle_controller;
 
-void TaskController(void *arg)
+void timer_callback_controller(TimerHandle_t xTimer)
 {
-    cy_rslt_t result;
-
     /* Variable to store the number of bytes sent to the UDP server. */
     uint32_t bytes_sent = 0;
     uint32_t bytes_received = 0;
@@ -70,6 +69,21 @@ void TaskController(void *arg)
 
     controller_data_msg->id = 0;
     controller_data_msg->value = 0;
+    
+    printf("Task Controller: Waiting for gamepad data...\r\n");
+    /* Wait till Controller command is received from UDP Server . */
+    /* Receive incoming message from UDP server. */
+    result = cy_socket_recvfrom(client_handle, (void*)controller_data_msg, sizeof(controller_data_msg_t),
+                                CY_SOCKET_FLAGS_RECVFROM_NONE, NULL, 0, &bytes_received);
+    printf("Task Controller: received gamepad data: id = %d, value = %d\r\n",
+        controller_data_msg->id, controller_data_msg->value);
+
+    xQueueSend(queue_controller_handle, (void*)controller_data_msg, 0UL);
+}
+
+void TaskController(void *arg)
+{
+    cy_rslt_t result;
 
     /* IP address and UDP port number of the UDP server */
     cy_socket_sockaddr_t udp_server_addr = {
@@ -113,19 +127,12 @@ void TaskController(void *arg)
     {
         printf("Task Controller: Failed to send data to server. Error : %"PRIu32"\n", result);
     }
+    
+    timer_handle_controller = xTimerCreate("Timer Controller", pdMS_TO_TICKS(10000UL), pdTRUE, NULL, timer_callback_controller);
+    xTimerStart(timer_handle_controller, 0);
 
     for(;;)
     {
-        printf("Task Controller: Waiting for gamepad data...\r\n");
-        /* Wait till Controller command is received from UDP Server . */
-        /* Receive incoming message from UDP server. */
-        result = cy_socket_recvfrom(client_handle, (void*)controller_data_msg, sizeof(controller_data_msg_t),
-                                    CY_SOCKET_FLAGS_RECVFROM_NONE, NULL, 0, &bytes_received);
-        printf("Task Controller: received gamepad data: id = %d, value = %d\r\n",
-            controller_data_msg->id, controller_data_msg->value);
-
-        xQueueSend(queue_controller_handle, (void*)controller_data_msg, 0UL);
-        
     }
  }
 
