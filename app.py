@@ -40,16 +40,16 @@ def handle_mqtt_message(client, userdata, message):
     str_date_time = dt.strftime("%d-%m-%Y, %H:%M:%S")
     
     # AES initialization
-    key = b'abcdefghijklmnop'
-    iv = b'1234567890123456'
-    cipher = AES.new(key, AES.MODE_CBC, iv)
-    decr = cipher.decrypt(bytes.fromhex(message.payload.decode()))
-    print(decr)
-    plain_text = decr.decode("utf-8").strip('0')
-    print(plain_text)
+    # key = b'abcdefghijklmnop'
+    # iv = b'1234567890123456'
+    # cipher = AES.new(key, AES.MODE_CBC, iv)
+    # decr = cipher.decrypt(bytes.fromhex(message.payload.decode()))
+    # print(decr)
+    # plain_text = decr.decode("utf-8").strip('0')
+    # print(plain_text)
     
     df = pd.read_csv("data/log.csv")
-    new_samp = json.loads(plain_text)
+    new_samp = json.loads(message.payload.decode())
     new_row = {'time':str_date_time, 'batteryLevel':new_samp["batteryLevel"], 'Speed':new_samp["Speed"], 'Servo':new_samp["Servo"]}
     df = df.append(new_row, ignore_index=True)
     df.to_csv("data/log.csv", index=False)
