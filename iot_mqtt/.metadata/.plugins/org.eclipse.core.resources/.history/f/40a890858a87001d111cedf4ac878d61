@@ -1,0 +1,22 @@
+/*
+ * inputs.h
+ *
+ *  Created on: 29 dec. 2022
+ *      Author: jethr
+ */
+
+#ifndef SOURCE_INPUTS_H_
+#define SOURCE_INPUTS_H_
+
+
+#include "FreeRTOS.h"
+#include "task.h"
+#include "queue.h"
+
+extern QueueHandle_t queue_pdmmic_handle;
+
+void task_pdmmic();
+void clock_init(void);
+
+
+#endif /* SOURCE_INPUTS_H_ */

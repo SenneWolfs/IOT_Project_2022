@@ -1,0 +1,1237 @@
+Loading the manifest data
+Found environment variable CyRemoteManifestOverride=https://github.com/cypresssemiconductorco/mtb-super-manifest/raw/v2.X/mtb-super-manifest-fv2.xml
+Loading super manfiest files from all sources
+Getting manifests from remote and/or local sources
+Processing system manifest 'https://github.com/cypresssemiconductorco/mtb-super-manifest/raw/v2.X/mtb-super-manifest-fv2.xml'
+Downloading super manifest file 'https://github.com/cypresssemiconductorco/mtb-super-manifest/raw/v2.X/mtb-super-manifest-fv2.xml'
+Finished loading super manifest files from all sources
+Finished download of file 'https://github.com/cypresssemiconductorco/mtb-super-manifest/raw/v2.X/mtb-super-manifest-fv2.xml'
+Starting to parse super manifest with URL 'https://github.com/cypresssemiconductorco/mtb-super-manifest/raw/v2.X/mtb-super-manifest-fv2.xml'
+Finished parsing super manifest with URL 'https://github.com/cypresssemiconductorco/mtb-super-manifest/raw/v2.X/mtb-super-manifest-fv2.xml'
+Downloading manifest file 'https://github.com/Infineon/mtb-ce-manifest/raw/v2.X/mtb-ce-manifest.xml'
+Downloading manifest file 'https://github.com/Infineon/mtb-ce-manifest/raw/v2.X/mtb-ce-manifest-fv2.xml'
+Downloading manifest file 'https://github.com/Infineon/mtb-bt-app-manifest/raw/v2.X/mtb-bt-app-manifest.xml'
+Downloading manifest file 'https://github.com/Infineon/mtb-bt-app-manifest/raw/v2.X/mtb-bt-app-manifest-fv2.xml'
+Downloading manifest file 'https://github.com/memfault/mtb-memfault-ce-manifest/raw/main/mtb-memfault-ce-manifest-fv2.xml'
+Downloading manifest file 'https://github.com/Infineon/cce-app-manifest/raw/v2.X/cce-app-manifest-fv2.xml'
+Downloading manifest file 'https://github.com/edgeimpulse/edgeimpulse-ce-manifest/raw/main/edgeimpulse-ce-manifest-fv2.xml'
+Downloading manifest file 'https://github.com/golioth/mtb-golioth-ce-manifest/raw/main/mtb-golioth-ce-manifest-fv2.xml'
+Downloading manifest file 'https://github.com/Infineon/mtb-bsp-manifest/raw/v2.X/mtb-bsp-manifest.xml'
+Downloading manifest file 'https://github.com/Infineon/mtb-bsp-manifest/raw/v2.X/mtb-bsp-manifest-fv2.xml'
+Downloading manifest file 'https://github.com/Infineon/mtb-bsp-manifest/raw/v2.X/mtb-bsp-dependencies-manifest.xml'
+Downloading manifest file 'https://github.com/Infineon/mtb-bt-bsp-manifest/raw/v2.X/mtb-bt-bsp-manifest.xml'
+Downloading manifest file 'https://github.com/Infineon/mtb-bt-bsp-manifest/raw/v2.X/mtb-bt-bsp-manifest-fv2.xml'
+Downloading manifest file 'https://github.com/Infineon/mtb-bt-bsp-manifest/raw/v2.X/mtb-bt-bsp-dependencies-manifest.xml'
+Downloading manifest file 'https://github.com/Infineon/mtb-mw-manifest/raw/v2.X/mtb-mw-manifest.xml'
+Downloading manifest file 'https://github.com/Infineon/mtb-mw-manifest/raw/v2.X/mtb-mw-manifest-fv2.xml'
+Downloading manifest file 'https://github.com/Infineon/mtb-mw-manifest/raw/v2.X/mtb-mw-dependencies-manifest.xml'
+Downloading manifest file 'https://github.com/Infineon/mtb-bt-mw-manifest/raw/v2.X/mtb-bt-mw-manifest.xml'
+Downloading manifest file 'https://github.com/Infineon/mtb-bt-mw-manifest/raw/v2.X/mtb-bt-mw-manifest-fv2.xml'
+Downloading manifest file 'https://github.com/Infineon/mtb-bt-mw-manifest/raw/v2.X/mtb-bt-mw-dependencies-manifest.xml'
+Downloading manifest file 'https://github.com/Infineon/mtb-wifi-mw-manifest/raw/v2.X/mtb-wifi-mw-manifest.xml'
+Downloading manifest file 'https://github.com/Infineon/mtb-wifi-mw-manifest/raw/v2.X/mtb-wifi-mw-manifest-fv2.xml'
+Downloading manifest file 'https://github.com/Infineon/mtb-wifi-mw-manifest/raw/v2.X/mtb-wifi-mw-dependencies-manifest.xml'
+Downloading manifest file 'https://github.com/memfault/mtb-memfault-mw-manifest/raw/main/mtb-memfault-mw-manifest-fv2.xml'
+Downloading manifest file 'https://github.com/golioth/mtb-golioth-mw-manifest/raw/main/mtb-golioth-mw-manifest-fv2.xml'
+Finished download of file 'https://github.com/Infineon/mtb-ce-manifest/raw/v2.X/mtb-ce-manifest.xml'
+Finished download of file 'https://github.com/Infineon/mtb-ce-manifest/raw/v2.X/mtb-ce-manifest-fv2.xml'
+Finished download of file 'https://github.com/Infineon/mtb-bt-app-manifest/raw/v2.X/mtb-bt-app-manifest.xml'
+Finished download of file 'https://github.com/Infineon/mtb-bt-app-manifest/raw/v2.X/mtb-bt-app-manifest-fv2.xml'
+Finished download of file 'https://github.com/memfault/mtb-memfault-ce-manifest/raw/main/mtb-memfault-ce-manifest-fv2.xml'
+Finished download of file 'https://github.com/Infineon/cce-app-manifest/raw/v2.X/cce-app-manifest-fv2.xml'
+Finished download of file 'https://github.com/edgeimpulse/edgeimpulse-ce-manifest/raw/main/edgeimpulse-ce-manifest-fv2.xml'
+Finished download of file 'https://github.com/golioth/mtb-golioth-ce-manifest/raw/main/mtb-golioth-ce-manifest-fv2.xml'
+Finished download of file 'https://github.com/Infineon/mtb-bsp-manifest/raw/v2.X/mtb-bsp-manifest.xml'
+Finished download of file 'https://github.com/Infineon/mtb-bsp-manifest/raw/v2.X/mtb-bsp-manifest-fv2.xml'
+Finished download of file 'https://github.com/Infineon/mtb-bsp-manifest/raw/v2.X/mtb-bsp-dependencies-manifest.xml'
+Finished download of file 'https://github.com/Infineon/mtb-bt-bsp-manifest/raw/v2.X/mtb-bt-bsp-manifest.xml'
+Finished download of file 'https://github.com/Infineon/mtb-bt-bsp-manifest/raw/v2.X/mtb-bt-bsp-manifest-fv2.xml'
+Finished download of file 'https://github.com/Infineon/mtb-bt-bsp-manifest/raw/v2.X/mtb-bt-bsp-dependencies-manifest.xml'
+Finished download of file 'https://github.com/Infineon/mtb-mw-manifest/raw/v2.X/mtb-mw-manifest.xml'
+Finished download of file 'https://github.com/Infineon/mtb-mw-manifest/raw/v2.X/mtb-mw-manifest-fv2.xml'
+Finished download of file 'https://github.com/Infineon/mtb-mw-manifest/raw/v2.X/mtb-mw-dependencies-manifest.xml'
+Finished download of file 'https://github.com/Infineon/mtb-bt-mw-manifest/raw/v2.X/mtb-bt-mw-manifest.xml'
+Finished download of file 'https://github.com/Infineon/mtb-bt-mw-manifest/raw/v2.X/mtb-bt-mw-manifest-fv2.xml'
+Finished download of file 'https://github.com/Infineon/mtb-bt-mw-manifest/raw/v2.X/mtb-bt-mw-dependencies-manifest.xml'
+Finished download of file 'https://github.com/Infineon/mtb-wifi-mw-manifest/raw/v2.X/mtb-wifi-mw-manifest.xml'
+Finished download of file 'https://github.com/Infineon/mtb-wifi-mw-manifest/raw/v2.X/mtb-wifi-mw-manifest-fv2.xml'
+Finished download of file 'https://github.com/Infineon/mtb-wifi-mw-manifest/raw/v2.X/mtb-wifi-mw-dependencies-manifest.xml'
+Finished download of file 'https://github.com/memfault/mtb-memfault-mw-manifest/raw/main/mtb-memfault-mw-manifest-fv2.xml'
+Finished download of file 'https://github.com/golioth/mtb-golioth-mw-manifest/raw/main/mtb-golioth-mw-manifest-fv2.xml'
+Finished loading the manifest data (2469 ms)
+Loading the device db
+Finished loading the device db (34571 ms)
+INFO:Using the executable path for the tools directory.
+0 error(s), 0 warning(s)
+INFO:Using the executable path for the tools directory.
+
+Summary: 
+
+BSP: CY8CPROTO-062-4343W
+Template Application(s): WiFi MQTT Client
+Application(s) Root Path: C:/IOT/iot_mqtt
+
+Press "Create" to create the selected application(s).
+
+Collecting application data...
+
+Info: The following entered on the command line will create the exact same project as that created with the GUI tool:
+C:/Users/jethr/ModusToolbox/tools_3.0/project-creator/project-creator-cli.exe --board-id CY8CPROTO-062-4343W --board-uri https://github.com/cypresssemiconductorco/TARGET_CY8CPROTO-062-4343W --board-commit latest-v4.X --app-id mtb-example-wifi-mqtt-client --app-uri https://github.com/Infineon/mtb-example-wifi-mqtt-client --app-commit latest-v5.X --cypress-tools C:/Users/jethr/ModusToolbox/tools_3.0 --target-dir C:/IOT/iot_mqtt --user-app-name WiFi_MQTT_Client --use-modus-shell
+
+Starting application creation for 'C:/IOT/iot_mqtt/WiFi_MQTT_Client'.
+Acquiring the application source 'https://github.com/Infineon/mtb-example-wifi-mqtt-client'.
+Acquired application source successfully.
+Loading the application.
+Loaded the application successfully.
+Processing project 'WiFi_MQTT_Client'.
+Starting to commit changes to the filesystem and project 'mtb-example-wifi-mqtt-client'.
+Writing mtb file for asset 'CY8CPROTO-062-4343W' to the folder 'C:/IOT/iot_mqtt/WiFi_MQTT_Client/deps'.
+Writing mtb file for asset 'aws-iot-device-sdk-port' to the folder 'C:/IOT/iot_mqtt/WiFi_MQTT_Client/libs'.
+Writing mtb file for asset 'abstraction-rtos' to the folder 'C:/IOT/iot_mqtt/WiFi_MQTT_Client/libs'.
+Writing mtb file for asset 'clib-support' to the folder 'C:/IOT/iot_mqtt/WiFi_MQTT_Client/libs'.
+Writing mtb file for asset 'connectivity-utilities' to the folder 'C:/IOT/iot_mqtt/WiFi_MQTT_Client/libs'.
+Writing mtb file for asset 'mbedTLS Acceleration' to the folder 'C:/IOT/iot_mqtt/WiFi_MQTT_Client/libs'.
+Writing mtb file for asset 'freertos' to the folder 'C:/IOT/iot_mqtt/WiFi_MQTT_Client/libs'.
+Writing mtb file for asset 'lwip-freertos-integration' to the folder 'C:/IOT/iot_mqtt/WiFi_MQTT_Client/libs'.
+Writing mtb file for asset 'lwip-network-interface-integration' to the folder 'C:/IOT/iot_mqtt/WiFi_MQTT_Client/libs'.
+Writing mtb file for asset 'lwip' to the folder 'C:/IOT/iot_mqtt/WiFi_MQTT_Client/libs'.
+Writing mtb file for asset 'mbedtls' to the folder 'C:/IOT/iot_mqtt/WiFi_MQTT_Client/libs'.
+Writing mtb file for asset 'secure-sockets' to the folder 'C:/IOT/iot_mqtt/WiFi_MQTT_Client/libs'.
+Writing mtb file for asset 'whd-bsp-integration' to the folder 'C:/IOT/iot_mqtt/WiFi_MQTT_Client/libs'.
+Writing mtb file for asset 'wifi-connection-manager' to the folder 'C:/IOT/iot_mqtt/WiFi_MQTT_Client/libs'.
+Writing mtb file for asset 'wifi-host-driver' to the folder 'C:/IOT/iot_mqtt/WiFi_MQTT_Client/libs'.
+Writing mtb file for asset 'wpa3-external-supplicant' to the folder 'C:/IOT/iot_mqtt/WiFi_MQTT_Client/libs'.
+Writing mtb file for asset 'cat1cm0p' to the folder 'C:/IOT/iot_mqtt/WiFi_MQTT_Client/libs'.
+Writing mtb file for asset 'core-lib' to the folder 'C:/IOT/iot_mqtt/WiFi_MQTT_Client/libs'.
+Writing mtb file for asset 'core-make' to the folder 'C:/IOT/iot_mqtt/WiFi_MQTT_Client/libs'.
+Writing mtb file for asset 'mtb-hal-cat1' to the folder 'C:/IOT/iot_mqtt/WiFi_MQTT_Client/libs'.
+Writing mtb file for asset 'mtb-pdl-cat1' to the folder 'C:/IOT/iot_mqtt/WiFi_MQTT_Client/libs'.
+Writing mtb file for asset 'recipe-make-cat1a' to the folder 'C:/IOT/iot_mqtt/WiFi_MQTT_Client/libs'.
+Writing mtb file for asset 'aws-iot-device-sdk-embedded-C' to the folder 'C:/IOT/iot_mqtt/WiFi_MQTT_Client/libs'.
+Writing mtb file for asset 'cmsis' to the folder 'C:/IOT/iot_mqtt/WiFi_MQTT_Client/libs'.
+Writing mtb file for asset 'mqtt' to the folder 'C:/IOT/iot_mqtt/WiFi_MQTT_Client/deps'.
+Writing mtb file for asset 'retarget-io' to the folder 'C:/IOT/iot_mqtt/WiFi_MQTT_Client/deps'.
+Writing mtb file for asset 'serial-flash' to the folder 'C:/IOT/iot_mqtt/WiFi_MQTT_Client/deps'.
+Writing mtb file for asset 'wifi-core-freertos-lwip-mbedtls' to the folder 'C:/IOT/iot_mqtt/WiFi_MQTT_Client/deps'.
+Starting: git -C C:/Users/jethr/.modustoolbox/git/cache/git/https___github.com_cypresssemiconductorco_TARGET_CY8CPROTO-062-4343W/TARGET_CY8CPROTO-062-4343W config remote.origin.fetch 'refs/heads/*:refs/heads/*'
+Starting: git -C C:/Users/jethr/.modustoolbox/git/cache/git/https___github.com_cypresssemiconductorco_mqtt/mqtt config remote.origin.fetch 'refs/heads/*:refs/heads/*'
+Starting: git -C C:/Users/jethr/.modustoolbox/git/cache/git/https___github.com_cypresssemiconductorco_retarget-io/retarget-io config remote.origin.fetch 'refs/heads/*:refs/heads/*'
+Starting: git -C C:/Users/jethr/.modustoolbox/git/cache/git/https___github.com_cypresssemiconductorco_serial-flash/serial-flash config remote.origin.fetch 'refs/heads/*:refs/heads/*'
+Starting: git -C C:/Users/jethr/.modustoolbox/git/cache/git/https___github.com_Infineon_wifi-core-freertos-lwip-mbedtls/wifi-core-freertos-lwip-mbedtls config remote.origin.fetch 'refs/heads/*:refs/heads/*'
+Starting: git -C C:/Users/jethr/.modustoolbox/git/cache/git/https___github.com_cypresssemiconductorco_aws-iot-device-sdk-port/aws-iot-device-sdk-port config remote.origin.fetch 'refs/heads/*:refs/heads/*'
+Starting: git -C C:/Users/jethr/.modustoolbox/git/cache/git/https___github.com_cypresssemiconductorco_abstraction-rtos/abstraction-rtos config remote.origin.fetch 'refs/heads/*:refs/heads/*'
+Success: git -C C:/Users/jethr/.modustoolbox/git/cache/git/https___github.com_cypresssemiconductorco_TARGET_CY8CPROTO-062-4343W/TARGET_CY8CPROTO-062-4343W config remote.origin.fetch 'refs/heads/*:refs/heads/*'
+Starting: git -C C:/Users/jethr/.modustoolbox/git/cache/git/https___github.com_cypresssemiconductorco_clib-support/clib-support config remote.origin.fetch 'refs/heads/*:refs/heads/*'
+Success: git -C C:/Users/jethr/.modustoolbox/git/cache/git/https___github.com_cypresssemiconductorco_retarget-io/retarget-io config remote.origin.fetch 'refs/heads/*:refs/heads/*'
+Starting: git -C C:/Users/jethr/.modustoolbox/git/cache/git/https___github.com_cypresssemiconductorco_connectivity-utilities/connectivity-utilities config remote.origin.fetch 'refs/heads/*:refs/heads/*'
+Success: git -C C:/Users/jethr/.modustoolbox/git/cache/git/https___github.com_cypresssemiconductorco_serial-flash/serial-flash config remote.origin.fetch 'refs/heads/*:refs/heads/*'
+Starting: git -C C:/Users/jethr/.modustoolbox/git/cache/git/https___github.com_cypresssemiconductorco_cy-mbedtls-acceleration/cy-mbedtls-acceleration config remote.origin.fetch 'refs/heads/*:refs/heads/*'
+Success: git -C C:/Users/jethr/.modustoolbox/git/cache/git/https___github.com_Infineon_wifi-core-freertos-lwip-mbedtls/wifi-core-freertos-lwip-mbedtls config remote.origin.fetch 'refs/heads/*:refs/heads/*'
+Starting: git -C C:/Users/jethr/.modustoolbox/git/cache/git/https___github.com_cypresssemiconductorco_freertos/freertos config remote.origin.fetch 'refs/heads/*:refs/heads/*'
+Success: git -C C:/Users/jethr/.modustoolbox/git/cache/git/https___github.com_cypresssemiconductorco_mqtt/mqtt config remote.origin.fetch 'refs/heads/*:refs/heads/*'
+Starting: git -C C:/Users/jethr/.modustoolbox/git/cache/git/https___github.com_Infineon_lwip-freertos-integration/lwip-freertos-integration config remote.origin.fetch 'refs/heads/*:refs/heads/*'
+Success: git -C C:/Users/jethr/.modustoolbox/git/cache/git/https___github.com_cypresssemiconductorco_abstraction-rtos/abstraction-rtos config remote.origin.fetch 'refs/heads/*:refs/heads/*'
+Starting: git -C C:/Users/jethr/.modustoolbox/git/cache/git/https___github.com_Infineon_lwip-network-interface-integration/lwip-network-interface-integration config remote.origin.fetch 'refs/heads/*:refs/heads/*'
+Success: git -C C:/Users/jethr/.modustoolbox/git/cache/git/https___github.com_cypresssemiconductorco_aws-iot-device-sdk-port/aws-iot-device-sdk-port config remote.origin.fetch 'refs/heads/*:refs/heads/*'
+Starting: git -C C:/Users/jethr/.modustoolbox/git/cache/git/https___git.savannah.nongnu.org_git_lwip/lwip config remote.origin.fetch 'refs/heads/*:refs/heads/*'
+Success: git -C C:/Users/jethr/.modustoolbox/git/cache/git/https___github.com_cypresssemiconductorco_clib-support/clib-support config remote.origin.fetch 'refs/heads/*:refs/heads/*'
+Starting: git -C C:/Users/jethr/.modustoolbox/git/cache/git/https___github.com_ARMmbed_mbedtls/mbedtls config remote.origin.fetch 'refs/heads/*:refs/heads/*'
+Success: git -C C:/Users/jethr/.modustoolbox/git/cache/git/https___github.com_cypresssemiconductorco_connectivity-utilities/connectivity-utilities config remote.origin.fetch 'refs/heads/*:refs/heads/*'
+Starting: git -C C:/Users/jethr/.modustoolbox/git/cache/git/https___github.com_cypresssemiconductorco_secure-sockets/secure-sockets config remote.origin.fetch 'refs/heads/*:refs/heads/*'
+Success: git -C C:/Users/jethr/.modustoolbox/git/cache/git/https___github.com_cypresssemiconductorco_cy-mbedtls-acceleration/cy-mbedtls-acceleration config remote.origin.fetch 'refs/heads/*:refs/heads/*'
+Starting: git -C C:/Users/jethr/.modustoolbox/git/cache/git/https___github.com_cypresssemiconductorco_whd-bsp-integration/whd-bsp-integration config remote.origin.fetch 'refs/heads/*:refs/heads/*'
+Success: git -C C:/Users/jethr/.modustoolbox/git/cache/git/https___github.com_cypresssemiconductorco_freertos/freertos config remote.origin.fetch 'refs/heads/*:refs/heads/*'
+Starting: git -C C:/Users/jethr/.modustoolbox/git/cache/git/https___github.com_cypresssemiconductorco_wifi-connection-manager/wifi-connection-manager config remote.origin.fetch 'refs/heads/*:refs/heads/*'
+Success: git -C C:/Users/jethr/.modustoolbox/git/cache/git/https___github.com_Infineon_lwip-freertos-integration/lwip-freertos-integration config remote.origin.fetch 'refs/heads/*:refs/heads/*'
+Starting: git -C C:/Users/jethr/.modustoolbox/git/cache/git/https___github.com_cypresssemiconductorco_wifi-host-driver/wifi-host-driver config remote.origin.fetch 'refs/heads/*:refs/heads/*'
+Success: git -C C:/Users/jethr/.modustoolbox/git/cache/git/https___github.com_Infineon_lwip-network-interface-integration/lwip-network-interface-integration config remote.origin.fetch 'refs/heads/*:refs/heads/*'
+Starting: git -C C:/Users/jethr/.modustoolbox/git/cache/git/https___github.com_Infineon_wpa3-external-supplicant/wpa3-external-supplicant config remote.origin.fetch 'refs/heads/*:refs/heads/*'
+Success: git -C C:/Users/jethr/.modustoolbox/git/cache/git/https___git.savannah.nongnu.org_git_lwip/lwip config remote.origin.fetch 'refs/heads/*:refs/heads/*'
+Starting: git -C C:/Users/jethr/.modustoolbox/git/cache/git/https___github.com_Infineon_cat1cm0p/cat1cm0p config remote.origin.fetch 'refs/heads/*:refs/heads/*'
+Success: git -C C:/Users/jethr/.modustoolbox/git/cache/git/https___github.com_cypresssemiconductorco_secure-sockets/secure-sockets config remote.origin.fetch 'refs/heads/*:refs/heads/*'
+Starting: git -C C:/Users/jethr/.modustoolbox/git/cache/git/https___github.com_cypresssemiconductorco_core-lib/core-lib config remote.origin.fetch 'refs/heads/*:refs/heads/*'
+Success: git -C C:/Users/jethr/.modustoolbox/git/cache/git/https___github.com_ARMmbed_mbedtls/mbedtls config remote.origin.fetch 'refs/heads/*:refs/heads/*'
+Starting: git -C C:/Users/jethr/.modustoolbox/git/cache/git/https___github.com_cypresssemiconductorco_core-make/core-make config remote.origin.fetch 'refs/heads/*:refs/heads/*'
+Success: git -C C:/Users/jethr/.modustoolbox/git/cache/git/https___github.com_cypresssemiconductorco_wifi-connection-manager/wifi-connection-manager config remote.origin.fetch 'refs/heads/*:refs/heads/*'
+Starting: git -C C:/Users/jethr/.modustoolbox/git/cache/git/https___github.com_cypresssemiconductorco_mtb-hal-cat1/mtb-hal-cat1 config remote.origin.fetch 'refs/heads/*:refs/heads/*'
+Success: git -C C:/Users/jethr/.modustoolbox/git/cache/git/https___github.com_Infineon_wpa3-external-supplicant/wpa3-external-supplicant config remote.origin.fetch 'refs/heads/*:refs/heads/*'
+Starting: git -C C:/Users/jethr/.modustoolbox/git/cache/git/https___github.com_cypresssemiconductorco_mtb-pdl-cat1/mtb-pdl-cat1 config remote.origin.fetch 'refs/heads/*:refs/heads/*'
+Success: git -C C:/Users/jethr/.modustoolbox/git/cache/git/https___github.com_cypresssemiconductorco_wifi-host-driver/wifi-host-driver config remote.origin.fetch 'refs/heads/*:refs/heads/*'
+Starting: git -C C:/Users/jethr/.modustoolbox/git/cache/git/https___github.com_cypresssemiconductorco_recipe-make-cat1a/recipe-make-cat1a config remote.origin.fetch 'refs/heads/*:refs/heads/*'
+Success: git -C C:/Users/jethr/.modustoolbox/git/cache/git/https___github.com_cypresssemiconductorco_whd-bsp-integration/whd-bsp-integration config remote.origin.fetch 'refs/heads/*:refs/heads/*'
+Starting: git -C C:/Users/jethr/.modustoolbox/git/cache/git/https___github.com_aws_aws-iot-device-sdk-embedded-C/aws-iot-device-sdk-embedded-C config remote.origin.fetch 'refs/heads/*:refs/heads/*'
+Success: git -C C:/Users/jethr/.modustoolbox/git/cache/git/https___github.com_Infineon_cat1cm0p/cat1cm0p config remote.origin.fetch 'refs/heads/*:refs/heads/*'
+Starting: git -C C:/Users/jethr/.modustoolbox/git/cache/git/https___github.com_Infineon_cmsis/cmsis config remote.origin.fetch 'refs/heads/*:refs/heads/*'
+Success: git -C C:/Users/jethr/.modustoolbox/git/cache/git/https___github.com_cypresssemiconductorco_core-lib/core-lib config remote.origin.fetch 'refs/heads/*:refs/heads/*'
+Starting: git -C C:/Users/jethr/.modustoolbox/git/cache/git/https___github.com_cypresssemiconductorco_TARGET_CY8CPROTO-062-4343W/TARGET_CY8CPROTO-062-4343W fetch --all --tags --force --quiet
+Success: git -C C:/Users/jethr/.modustoolbox/git/cache/git/https___github.com_cypresssemiconductorco_mtb-hal-cat1/mtb-hal-cat1 config remote.origin.fetch 'refs/heads/*:refs/heads/*'
+Starting: git -C C:/Users/jethr/.modustoolbox/git/cache/git/https___github.com_cypresssemiconductorco_retarget-io/retarget-io fetch --all --tags --force --quiet
+Success: git -C C:/Users/jethr/.modustoolbox/git/cache/git/https___github.com_cypresssemiconductorco_mtb-pdl-cat1/mtb-pdl-cat1 config remote.origin.fetch 'refs/heads/*:refs/heads/*'
+Starting: git -C C:/Users/jethr/.modustoolbox/git/cache/git/https___github.com_cypresssemiconductorco_serial-flash/serial-flash fetch --all --tags --force --quiet
+Success: git -C C:/Users/jethr/.modustoolbox/git/cache/git/https___github.com_cypresssemiconductorco_core-make/core-make config remote.origin.fetch 'refs/heads/*:refs/heads/*'
+Starting: git -C C:/Users/jethr/.modustoolbox/git/cache/git/https___github.com_Infineon_wifi-core-freertos-lwip-mbedtls/wifi-core-freertos-lwip-mbedtls fetch --all --tags --force --quiet
+Success: git -C C:/Users/jethr/.modustoolbox/git/cache/git/https___github.com_cypresssemiconductorco_recipe-make-cat1a/recipe-make-cat1a config remote.origin.fetch 'refs/heads/*:refs/heads/*'
+Starting: git -C C:/Users/jethr/.modustoolbox/git/cache/git/https___github.com_cypresssemiconductorco_mqtt/mqtt fetch --all --tags --force --quiet
+Success: git -C C:/Users/jethr/.modustoolbox/git/cache/git/https___github.com_Infineon_cmsis/cmsis config remote.origin.fetch 'refs/heads/*:refs/heads/*'
+Starting: git -C C:/Users/jethr/.modustoolbox/git/cache/git/https___github.com_cypresssemiconductorco_abstraction-rtos/abstraction-rtos fetch --all --tags --force --quiet
+Success: git -C C:/Users/jethr/.modustoolbox/git/cache/git/https___github.com_aws_aws-iot-device-sdk-embedded-C/aws-iot-device-sdk-embedded-C config remote.origin.fetch 'refs/heads/*:refs/heads/*'
+Starting: git -C C:/Users/jethr/.modustoolbox/git/cache/git/https___github.com_cypresssemiconductorco_aws-iot-device-sdk-port/aws-iot-device-sdk-port fetch --all --tags --force --quiet
+Success: git -C C:/Users/jethr/.modustoolbox/git/cache/git/https___github.com_cypresssemiconductorco_serial-flash/serial-flash fetch --all --tags --force --quiet
+Starting: git -C C:/Users/jethr/.modustoolbox/git/cache/git/https___github.com_cypresssemiconductorco_clib-support/clib-support fetch --all --tags --force --quiet
+Success: git -C C:/Users/jethr/.modustoolbox/git/cache/git/https___github.com_cypresssemiconductorco_retarget-io/retarget-io fetch --all --tags --force --quiet
+Starting: git -C C:/Users/jethr/.modustoolbox/git/cache/git/https___github.com_cypresssemiconductorco_connectivity-utilities/connectivity-utilities fetch --all --tags --force --quiet
+Success: git -C C:/Users/jethr/.modustoolbox/git/cache/git/https___github.com_Infineon_wifi-core-freertos-lwip-mbedtls/wifi-core-freertos-lwip-mbedtls fetch --all --tags --force --quiet
+Starting: git -C C:/Users/jethr/.modustoolbox/git/cache/git/https___github.com_cypresssemiconductorco_cy-mbedtls-acceleration/cy-mbedtls-acceleration fetch --all --tags --force --quiet
+Success: git -C C:/Users/jethr/.modustoolbox/git/cache/git/https___github.com_cypresssemiconductorco_aws-iot-device-sdk-port/aws-iot-device-sdk-port fetch --all --tags --force --quiet
+Starting: git -C C:/Users/jethr/.modustoolbox/git/cache/git/https___github.com_cypresssemiconductorco_freertos/freertos fetch --all --tags --force --quiet
+Success: git -C C:/Users/jethr/.modustoolbox/git/cache/git/https___github.com_cypresssemiconductorco_mqtt/mqtt fetch --all --tags --force --quiet
+Starting: git -C C:/Users/jethr/.modustoolbox/git/cache/git/https___github.com_Infineon_lwip-freertos-integration/lwip-freertos-integration fetch --all --tags --force --quiet
+Success: git -C C:/Users/jethr/.modustoolbox/git/cache/git/https___github.com_cypresssemiconductorco_abstraction-rtos/abstraction-rtos fetch --all --tags --force --quiet
+Starting: git -C C:/Users/jethr/.modustoolbox/git/cache/git/https___github.com_Infineon_lwip-network-interface-integration/lwip-network-interface-integration fetch --all --tags --force --quiet
+Success: git -C C:/Users/jethr/.modustoolbox/git/cache/git/https___github.com_cypresssemiconductorco_TARGET_CY8CPROTO-062-4343W/TARGET_CY8CPROTO-062-4343W fetch --all --tags --force --quiet
+Starting: git -C C:/Users/jethr/.modustoolbox/git/cache/git/https___git.savannah.nongnu.org_git_lwip/lwip fetch --all --tags --force --quiet
+Success: git -C C:/Users/jethr/.modustoolbox/git/cache/git/https___github.com_cypresssemiconductorco_clib-support/clib-support fetch --all --tags --force --quiet
+Starting: git -C C:/Users/jethr/.modustoolbox/git/cache/git/https___github.com_cypresssemiconductorco_secure-sockets/secure-sockets fetch --all --tags --force --quiet
+Success: git -C C:/Users/jethr/.modustoolbox/git/cache/git/https___github.com_cypresssemiconductorco_cy-mbedtls-acceleration/cy-mbedtls-acceleration fetch --all --tags --force --quiet
+Starting: git -C C:/Users/jethr/.modustoolbox/git/cache/git/https___github.com_ARMmbed_mbedtls/mbedtls fetch --all --tags --force --quiet
+Success: git -C C:/Users/jethr/.modustoolbox/git/cache/git/https___github.com_Infineon_lwip-freertos-integration/lwip-freertos-integration fetch --all --tags --force --quiet
+Starting: git -C C:/Users/jethr/.modustoolbox/git/cache/git/https___github.com_cypresssemiconductorco_wifi-connection-manager/wifi-connection-manager fetch --all --tags --force --quiet
+Success: git -C C:/Users/jethr/.modustoolbox/git/cache/git/https___github.com_cypresssemiconductorco_connectivity-utilities/connectivity-utilities fetch --all --tags --force --quiet
+Starting: git -C C:/Users/jethr/.modustoolbox/git/cache/git/https___github.com_Infineon_wpa3-external-supplicant/wpa3-external-supplicant fetch --all --tags --force --quiet
+Success: git -C C:/Users/jethr/.modustoolbox/git/cache/git/https___github.com_cypresssemiconductorco_freertos/freertos fetch --all --tags --force --quiet
+Starting: git -C C:/Users/jethr/.modustoolbox/git/cache/git/https___github.com_cypresssemiconductorco_wifi-host-driver/wifi-host-driver fetch --all --tags --force --quiet
+Success: git -C C:/Users/jethr/.modustoolbox/git/cache/git/https___github.com_Infineon_lwip-network-interface-integration/lwip-network-interface-integration fetch --all --tags --force --quiet
+Starting: git -C C:/Users/jethr/.modustoolbox/git/cache/git/https___github.com_cypresssemiconductorco_whd-bsp-integration/whd-bsp-integration fetch --all --tags --force --quiet
+Success: git -C C:/Users/jethr/.modustoolbox/git/cache/git/https___git.savannah.nongnu.org_git_lwip/lwip fetch --all --tags --force --quiet
+Starting: git -C C:/Users/jethr/.modustoolbox/git/cache/git/https___github.com_Infineon_cat1cm0p/cat1cm0p fetch --all --tags --force --quiet
+Success: git -C C:/Users/jethr/.modustoolbox/git/cache/git/https___github.com_Infineon_wpa3-external-supplicant/wpa3-external-supplicant fetch --all --tags --force --quiet
+Starting: git -C C:/Users/jethr/.modustoolbox/git/cache/git/https___github.com_cypresssemiconductorco_core-lib/core-lib fetch --all --tags --force --quiet
+Success: git -C C:/Users/jethr/.modustoolbox/git/cache/git/https___github.com_cypresssemiconductorco_secure-sockets/secure-sockets fetch --all --tags --force --quiet
+Starting: git -C C:/Users/jethr/.modustoolbox/git/cache/git/https___github.com_cypresssemiconductorco_mtb-hal-cat1/mtb-hal-cat1 fetch --all --tags --force --quiet
+Success: git -C C:/Users/jethr/.modustoolbox/git/cache/git/https___github.com_cypresssemiconductorco_wifi-connection-manager/wifi-connection-manager fetch --all --tags --force --quiet
+Starting: git -C C:/Users/jethr/.modustoolbox/git/cache/git/https___github.com_cypresssemiconductorco_mtb-pdl-cat1/mtb-pdl-cat1 fetch --all --tags --force --quiet
+Success: git -C C:/Users/jethr/.modustoolbox/git/cache/git/https___github.com_cypresssemiconductorco_wifi-host-driver/wifi-host-driver fetch --all --tags --force --quiet
+Starting: git -C C:/Users/jethr/.modustoolbox/git/cache/git/https___github.com_cypresssemiconductorco_core-make/core-make fetch --all --tags --force --quiet
+Success: git -C C:/Users/jethr/.modustoolbox/git/cache/git/https___github.com_Infineon_cat1cm0p/cat1cm0p fetch --all --tags --force --quiet
+Starting: git -C C:/Users/jethr/.modustoolbox/git/cache/git/https___github.com_cypresssemiconductorco_recipe-make-cat1a/recipe-make-cat1a fetch --all --tags --force --quiet
+Success: git -C C:/Users/jethr/.modustoolbox/git/cache/git/https___github.com_cypresssemiconductorco_whd-bsp-integration/whd-bsp-integration fetch --all --tags --force --quiet
+Starting: git -C C:/Users/jethr/.modustoolbox/git/cache/git/https___github.com_Infineon_cmsis/cmsis fetch --all --tags --force --quiet
+Success: git -C C:/Users/jethr/.modustoolbox/git/cache/git/https___github.com_cypresssemiconductorco_core-lib/core-lib fetch --all --tags --force --quiet
+Starting: git -C C:/Users/jethr/.modustoolbox/git/cache/git/https___github.com_aws_aws-iot-device-sdk-embedded-C/aws-iot-device-sdk-embedded-C fetch --all --tags --force --quiet
+Success: git -C C:/Users/jethr/.modustoolbox/git/cache/git/https___github.com_cypresssemiconductorco_core-make/core-make fetch --all --tags --force --quiet
+Starting: git -C C:/IOT/iot_mqtt/mtb_shared/serial-flash clone --origin cypress --no-checkout C:/Users/jethr/.modustoolbox/git/cache/git/https___github.com_cypresssemiconductorco_serial-flash/serial-flash release-v1.3.0
+Cloning into 'release-v1.3.0'...
+done.
+Success: git -C C:/IOT/iot_mqtt/mtb_shared/serial-flash clone --origin cypress --no-checkout C:/Users/jethr/.modustoolbox/git/cache/git/https___github.com_cypresssemiconductorco_serial-flash/serial-flash release-v1.3.0
+Starting: git -C C:/IOT/iot_mqtt/mtb_shared/retarget-io clone --origin cypress --no-checkout C:/Users/jethr/.modustoolbox/git/cache/git/https___github.com_cypresssemiconductorco_retarget-io/retarget-io release-v1.4.0
+Cloning into 'release-v1.4.0'...
+Success: git -C C:/Users/jethr/.modustoolbox/git/cache/git/https___github.com_cypresssemiconductorco_mtb-pdl-cat1/mtb-pdl-cat1 fetch --all --tags --force --quiet
+Starting: git -C C:/IOT/iot_mqtt/mtb_shared/wifi-core-freertos-lwip-mbedtls clone --origin cypress --no-checkout C:/Users/jethr/.modustoolbox/git/cache/git/https___github.com_Infineon_wifi-core-freertos-lwip-mbedtls/wifi-core-freertos-lwip-mbedtls release-v1.0.0
+Cloning into 'release-v1.0.0'...
+done.
+Success: git -C C:/Users/jethr/.modustoolbox/git/cache/git/https___github.com_cypresssemiconductorco_recipe-make-cat1a/recipe-make-cat1a fetch --all --tags --force --quiet
+Starting: git -C C:/IOT/iot_mqtt/mtb_shared/aws-iot-device-sdk-port clone --origin cypress --no-checkout C:/Users/jethr/.modustoolbox/git/cache/git/https___github.com_cypresssemiconductorco_aws-iot-device-sdk-port/aws-iot-device-sdk-port release-v2.2.2
+Success: git -C C:/IOT/iot_mqtt/mtb_shared/wifi-core-freertos-lwip-mbedtls clone --origin cypress --no-checkout C:/Users/jethr/.modustoolbox/git/cache/git/https___github.com_Infineon_wifi-core-freertos-lwip-mbedtls/wifi-core-freertos-lwip-mbedtls release-v1.0.0
+Starting: git -C C:/IOT/iot_mqtt/mtb_shared/mqtt clone --origin cypress --no-checkout C:/Users/jethr/.modustoolbox/git/cache/git/https___github.com_cypresssemiconductorco_mqtt/mqtt release-v3.4.2
+Cloning into '
+release-v2.2.2'...
+Cloning into 'release-v3.4.2'...
+done.
+done.
+Success: git -C C:/Users/jethr/.modustoolbox/git/cache/git/https___github.com_Infineon_cmsis/cmsis fetch --all --tags --force --quiet
+Starting: git -C C:/IOT/iot_mqtt/mtb_shared/abstraction-rtos clone --origin cypress --no-checkout C:/Users/jethr/.modustoolbox/git/cache/git/https___github.com_cypresssemiconductorco_abstraction-rtos/abstraction-rtos release-v1.7.0
+done.
+Success: git -C C:/IOT/iot_mqtt/mtb_shared/retarget-io clone --origin cypress --no-checkout C:/Users/jethr/.modustoolbox/git/cache/git/https___github.com_cypresssemiconductorco_retarget-io/retarget-io release-v1.4.0
+Starting: git -C C:/IOT/iot_mqtt/WiFi_MQTT_Client/libs clone --origin cypress --no-checkout C:/Users/jethr/.modustoolbox/git/cache/git/https___github.com_cypresssemiconductorco_TARGET_CY8CPROTO-062-4343W/TARGET_CY8CPROTO-062-4343W TARGET_CY8CPROTO-062-4343W
+Success: git -C C:/IOT/iot_mqtt/mtb_shared/aws-iot-device-sdk-port clone --origin cypress --no-checkout C:/Users/jethr/.modustoolbox/git/cache/git/https___github.com_cypresssemiconductorco_aws-iot-device-sdk-port/aws-iot-device-sdk-port release-v2.2.2
+Starting: git -C C:/IOT/iot_mqtt/mtb_shared/clib-support clone --origin cypress --no-checkout C:/Users/jethr/.modustoolbox/git/cache/git/https___github.com_cypresssemiconductorco_clib-support/clib-support release-v1.3.0
+Success: git -C C:/IOT/iot_mqtt/mtb_shared/mqtt clone --origin cypress --no-checkout C:/Users/jethr/.modustoolbox/git/cache/git/https___github.com_cypresssemiconductorco_mqtt/mqtt release-v3.4.2
+Starting: git -C C:/IOT/iot_mqtt/mtb_shared/cy-mbedtls-acceleration clone --origin cypress --no-checkout C:/Users/jethr/.modustoolbox/git/cache/git/https___github.com_cypresssemiconductorco_cy-mbedtls-acceleration/cy-mbedtls-acceleration release-v1.4.1
+Cloning into 'release-v1.7.0'...
+Cloning into 'TARGET_CY8CPROTO-062-4343W'...
+Cloning into 'release-v1.3.0'...
+Cloning into '
+release-v1.4.1'...
+done.
+done.
+done.
+Success: git -C C:/IOT/iot_mqtt/mtb_shared/clib-support clone --origin cypress --no-checkout C:/Users/jethr/.modustoolbox/git/cache/git/https___github.com_cypresssemiconductorco_clib-support/clib-support release-v1.3.0
+Starting: git -C C:/IOT/iot_mqtt/mtb_shared/lwip-freertos-integration clone --origin cypress --no-checkout C:/Users/jethr/.modustoolbox/git/cache/git/https___github.com_Infineon_lwip-freertos-integration/lwip-freertos-integration release-v1.0.0
+Success: git -C C:/IOT/iot_mqtt/mtb_shared/cy-mbedtls-acceleration clone --origin cypress --no-checkout C:/Users/jethr/.modustoolbox/git/cache/git/https___github.com_cypresssemiconductorco_cy-mbedtls-acceleration/cy-mbedtls-acceleration release-v1.4.1
+Starting: git -C C:/IOT/iot_mqtt/mtb_shared/connectivity-utilities clone --origin cypress --no-checkout C:/Users/jethr/.modustoolbox/git/cache/git/https___github.com_cypresssemiconductorco_connectivity-utilities/connectivity-utilities release-v4.1.0
+done.
+Success: git -C C:/IOT/iot_mqtt/WiFi_MQTT_Client/libs clone --origin cypress --no-checkout C:/Users/jethr/.modustoolbox/git/cache/git/https___github.com_cypresssemiconductorco_TARGET_CY8CPROTO-062-4343W/TARGET_CY8CPROTO-062-4343W TARGET_CY8CPROTO-062-4343W
+Starting: git -C C:/IOT/iot_mqtt/mtb_shared/freertos clone --origin cypress --no-checkout C:/Users/jethr/.modustoolbox/git/cache/git/https___github.com_cypresssemiconductorco_freertos/freertos release-v10.4.305
+Cloning into 'release-v4.1.0'...
+Cloning into 'release-v1.0.0'...
+Cloning into 'release-v10.4.305'...
+Success: git -C C:/IOT/iot_mqtt/mtb_shared/abstraction-rtos clone --origin cypress --no-checkout C:/Users/jethr/.modustoolbox/git/cache/git/https___github.com_cypresssemiconductorco_abstraction-rtos/abstraction-rtos release-v1.7.0
+Starting: git -C C:/IOT/iot_mqtt/mtb_shared/lwip-network-interface-integration clone --origin cypress --no-checkout C:/Users/jethr/.modustoolbox/git/cache/git/https___github.com_Infineon_lwip-network-interface-integration/lwip-network-interface-integration release-v1.1.1
+Success: git -C C:/Users/jethr/.modustoolbox/git/cache/git/https___github.com_cypresssemiconductorco_mtb-hal-cat1/mtb-hal-cat1 fetch --all --tags --force --quiet
+Starting: git -C C:/IOT/iot_mqtt/mtb_shared/lwip clone --origin cypress --no-checkout C:/Users/jethr/.modustoolbox/git/cache/git/https___git.savannah.nongnu.org_git_lwip/lwip STABLE-2_1_2_RELEASE
+Cloning into 'release-v1.1.1'...
+Cloning into 'STABLE-2_1_2_RELEASE'...
+done.
+done.
+Success: git -C C:/IOT/iot_mqtt/mtb_shared/lwip-freertos-integration clone --origin cypress --no-checkout C:/Users/jethr/.modustoolbox/git/cache/git/https___github.com_Infineon_lwip-freertos-integration/lwip-freertos-integration release-v1.0.0
+Starting: git -C C:/IOT/iot_mqtt/mtb_shared/wpa3-external-supplicant clone --origin cypress --no-checkout C:/Users/jethr/.modustoolbox/git/cache/git/https___github.com_Infineon_wpa3-external-supplicant/wpa3-external-supplicant release-v1.1.0
+Success: git -C C:/IOT/iot_mqtt/mtb_shared/connectivity-utilities clone --origin cypress --no-checkout C:/Users/jethr/.modustoolbox/git/cache/git/https___github.com_cypresssemiconductorco_connectivity-utilities/connectivity-utilities release-v4.1.0
+Starting: git -C C:/IOT/iot_mqtt/mtb_shared/secure-sockets clone --origin cypress --no-checkout C:/Users/jethr/.modustoolbox/git/cache/git/https___github.com_cypresssemiconductorco_secure-sockets/secure-sockets release-v3.2.0
+Success: git -C C:/Users/jethr/.modustoolbox/git/cache/git/https___github.com_aws_aws-iot-device-sdk-embedded-C/aws-iot-device-sdk-embedded-C fetch --all --tags --force --quiet
+Starting: git -C C:/IOT/iot_mqtt/mtb_shared/wifi-connection-manager clone --origin cypress --no-checkout C:/Users/jethr/.modustoolbox/git/cache/git/https___github.com_cypresssemiconductorco_wifi-connection-manager/wifi-connection-manager release-v3.0.1
+Cloning into 'release-v1.1.0'...
+Cloning into 'release-v3.2.0'...
+Cloning into 'release-v3.0.1'...
+done.
+done.
+Success: git -C C:/Users/jethr/.modustoolbox/git/cache/git/https___github.com_ARMmbed_mbedtls/mbedtls fetch --all --tags --force --quiet
+Starting: git -C C:/IOT/iot_mqtt/mtb_shared/wifi-host-driver clone --origin cypress --no-checkout C:/Users/jethr/.modustoolbox/git/cache/git/https___github.com_cypresssemiconductorco_wifi-host-driver/wifi-host-driver release-v2.5.0
+done.
+Success: git -C C:/IOT/iot_mqtt/mtb_shared/freertos clone --origin cypress --no-checkout C:/Users/jethr/.modustoolbox/git/cache/git/https___github.com_cypresssemiconductorco_freertos/freertos release-v10.4.305
+Starting: git -C C:/IOT/iot_mqtt/mtb_shared/cat1cm0p clone --origin cypress --no-checkout C:/Users/jethr/.modustoolbox/git/cache/git/https___github.com_Infineon_cat1cm0p/cat1cm0p release-v1.0.0
+Success: git -C C:/IOT/iot_mqtt/mtb_shared/lwip-network-interface-integration clone --origin cypress --no-checkout C:/Users/jethr/.modustoolbox/git/cache/git/https___github.com_Infineon_lwip-network-interface-integration/lwip-network-interface-integration release-v1.1.1
+Starting: git -C C:/IOT/iot_mqtt/mtb_shared/whd-bsp-integration clone --origin cypress --no-checkout C:/Users/jethr/.modustoolbox/git/cache/git/https___github.com_cypresssemiconductorco_whd-bsp-integration/whd-bsp-integration release-v2.1.0
+done.
+Cloning into 'release-v2.5.0'...
+Success: git -C C:/IOT/iot_mqtt/mtb_shared/lwip clone --origin cypress --no-checkout C:/Users/jethr/.modustoolbox/git/cache/git/https___git.savannah.nongnu.org_git_lwip/lwip STABLE-2_1_2_RELEASE
+Starting: git -C C:/IOT/iot_mqtt/mtb_shared/core-lib clone --origin cypress --no-checkout C:/Users/jethr/.modustoolbox/git/cache/git/https___github.com_cypresssemiconductorco_core-lib/core-lib release-v1.3.1
+Success: git -C C:/IOT/iot_mqtt/mtb_shared/wpa3-external-supplicant clone --origin cypress --no-checkout C:/Users/jethr/.modustoolbox/git/cache/git/https___github.com_Infineon_wpa3-external-supplicant/wpa3-external-supplicant release-v1.1.0
+Starting: git -C C:/IOT/iot_mqtt/mtb_shared/core-make clone --origin cypress --no-checkout C:/Users/jethr/.modustoolbox/git/cache/git/https___github.com_cypresssemiconductorco_core-make/core-make release-v3.0.2
+done.
+Cloning into 'release-v1.0.0'...
+Cloning into 'release-v2.1.0'...
+Cloning into 'release-v3.0.2'...
+Cloning into 'release-v1.3.1'...
+Success: git -C C:/IOT/iot_mqtt/mtb_shared/wifi-connection-manager clone --origin cypress --no-checkout C:/Users/jethr/.modustoolbox/git/cache/git/https___github.com_cypresssemiconductorco_wifi-connection-manager/wifi-connection-manager release-v3.0.1
+Starting: git -C C:/IOT/iot_mqtt/mtb_shared/serial-flash/release-v1.3.0 checkout release-v1.3.0
+done.
+done.
+done.
+Success: git -C C:/IOT/iot_mqtt/mtb_shared/secure-sockets clone --origin cypress --no-checkout C:/Users/jethr/.modustoolbox/git/cache/git/https___github.com_cypresssemiconductorco_secure-sockets/secure-sockets release-v3.2.0
+Starting: git -C C:/IOT/iot_mqtt/mtb_shared/mtb-pdl-cat1 clone --origin cypress --no-checkout C:/Users/jethr/.modustoolbox/git/cache/git/https___github.com_cypresssemiconductorco_mtb-pdl-cat1/mtb-pdl-cat1 release-v3.2.0
+done.
+Success: git -C C:/IOT/iot_mqtt/mtb_shared/wifi-host-driver clone --origin cypress --no-checkout C:/Users/jethr/.modustoolbox/git/cache/git/https___github.com_cypresssemiconductorco_wifi-host-driver/wifi-host-driver release-v2.5.0
+Starting: git -C C:/IOT/iot_mqtt/mtb_shared/recipe-make-cat1a clone --origin cypress --no-checkout C:/Users/jethr/.modustoolbox/git/cache/git/https___github.com_cypresssemiconductorco_recipe-make-cat1a/recipe-make-cat1a release-v2.0.0
+Success: git -C C:/IOT/iot_mqtt/mtb_shared/cat1cm0p clone --origin cypress --no-checkout C:/Users/jethr/.modustoolbox/git/cache/git/https___github.com_Infineon_cat1cm0p/cat1cm0p release-v1.0.0
+Starting: git -C C:/IOT/iot_mqtt/mtb_shared/wifi-core-freertos-lwip-mbedtls/release-v1.0.0 checkout release-v1.0.0
+Success: git -C C:/IOT/iot_mqtt/mtb_shared/whd-bsp-integration clone --origin cypress --no-checkout C:/Users/jethr/.modustoolbox/git/cache/git/https___github.com_cypresssemiconductorco_whd-bsp-integration/whd-bsp-integration release-v2.1.0
+Starting: git -C C:/IOT/iot_mqtt/mtb_shared/cmsis clone --origin cypress --no-checkout C:/Users/jethr/.modustoolbox/git/cache/git/https___github.com_Infineon_cmsis/cmsis release-v5.8.0
+Cloning into 'release-v3.2.0'...
+done.
+Cloning into 'release-v2.0.0'...
+done.
+Success: git -C C:/IOT/iot_mqtt/mtb_shared/core-lib clone --origin cypress --no-checkout C:/Users/jethr/.modustoolbox/git/cache/git/https___github.com_cypresssemiconductorco_core-lib/core-lib release-v1.3.1
+Starting: git -C C:/IOT/iot_mqtt/mtb_shared/retarget-io/release-v1.4.0 checkout release-v1.4.0
+Cloning into 'release-v5.8.0'...
+Note: switching to 'release-v1.0.0'.
+
+You are in 'detached HEAD' state. You can look around, make experimental
+changes and commit them, and you can discard any commits you make in this
+state without impacting any branches by switching back to a branch.
+
+If you want to create a new branch to retain commits you create, you may
+do so (now or later) by using -c with the switch command. Example:
+
+  git switch -c <new-branch-name>
+
+Or undo this operation with:
+
+  git switch -
+
+Turn off this advice by setting config variable advice.detachedHead to false
+
+HEAD is now at be86442 Upload wifi-core-freertos-lwip-mbedtls 1.0.0.67
+Success: git -C C:/IOT/iot_mqtt/mtb_shared/wifi-core-freertos-lwip-mbedtls/release-v1.0.0 checkout release-v1.0.0
+Starting: git -C C:/IOT/iot_mqtt/mtb_shared/aws-iot-device-sdk-port/release-v2.2.2 checkout release-v2.2.2
+Success: git -C C:/IOT/iot_mqtt/mtb_shared/core-make clone --origin cypress --no-checkout C:/Users/jethr/.modustoolbox/git/cache/git/https___github.com_cypresssemiconductorco_core-make/core-make release-v3.0.2
+Starting: git -C C:/IOT/iot_mqtt/mtb_shared/mqtt/release-v3.4.2 checkout release-v3.4.2
+done.
+done.
+Success: git -C C:/IOT/iot_mqtt/mtb_shared/recipe-make-cat1a clone --origin cypress --no-checkout C:/Users/jethr/.modustoolbox/git/cache/git/https___github.com_cypresssemiconductorco_recipe-make-cat1a/recipe-make-cat1a release-v2.0.0
+Starting: git -C C:/IOT/iot_mqtt/mtb_shared/clib-support/release-v1.3.0 checkout release-v1.3.0
+Success: git -C C:/IOT/iot_mqtt/mtb_shared/mtb-pdl-cat1 clone --origin cypress --no-checkout C:/Users/jethr/.modustoolbox/git/cache/git/https___github.com_cypresssemiconductorco_mtb-pdl-cat1/mtb-pdl-cat1 release-v3.2.0
+Starting: git -C C:/IOT/iot_mqtt/mtb_shared/cy-mbedtls-acceleration/release-v1.4.1 checkout release-v1.4.1
+done.
+Success: git -C C:/IOT/iot_mqtt/mtb_shared/cmsis clone --origin cypress --no-checkout C:/Users/jethr/.modustoolbox/git/cache/git/https___github.com_Infineon_cmsis/cmsis release-v5.8.0
+Starting: git -C C:/IOT/iot_mqtt/WiFi_MQTT_Client/libs/TARGET_CY8CPROTO-062-4343W checkout release-v4.1.0
+Note: switching to 'release-v1.3.0'.
+
+You are in 'detached HEAD' state. You can look around, make experimental
+changes and commit them, and you can discard any commits you make in this
+state without impacting any branches by switching back to a branch.
+
+If you want to create a new branch to retain commits you create, you may
+do so (now or later) by using -c with the switch command. Example:
+
+  git switch -c <new-branch-name>
+
+Or undo this operation with:
+
+  git switch -
+
+Turn off this advice by setting config variable advice.detachedHead to false
+
+HEAD is now at c7b55aa Upload serial-flash 1.3.0.27308
+Success: git -C C:/IOT/iot_mqtt/mtb_shared/serial-flash/release-v1.3.0 checkout release-v1.3.0
+Starting: git -C C:/IOT/iot_mqtt/mtb_shared/abstraction-rtos/release-v1.7.0 checkout release-v1.7.0
+Note: switching to 'release-v1.4.0'.
+
+You are in 'detached HEAD' state. You can look around, make experimental
+changes and commit them, and you can discard any commits you make in this
+state without impacting any branches by switching back to a branch.
+
+If you want to create a new branch to retain commits you create, you may
+do so (now or later) by using -c with the switch command. Example:
+
+  git switch -c <new-branch-name>
+
+Or undo this operation with:
+
+  git switch -
+
+Turn off this advice by setting config variable advice.detachedHead to false
+
+HEAD is now at 3072757 Upload retarget-io [123]
+Success: git -C C:/IOT/iot_mqtt/mtb_shared/retarget-io/release-v1.4.0 checkout release-v1.4.0
+Starting: git -C C:/IOT/iot_mqtt/mtb_shared/mtb-hal-cat1 clone --origin cypress --no-checkout C:/Users/jethr/.modustoolbox/git/cache/git/https___github.com_cypresssemiconductorco_mtb-hal-cat1/mtb-hal-cat1 release-v2.2.0
+Note: switching to 'release-v1.4.1'.
+
+You are in 'detached HEAD' state. You can look around, make experimental
+changes and commit them, and you can discard any commits you make in this
+state without impacting any branches by switching back to a branch.
+
+If you want to create a new branch to retain commits you create, you may
+do so (now or later) by using -c with the switch command. Example:
+
+  git switch -c <new-branch-name>
+
+Or undo this operation with:
+
+  git switch -
+
+Turn off this advice by setting config variable advice.detachedHead to false
+
+HEAD is now at 1fe9b63 Upload cy-mbedtls-acceleration 1.4.1.930
+Success: git -C C:/IOT/iot_mqtt/mtb_shared/cy-mbedtls-acceleration/release-v1.4.1 checkout release-v1.4.1
+Starting: git -C C:/IOT/iot_mqtt/mtb_shared/lwip-freertos-integration/release-v1.0.0 checkout release-v1.0.0
+Cloning into 'release-v2.2.0'...
+Note: switching to 'release-v1.0.0'.
+
+You are in 'detached HEAD' state. You can look around, make experimental
+changes and commit them, and you can discard any commits you make in this
+state without impacting any branches by switching back to a branch.
+
+If you want to create a new branch to retain commits you create, you may
+do so (now or later) by using -c with the switch command. Example:
+
+  git switch -c <new-branch-name>
+
+Or undo this operation with:
+
+  git switch -
+
+Turn off this advice by setting config variable advice.detachedHead to false
+
+HEAD is now at f4797e9 Upload lwip-freertos-integration 1.0.0.19
+Success: git -C C:/IOT/iot_mqtt/mtb_shared/lwip-freertos-integration/release-v1.0.0 checkout release-v1.0.0
+Starting: git -C C:/IOT/iot_mqtt/mtb_shared/connectivity-utilities/release-v4.1.0 checkout release-v4.1.0
+Note: switching to 'release-v1.3.0'.
+
+You are in 'detached HEAD' state. You can look around, make experimental
+changes and commit them, and you can discard any commits you make in this
+state without impacting any branches by switching back to a branch.
+
+If you want to create a new branch to retain commits you create, you may
+do so (now or later) by using -c with the switch command. Example:
+
+  git switch -c <new-branch-name>
+
+Or undo this operation with:
+
+  git switch -
+
+Turn off this advice by setting config variable advice.detachedHead to false
+
+HEAD is now at d3e0bca Upload clib-support 1.3.0.29736
+Success: git -C C:/IOT/iot_mqtt/mtb_shared/clib-support/release-v1.3.0 checkout release-v1.3.0
+Starting: git -C C:/IOT/iot_mqtt/mtb_shared/aws-iot-device-sdk-embedded-C clone --origin cypress --no-checkout C:/Users/jethr/.modustoolbox/git/cache/git/https___github.com_aws_aws-iot-device-sdk-embedded-C/aws-iot-device-sdk-embedded-C 202103.00
+Cloning into '202103.00'...
+done.
+Success: git -C C:/IOT/iot_mqtt/mtb_shared/aws-iot-device-sdk-embedded-C clone --origin cypress --no-checkout C:/Users/jethr/.modustoolbox/git/cache/git/https___github.com_aws_aws-iot-device-sdk-embedded-C/aws-iot-device-sdk-embedded-C 202103.00
+Starting: git -C C:/IOT/iot_mqtt/mtb_shared/mbedtls clone --origin cypress --no-checkout C:/Users/jethr/.modustoolbox/git/cache/git/https___github.com_ARMmbed_mbedtls/mbedtls mbedtls-2.25.0
+done.
+Success: git -C C:/IOT/iot_mqtt/mtb_shared/mtb-hal-cat1 clone --origin cypress --no-checkout C:/Users/jethr/.modustoolbox/git/cache/git/https___github.com_cypresssemiconductorco_mtb-hal-cat1/mtb-hal-cat1 release-v2.2.0
+Starting: git -C C:/IOT/iot_mqtt/mtb_shared/freertos/release-v10.4.305 checkout release-v10.4.305
+Cloning into 'mbedtls-2.25.0'...
+Note: switching to 'release-v3.4.2'.
+
+You are in 'detached HEAD' state. You can look around, make experimental
+changes and commit them, and you can discard any commits you make in this
+state without impacting any branches by switching back to a branch.
+
+If you want to create a new branch to retain commits you create, you may
+do so (now or later) by using -c with the switch command. Example:
+
+  git switch -c <new-branch-name>
+
+Or undo this operation with:
+
+  git switch -
+
+Turn off this advice by setting config variable advice.detachedHead to false
+
+HEAD is now at 75a512a Upload mqtt 3.4.2.1319
+Success: git -C C:/IOT/iot_mqtt/mtb_shared/mqtt/release-v3.4.2 checkout release-v3.4.2
+Starting: git -C C:/IOT/iot_mqtt/mtb_shared/lwip-network-interface-integration/release-v1.1.1 checkout release-v1.1.1
+Note: switching to '
+release-v2.2.2'.
+
+You are in 'detached HEAD' state. You can look around, make experimental
+changes and commit them, and you can discard any commits you make in this
+state without impacting any branches by switching back to a branch.
+
+If you want to create a new branch to retain commits you create, you may
+do so (now or later) by using -c with the switch command. Example:
+
+  git switch -c <new-branch-name>
+
+Or undo this operation with:
+
+  git switch -
+
+Turn off this advice by setting config variable advice.detachedHead to false
+
+HEAD is now at af897d0 Upload aws-iot-device-sdk-port 2.2.2.382
+Success: git -C C:/IOT/iot_mqtt/mtb_shared/aws-iot-device-sdk-port/release-v2.2.2 checkout release-v2.2.2
+Starting: git -C C:/IOT/iot_mqtt/mtb_shared/lwip/STABLE-2_1_2_RELEASE checkout STABLE-2_1_2_RELEASE
+Note: switching to 'release-v4.1.0'.
+
+You are in 'detached HEAD' state. You can look around, make experimental
+changes and commit them, and you can discard any commits you make in this
+state without impacting any branches by switching back to a branch.
+
+If you want to create a new branch to retain commits you create, you may
+do so (now or later) by using -c with the switch command. Example:
+
+  git switch -c <new-branch-name>
+
+Or undo this operation with:
+
+  git switch -
+
+Turn off this advice by setting config variable advice.detachedHead to false
+
+HEAD is now at 5fe2a47 Upload TARGET_CY8CPROTO-062-4343W [347]
+Success: git -C C:/IOT/iot_mqtt/WiFi_MQTT_Client/libs/TARGET_CY8CPROTO-062-4343W checkout release-v4.1.0
+Starting: git -C C:/IOT/iot_mqtt/mtb_shared/wpa3-external-supplicant/release-v1.1.0 checkout release-v1.1.0
+Note: switching to 'release-v1.7.0'.
+
+You are in 'detached HEAD' state. You can look around, make experimental
+changes and commit them, and you can discard any commits you make in this
+state without impacting any branches by switching back to a branch.
+
+If you want to create a new branch to retain commits you create, you may
+do so (now or later) by using -c with the switch command. Example:
+
+  git switch -c <new-branch-name>
+
+Or undo this operation with:
+
+  git switch -
+
+Turn off this advice by setting config variable advice.detachedHead to false
+
+HEAD is now at 9add9de Upload abstraction-rtos [123]
+Success: git -C C:/IOT/iot_mqtt/mtb_shared/abstraction-rtos/release-v1.7.0 checkout release-v1.7.0
+Starting: git -C C:/IOT/iot_mqtt/mtb_shared/wifi-connection-manager/release-v3.0.1 checkout release-v3.0.1
+Note: switching to 'release-v1.1.0'.
+
+You are in 'detached HEAD' state. You can look around, make experimental
+changes and commit them, and you can discard any commits you make in this
+state without impacting any branches by switching back to a branch.
+
+If you want to create a new branch to retain commits you create, you may
+do so (now or later) by using -c with the switch command. Example:
+
+  git switch -c <new-branch-name>
+
+Or undo this operation with:
+
+  git switch -
+
+Turn off this advice by setting config variable advice.detachedHead to false
+
+HEAD is now at ca71f1d Upload wpa3-external-supplicant 1.1.0.98
+Success: git -C C:/IOT/iot_mqtt/mtb_shared/wpa3-external-supplicant/release-v1.1.0 checkout release-v1.1.0
+Starting: git -C C:/IOT/iot_mqtt/mtb_shared/secure-sockets/release-v3.2.0 checkout release-v3.2.0
+done.
+Success: git -C C:/IOT/iot_mqtt/mtb_shared/mbedtls clone --origin cypress --no-checkout C:/Users/jethr/.modustoolbox/git/cache/git/https___github.com_ARMmbed_mbedtls/mbedtls mbedtls-2.25.0
+Starting: git -C C:/IOT/iot_mqtt/mtb_shared/wifi-host-driver/release-v2.5.0 checkout release-v2.5.0
+Note: switching to '
+release-v10.4.305'.
+
+You are in 'detached HEAD' state. You can look around, make experimental
+changes and commit them, and you can discard any commits you make in this
+state without impacting any branches by switching back to a branch.
+
+If you want to create a new branch to retain commits you create, you may
+do so (now or later) by using -c with the switch command. Example:
+
+  git switch -c <new-branch-name>
+
+Or undo this operation with:
+
+  git switch -
+
+Turn off this advice by setting config variable advice.detachedHead to false
+
+HEAD is now at 085ab13 Upload freertos 10.4.305.482 [103]
+Success: git -C C:/IOT/iot_mqtt/mtb_shared/freertos/release-v10.4.305 checkout release-v10.4.305
+Starting: git -C C:/IOT/iot_mqtt/mtb_shared/cat1cm0p/release-v1.0.0 checkout release-v1.0.0
+Note: switching to '
+release-v1.1.1'.
+
+You are in 'detached HEAD' state. You can look around, make experimental
+changes and commit them, and you can discard any commits you make in this
+state without impacting any branches by switching back to a branch.
+
+If you want to create a new branch to retain commits you create, you may
+do so (now or later) by using -c with the switch command. Example:
+
+  git switch -c <new-branch-name>
+
+Or undo this operation with:
+
+  git switch -
+
+Turn off this advice by setting config variable advice.detachedHead to false
+
+HEAD is now at 7d8e49c Upload lwip-network-interface-integration 1.1.1.255 [365]
+Success: git -C C:/IOT/iot_mqtt/mtb_shared/lwip-network-interface-integration/release-v1.1.1 checkout release-v1.1.1
+Starting: git -C C:/IOT/iot_mqtt/mtb_shared/whd-bsp-integration/release-v2.1.0 checkout release-v2.1.0
+Note: switching to 'release-v4.1.0'.
+
+You are in 'detached HEAD' state. You can look around, make experimental
+changes and commit them, and you can discard any commits you make in this
+state without impacting any branches by switching back to a branch.
+
+If you want to create a new branch to retain commits you create, you may
+do so (now or later) by using -c with the switch command. Example:
+
+  git switch -c <new-branch-name>
+
+Or undo this operation with:
+
+  git switch -
+
+Turn off this advice by setting config variable advice.detachedHead to false
+
+HEAD is now at 08c89c3 Upload connectivity-utilities 4.1.0.1352 [271]
+Success: git -C C:/IOT/iot_mqtt/mtb_shared/connectivity-utilities/release-v4.1.0 checkout release-v4.1.0
+Starting: git -C C:/IOT/iot_mqtt/mtb_shared/core-lib/release-v1.3.1 checkout release-v1.3.1
+Note: switching to 'release-v1.0.0'.
+
+You are in 'detached HEAD' state. You can look around, make experimental
+changes and commit them, and you can discard any commits you make in this
+state without impacting any branches by switching back to a branch.
+
+If you want to create a new branch to retain commits you create, you may
+do so (now or later) by using -c with the switch command. Example:
+
+  git switch -c <new-branch-name>
+
+Or undo this operation with:
+
+  git switch -
+
+Turn off this advice by setting config variable advice.detachedHead to false
+
+HEAD is now at b3d4b82 Upload cat1cm0p 1.0.0.148
+Success: git -C C:/IOT/iot_mqtt/mtb_shared/cat1cm0p/release-v1.0.0 checkout release-v1.0.0
+Starting: git -C C:/IOT/iot_mqtt/mtb_shared/wifi-core-freertos-lwip-mbedtls/release-v1.0.0 remote set-url cypress https://github.com/Infineon/wifi-core-freertos-lwip-mbedtls
+Success: git -C C:/IOT/iot_mqtt/mtb_shared/wifi-core-freertos-lwip-mbedtls/release-v1.0.0 remote set-url cypress https://github.com/Infineon/wifi-core-freertos-lwip-mbedtls
+Starting: git -C C:/IOT/iot_mqtt/mtb_shared/core-make/release-v3.0.2 checkout release-v3.0.2
+Note: switching to 'release-v3.0.2'.
+
+You are in 'detached HEAD' state. You can look around, make experimental
+changes and commit them, and you can discard any commits you make in this
+state without impacting any branches by switching back to a branch.
+
+If you want to create a new branch to retain commits you create, you may
+do so (now or later) by using -c with the switch command. Example:
+
+  git switch -c <new-branch-name>
+
+Or undo this operation with:
+
+  git switch -
+
+Turn off this advice by setting config variable advice.detachedHead to false
+
+HEAD is now at 36592d7 Upload core-make 3.0.2.4113
+Note: switching to 'release-v2.1.0'.
+
+You are in 'detached HEAD' state. You can look around, make experimental
+changes and commit them, and you can discard any commits you make in this
+state without impacting any branches by switching back to a branch.
+
+If you want to create a new branch to retain commits you create, you may
+do so (now or later) by using -c with the switch command. Example:
+
+  git switch -c <new-branch-name>
+
+Or undo this operation with:
+
+  git switch -
+
+Turn off this advice by setting config variable advice.detachedHead to false
+
+HEAD is now at e67d148 Upload whd-bsp-integration 2.1.0.29660
+Success: git -C C:/IOT/iot_mqtt/mtb_shared/core-make/release-v3.0.2 checkout release-v3.0.2
+Starting: git -C C:/IOT/iot_mqtt/mtb_shared/recipe-make-cat1a/release-v2.0.0 checkout release-v2.0.0
+Success: git -C C:/IOT/iot_mqtt/mtb_shared/whd-bsp-integration/release-v2.1.0 checkout release-v2.1.0
+Starting: git -C C:/IOT/iot_mqtt/mtb_shared/mtb-pdl-cat1/release-v3.2.0 checkout release-v3.2.0
+Note: switching to 'release-v1.3.1'.
+
+You are in 'detached HEAD' state. You can look around, make experimental
+changes and commit them, and you can discard any commits you make in this
+state without impacting any branches by switching back to a branch.
+
+If you want to create a new branch to retain commits you create, you may
+do so (now or later) by using -c with the switch command. Example:
+
+  git switch -c <new-branch-name>
+
+Or undo this operation with:
+
+  git switch -
+
+Turn off this advice by setting config variable advice.detachedHead to false
+
+HEAD is now at 1c1cb8a Upload core-lib 1.3.1.29660
+Success: git -C C:/IOT/iot_mqtt/mtb_shared/core-lib/release-v1.3.1 checkout release-v1.3.1
+Starting: git -C C:/IOT/iot_mqtt/mtb_shared/cmsis/release-v5.8.0 checkout release-v5.8.0
+Note: switching to 'release-v3.2.0'.
+
+You are in 'detached HEAD' state. You can look around, make experimental
+changes and commit them, and you can discard any commits you make in this
+state without impacting any branches by switching back to a branch.
+
+If you want to create a new branch to retain commits you create, you may
+do so (now or later) by using -c with the switch command. Example:
+
+  git switch -c <new-branch-name>
+
+Or undo this operation with:
+
+  git switch -
+
+Turn off this advice by setting config variable advice.detachedHead to false
+
+HEAD is now at a20243e Upload secure-sockets 3.2.0.2403 [365]
+Success: git -C C:/IOT/iot_mqtt/mtb_shared/secure-sockets/release-v3.2.0 checkout release-v3.2.0
+Starting: git -C C:/IOT/iot_mqtt/mtb_shared/serial-flash/release-v1.3.0 remote set-url cypress https://github.com/cypresssemiconductorco/serial-flash
+Note: switching to 'release-v3.0.1'.
+
+You are in 'detached HEAD' state. You can look around, make experimental
+changes and commit them, and you can discard any commits you make in this
+state without impacting any branches by switching back to a branch.
+
+If you want to create a new branch to retain commits you create, you may
+do so (now or later) by using -c with the switch command. Example:
+
+  git switch -c <new-branch-name>
+
+Or undo this operation with:
+
+  git switch -
+
+Turn off this advice by setting config variable advice.detachedHead to false
+
+HEAD is now at 8aa2d1d Upload wifi-connection-manager 3.0.1.1706 [365]
+Success: git -C C:/IOT/iot_mqtt/mtb_shared/wifi-connection-manager/release-v3.0.1 checkout release-v3.0.1
+Starting: git -C C:/IOT/iot_mqtt/mtb_shared/retarget-io/release-v1.4.0 remote set-url cypress https://github.com/cypresssemiconductorco/retarget-io
+Success: git -C C:/IOT/iot_mqtt/mtb_shared/serial-flash/release-v1.3.0 remote set-url cypress https://github.com/cypresssemiconductorco/serial-flash
+Starting: git -C C:/IOT/iot_mqtt/mtb_shared/cy-mbedtls-acceleration/release-v1.4.1 remote set-url cypress https://github.com/cypresssemiconductorco/cy-mbedtls-acceleration
+Success: git -C C:/IOT/iot_mqtt/mtb_shared/retarget-io/release-v1.4.0 remote set-url cypress https://github.com/cypresssemiconductorco/retarget-io
+Starting: git -C C:/IOT/iot_mqtt/mtb_shared/lwip-freertos-integration/release-v1.0.0 remote set-url cypress https://github.com/Infineon/lwip-freertos-integration
+Success: git -C C:/IOT/iot_mqtt/mtb_shared/cy-mbedtls-acceleration/release-v1.4.1 remote set-url cypress https://github.com/cypresssemiconductorco/cy-mbedtls-acceleration
+Starting: git -C C:/IOT/iot_mqtt/mtb_shared/clib-support/release-v1.3.0 remote set-url cypress https://github.com/cypresssemiconductorco/clib-support
+Success: git -C C:/IOT/iot_mqtt/mtb_shared/lwip-freertos-integration/release-v1.0.0 remote set-url cypress https://github.com/Infineon/lwip-freertos-integration
+Starting: git -C C:/IOT/iot_mqtt/mtb_shared/aws-iot-device-sdk-embedded-C/202103.00 checkout 202103.00
+Success: git -C C:/IOT/iot_mqtt/mtb_shared/clib-support/release-v1.3.0 remote set-url cypress https://github.com/cypresssemiconductorco/clib-support
+Starting: git -C C:/IOT/iot_mqtt/mtb_shared/mtb-hal-cat1/release-v2.2.0 checkout release-v2.2.0
+Note: switching to 'release-v2.0.0'.
+
+You are in 'detached HEAD' state. You can look around, make experimental
+changes and commit them, and you can discard any commits you make in this
+state without impacting any branches by switching back to a branch.
+
+If you want to create a new branch to retain commits you create, you may
+do so (now or later) by using -c with the switch command. Example:
+
+  git switch -c <new-branch-name>
+
+Or undo this operation with:
+
+  git switch -
+
+Turn off this advice by setting config variable advice.detachedHead to false
+
+HEAD is now at 28d875a Upload recipe-make-cat1a 2.0.0.4056
+Success: git -C C:/IOT/iot_mqtt/mtb_shared/recipe-make-cat1a/release-v2.0.0 checkout release-v2.0.0
+Starting: git -C C:/IOT/iot_mqtt/mtb_shared/mqtt/release-v3.4.2 remote set-url cypress https://github.com/cypresssemiconductorco/mqtt
+Success: git -C C:/IOT/iot_mqtt/mtb_shared/mqtt/release-v3.4.2 remote set-url cypress https://github.com/cypresssemiconductorco/mqtt
+Starting: git -C C:/IOT/iot_mqtt/mtb_shared/aws-iot-device-sdk-port/release-v2.2.2 remote set-url cypress https://github.com/cypresssemiconductorco/aws-iot-device-sdk-port
+Success: git -C C:/IOT/iot_mqtt/mtb_shared/aws-iot-device-sdk-port/release-v2.2.2 remote set-url cypress https://github.com/cypresssemiconductorco/aws-iot-device-sdk-port
+Starting: git -C C:/IOT/iot_mqtt/WiFi_MQTT_Client/libs/TARGET_CY8CPROTO-062-4343W remote set-url cypress https://github.com/cypresssemiconductorco/TARGET_CY8CPROTO-062-4343W
+Note: switching to '
+STABLE-2_1_2_RELEASE'.
+
+You are in 'detached HEAD' state. You can look around, make experimental
+changes and commit them, and you can discard any commits you make in this
+state without impacting any branches by switching back to a branch.
+
+If you want to create a new branch to retain commits you create, you may
+do so (now or later) by using -c with the switch command. Example:
+
+  git switch -c <new-branch-name>
+
+Or undo this operation with:
+
+  git switch -
+
+Turn off this advice by setting config variable advice.detachedHead to false
+
+HEAD is now at 159e31b6 Prepare 2.1.2 release
+Success: git -C C:/IOT/iot_mqtt/mtb_shared/lwip/STABLE-2_1_2_RELEASE checkout STABLE-2_1_2_RELEASE
+Starting: git -C C:/IOT/iot_mqtt/mtb_shared/abstraction-rtos/release-v1.7.0 remote set-url cypress https://github.com/cypresssemiconductorco/abstraction-rtos
+Success: git -C C:/IOT/iot_mqtt/WiFi_MQTT_Client/libs/TARGET_CY8CPROTO-062-4343W remote set-url cypress https://github.com/cypresssemiconductorco/TARGET_CY8CPROTO-062-4343W
+Starting: git -C C:/IOT/iot_mqtt/mtb_shared/wpa3-external-supplicant/release-v1.1.0 remote set-url cypress https://github.com/Infineon/wpa3-external-supplicant
+Success: git -C C:/IOT/iot_mqtt/mtb_shared/wpa3-external-supplicant/release-v1.1.0 remote set-url cypress https://github.com/Infineon/wpa3-external-supplicant
+Starting: git -C C:/IOT/iot_mqtt/mtb_shared/mbedtls/mbedtls-2.25.0 checkout mbedtls-2.25.0
+Success: git -C C:/IOT/iot_mqtt/mtb_shared/abstraction-rtos/release-v1.7.0 remote set-url cypress https://github.com/cypresssemiconductorco/abstraction-rtos
+Starting: git -C C:/IOT/iot_mqtt/mtb_shared/freertos/release-v10.4.305 remote set-url cypress https://github.com/cypresssemiconductorco/freertos
+Success: git -C C:/IOT/iot_mqtt/mtb_shared/freertos/release-v10.4.305 remote set-url cypress https://github.com/cypresssemiconductorco/freertos
+Starting: git -C C:/IOT/iot_mqtt/mtb_shared/lwip-network-interface-integration/release-v1.1.1 remote set-url cypress https://github.com/Infineon/lwip-network-interface-integration
+Success: git -C C:/IOT/iot_mqtt/mtb_shared/lwip-network-interface-integration/release-v1.1.1 remote set-url cypress https://github.com/Infineon/lwip-network-interface-integration
+Starting: git -C C:/IOT/iot_mqtt/mtb_shared/connectivity-utilities/release-v4.1.0 remote set-url cypress https://github.com/cypresssemiconductorco/connectivity-utilities
+Success: git -C C:/IOT/iot_mqtt/mtb_shared/connectivity-utilities/release-v4.1.0 remote set-url cypress https://github.com/cypresssemiconductorco/connectivity-utilities
+Starting: git -C C:/IOT/iot_mqtt/mtb_shared/cat1cm0p/release-v1.0.0 remote set-url cypress https://github.com/Infineon/cat1cm0p
+Success: git -C C:/IOT/iot_mqtt/mtb_shared/cat1cm0p/release-v1.0.0 remote set-url cypress https://github.com/Infineon/cat1cm0p
+Starting: git -C C:/IOT/iot_mqtt/mtb_shared/wifi-core-freertos-lwip-mbedtls/release-v1.0.0 remote set-url --push cypress https://github.com/Infineon/wifi-core-freertos-lwip-mbedtls
+Success: git -C C:/IOT/iot_mqtt/mtb_shared/wifi-core-freertos-lwip-mbedtls/release-v1.0.0 remote set-url --push cypress https://github.com/Infineon/wifi-core-freertos-lwip-mbedtls
+Starting: git -C C:/IOT/iot_mqtt/mtb_shared/core-make/release-v3.0.2 remote set-url cypress https://github.com/cypresssemiconductorco/core-make
+Success: git -C C:/IOT/iot_mqtt/mtb_shared/core-make/release-v3.0.2 remote set-url cypress https://github.com/cypresssemiconductorco/core-make
+Starting: git -C C:/IOT/iot_mqtt/mtb_shared/whd-bsp-integration/release-v2.1.0 remote set-url cypress https://github.com/cypresssemiconductorco/whd-bsp-integration
+Success: git -C C:/IOT/iot_mqtt/mtb_shared/whd-bsp-integration/release-v2.1.0 remote set-url cypress https://github.com/cypresssemiconductorco/whd-bsp-integration
+Starting: git -C C:/IOT/iot_mqtt/mtb_shared/core-lib/release-v1.3.1 remote set-url cypress https://github.com/cypresssemiconductorco/core-lib
+Success: git -C C:/IOT/iot_mqtt/mtb_shared/core-lib/release-v1.3.1 remote set-url cypress https://github.com/cypresssemiconductorco/core-lib
+Starting: git -C C:/IOT/iot_mqtt/mtb_shared/secure-sockets/release-v3.2.0 remote set-url cypress https://github.com/cypresssemiconductorco/secure-sockets
+Success: git -C C:/IOT/iot_mqtt/mtb_shared/secure-sockets/release-v3.2.0 remote set-url cypress https://github.com/cypresssemiconductorco/secure-sockets
+Starting: git -C C:/IOT/iot_mqtt/mtb_shared/wifi-connection-manager/release-v3.0.1 remote set-url cypress https://github.com/cypresssemiconductorco/wifi-connection-manager
+Success: git -C C:/IOT/iot_mqtt/mtb_shared/wifi-connection-manager/release-v3.0.1 remote set-url cypress https://github.com/cypresssemiconductorco/wifi-connection-manager
+Starting: git -C C:/IOT/iot_mqtt/mtb_shared/serial-flash/release-v1.3.0 remote set-url --push cypress https://github.com/cypresssemiconductorco/serial-flash
+Success: git -C C:/IOT/iot_mqtt/mtb_shared/serial-flash/release-v1.3.0 remote set-url --push cypress https://github.com/cypresssemiconductorco/serial-flash
+Starting: git -C C:/IOT/iot_mqtt/mtb_shared/retarget-io/release-v1.4.0 remote set-url --push cypress https://github.com/cypresssemiconductorco/retarget-io
+Success: git -C C:/IOT/iot_mqtt/mtb_shared/retarget-io/release-v1.4.0 remote set-url --push cypress https://github.com/cypresssemiconductorco/retarget-io
+Starting: git -C C:/IOT/iot_mqtt/mtb_shared/cy-mbedtls-acceleration/release-v1.4.1 remote set-url --push cypress https://github.com/cypresssemiconductorco/cy-mbedtls-acceleration
+Success: git -C C:/IOT/iot_mqtt/mtb_shared/cy-mbedtls-acceleration/release-v1.4.1 remote set-url --push cypress https://github.com/cypresssemiconductorco/cy-mbedtls-acceleration
+Starting: git -C C:/IOT/iot_mqtt/mtb_shared/lwip-freertos-integration/release-v1.0.0 remote set-url --push cypress https://github.com/Infineon/lwip-freertos-integration
+Success: git -C C:/IOT/iot_mqtt/mtb_shared/lwip-freertos-integration/release-v1.0.0 remote set-url --push cypress https://github.com/Infineon/lwip-freertos-integration
+Starting: git -C C:/IOT/iot_mqtt/mtb_shared/clib-support/release-v1.3.0 remote set-url --push cypress https://github.com/cypresssemiconductorco/clib-support
+Success: git -C C:/IOT/iot_mqtt/mtb_shared/clib-support/release-v1.3.0 remote set-url --push cypress https://github.com/cypresssemiconductorco/clib-support
+Starting: git -C C:/IOT/iot_mqtt/mtb_shared/recipe-make-cat1a/release-v2.0.0 remote set-url cypress https://github.com/cypresssemiconductorco/recipe-make-cat1a
+Success: git -C C:/IOT/iot_mqtt/mtb_shared/recipe-make-cat1a/release-v2.0.0 remote set-url cypress https://github.com/cypresssemiconductorco/recipe-make-cat1a
+Starting: git -C C:/IOT/iot_mqtt/mtb_shared/mqtt/release-v3.4.2 remote set-url --push cypress https://github.com/cypresssemiconductorco/mqtt
+Note: switching to '202103.00'.
+
+You are in 'detached HEAD' state. You can look around, make experimental
+changes and commit them, and you can discard any commits you make in this
+state without impacting any branches by switching back to a branch.
+
+If you want to create a new branch to retain commits you create, you may
+do so (now or later) by using -c with the switch command. Example:
+
+  git switch -c <new-branch-name>
+
+Or undo this operation with:
+
+  git switch -
+
+Turn off this advice by setting config variable advice.detachedHead to false
+
+HEAD is now at 01150a0b Update release workflows to run on Ubuntu 18.04 runners (#1575)
+Success: git -C C:/IOT/iot_mqtt/mtb_shared/aws-iot-device-sdk-embedded-C/202103.00 checkout 202103.00
+Starting: git -C C:/IOT/iot_mqtt/mtb_shared/aws-iot-device-sdk-port/release-v2.2.2 remote set-url --push cypress https://github.com/cypresssemiconductorco/aws-iot-device-sdk-port
+Success: git -C C:/IOT/iot_mqtt/mtb_shared/mqtt/release-v3.4.2 remote set-url --push cypress https://github.com/cypresssemiconductorco/mqtt
+Starting: git -C C:/IOT/iot_mqtt/mtb_shared/lwip/STABLE-2_1_2_RELEASE remote set-url cypress https://git.savannah.nongnu.org/git/lwip
+Success: git -C C:/IOT/iot_mqtt/mtb_shared/aws-iot-device-sdk-port/release-v2.2.2 remote set-url --push cypress https://github.com/cypresssemiconductorco/aws-iot-device-sdk-port
+Starting: git -C C:/IOT/iot_mqtt/WiFi_MQTT_Client/libs/TARGET_CY8CPROTO-062-4343W remote set-url --push cypress https://github.com/cypresssemiconductorco/TARGET_CY8CPROTO-062-4343W
+Success: git -C C:/IOT/iot_mqtt/mtb_shared/lwip/STABLE-2_1_2_RELEASE remote set-url cypress https://git.savannah.nongnu.org/git/lwip
+Starting: git -C C:/IOT/iot_mqtt/mtb_shared/wpa3-external-supplicant/release-v1.1.0 remote set-url --push cypress https://github.com/Infineon/wpa3-external-supplicant
+Success: git -C C:/IOT/iot_mqtt/WiFi_MQTT_Client/libs/TARGET_CY8CPROTO-062-4343W remote set-url --push cypress https://github.com/cypresssemiconductorco/TARGET_CY8CPROTO-062-4343W
+Starting: git -C C:/IOT/iot_mqtt/mtb_shared/abstraction-rtos/release-v1.7.0 remote set-url --push cypress https://github.com/cypresssemiconductorco/abstraction-rtos
+Success: git -C C:/IOT/iot_mqtt/mtb_shared/wpa3-external-supplicant/release-v1.1.0 remote set-url --push cypress https://github.com/Infineon/wpa3-external-supplicant
+Starting: git -C C:/IOT/iot_mqtt/mtb_shared/freertos/release-v10.4.305 remote set-url --push cypress https://github.com/cypresssemiconductorco/freertos
+Success: git -C C:/IOT/iot_mqtt/mtb_shared/abstraction-rtos/release-v1.7.0 remote set-url --push cypress https://github.com/cypresssemiconductorco/abstraction-rtos
+Starting: git -C C:/IOT/iot_mqtt/mtb_shared/lwip-network-interface-integration/release-v1.1.1 remote set-url --push cypress https://github.com/Infineon/lwip-network-interface-integration
+Success: git -C C:/IOT/iot_mqtt/mtb_shared/freertos/release-v10.4.305 remote set-url --push cypress https://github.com/cypresssemiconductorco/freertos
+Starting: git -C C:/IOT/iot_mqtt/mtb_shared/connectivity-utilities/release-v4.1.0 remote set-url --push cypress https://github.com/cypresssemiconductorco/connectivity-utilities
+Success: git -C C:/IOT/iot_mqtt/mtb_shared/lwip-network-interface-integration/release-v1.1.1 remote set-url --push cypress https://github.com/Infineon/lwip-network-interface-integration
+Starting: git -C C:/IOT/iot_mqtt/mtb_shared/cat1cm0p/release-v1.0.0 remote set-url --push cypress https://github.com/Infineon/cat1cm0p
+Success: git -C C:/IOT/iot_mqtt/mtb_shared/connectivity-utilities/release-v4.1.0 remote set-url --push cypress https://github.com/cypresssemiconductorco/connectivity-utilities
+Starting: git -C C:/IOT/iot_mqtt/mtb_shared/wifi-core-freertos-lwip-mbedtls/release-v1.0.0 remote add cypress-offline C:/Users/jethr/.modustoolbox/offline/git/https___github.com_Infineon_wifi-core-freertos-lwip-mbedtls/wifi-core-freertos-lwip-mbedtls
+Success: git -C C:/IOT/iot_mqtt/mtb_shared/cat1cm0p/release-v1.0.0 remote set-url --push cypress https://github.com/Infineon/cat1cm0p
+Starting: git -C C:/IOT/iot_mqtt/mtb_shared/core-make/release-v3.0.2 remote set-url --push cypress https://github.com/cypresssemiconductorco/core-make
+Success: git -C C:/IOT/iot_mqtt/mtb_shared/wifi-core-freertos-lwip-mbedtls/release-v1.0.0 remote add cypress-offline C:/Users/jethr/.modustoolbox/offline/git/https___github.com_Infineon_wifi-core-freertos-lwip-mbedtls/wifi-core-freertos-lwip-mbedtls
+Starting: git -C C:/IOT/iot_mqtt/mtb_shared/whd-bsp-integration/release-v2.1.0 remote set-url --push cypress https://github.com/cypresssemiconductorco/whd-bsp-integration
+Success: git -C C:/IOT/iot_mqtt/mtb_shared/core-make/release-v3.0.2 remote set-url --push cypress https://github.com/cypresssemiconductorco/core-make
+Starting: git -C C:/IOT/iot_mqtt/mtb_shared/core-lib/release-v1.3.1 remote set-url --push cypress https://github.com/cypresssemiconductorco/core-lib
+Success: git -C C:/IOT/iot_mqtt/mtb_shared/whd-bsp-integration/release-v2.1.0 remote set-url --push cypress https://github.com/cypresssemiconductorco/whd-bsp-integration
+Starting: git -C C:/IOT/iot_mqtt/mtb_shared/secure-sockets/release-v3.2.0 remote set-url --push cypress https://github.com/cypresssemiconductorco/secure-sockets
+Success: git -C C:/IOT/iot_mqtt/mtb_shared/core-lib/release-v1.3.1 remote set-url --push cypress https://github.com/cypresssemiconductorco/core-lib
+Starting: git -C C:/IOT/iot_mqtt/mtb_shared/wifi-connection-manager/release-v3.0.1 remote set-url --push cypress https://github.com/cypresssemiconductorco/wifi-connection-manager
+Success: git -C C:/IOT/iot_mqtt/mtb_shared/secure-sockets/release-v3.2.0 remote set-url --push cypress https://github.com/cypresssemiconductorco/secure-sockets
+Starting: git -C C:/IOT/iot_mqtt/mtb_shared/serial-flash/release-v1.3.0 remote add cypress-offline C:/Users/jethr/.modustoolbox/offline/git/https___github.com_cypresssemiconductorco_serial-flash/serial-flash
+Success: git -C C:/IOT/iot_mqtt/mtb_shared/wifi-connection-manager/release-v3.0.1 remote set-url --push cypress https://github.com/cypresssemiconductorco/wifi-connection-manager
+Starting: git -C C:/IOT/iot_mqtt/mtb_shared/retarget-io/release-v1.4.0 remote add cypress-offline C:/Users/jethr/.modustoolbox/offline/git/https___github.com_cypresssemiconductorco_retarget-io/retarget-io
+Success: git -C C:/IOT/iot_mqtt/mtb_shared/serial-flash/release-v1.3.0 remote add cypress-offline C:/Users/jethr/.modustoolbox/offline/git/https___github.com_cypresssemiconductorco_serial-flash/serial-flash
+Starting: git -C C:/IOT/iot_mqtt/mtb_shared/cy-mbedtls-acceleration/release-v1.4.1 remote add cypress-offline C:/Users/jethr/.modustoolbox/offline/git/https___github.com_cypresssemiconductorco_cy-mbedtls-acceleration/cy-mbedtls-acceleration
+Success: git -C C:/IOT/iot_mqtt/mtb_shared/retarget-io/release-v1.4.0 remote add cypress-offline C:/Users/jethr/.modustoolbox/offline/git/https___github.com_cypresssemiconductorco_retarget-io/retarget-io
+Starting: git -C C:/IOT/iot_mqtt/mtb_shared/lwip-freertos-integration/release-v1.0.0 remote add cypress-offline C:/Users/jethr/.modustoolbox/offline/git/https___github.com_Infineon_lwip-freertos-integration/lwip-freertos-integration
+Success: git -C C:/IOT/iot_mqtt/mtb_shared/cy-mbedtls-acceleration/release-v1.4.1 remote add cypress-offline C:/Users/jethr/.modustoolbox/offline/git/https___github.com_cypresssemiconductorco_cy-mbedtls-acceleration/cy-mbedtls-acceleration
+Starting: git -C C:/IOT/iot_mqtt/mtb_shared/clib-support/release-v1.3.0 remote add cypress-offline C:/Users/jethr/.modustoolbox/offline/git/https___github.com_cypresssemiconductorco_clib-support/clib-support
+Success: git -C C:/IOT/iot_mqtt/mtb_shared/lwip-freertos-integration/release-v1.0.0 remote add cypress-offline C:/Users/jethr/.modustoolbox/offline/git/https___github.com_Infineon_lwip-freertos-integration/lwip-freertos-integration
+Starting: git -C C:/IOT/iot_mqtt/mtb_shared/recipe-make-cat1a/release-v2.0.0 remote set-url --push cypress https://github.com/cypresssemiconductorco/recipe-make-cat1a
+Note: switching to 'release-v5.8.0'.
+
+You are in 'detached HEAD' state. You can look around, make experimental
+changes and commit them, and you can discard any commits you make in this
+state without impacting any branches by switching back to a branch.
+
+If you want to create a new branch to retain commits you create, you may
+do so (now or later) by using -c with the switch command. Example:
+
+  git switch -c <new-branch-name>
+
+Or undo this operation with:
+
+  git switch -
+
+Turn off this advice by setting config variable advice.detachedHead to false
+
+HEAD is now at ce02f64 Upload cmsis 5.8.0.50
+Success: git -C C:/IOT/iot_mqtt/mtb_shared/cmsis/release-v5.8.0 checkout release-v5.8.0
+Starting: git -C C:/IOT/iot_mqtt/mtb_shared/aws-iot-device-sdk-embedded-C/202103.00 remote set-url cypress https://github.com/aws/aws-iot-device-sdk-embedded-C
+Success: git -C C:/IOT/iot_mqtt/mtb_shared/clib-support/release-v1.3.0 remote add cypress-offline C:/Users/jethr/.modustoolbox/offline/git/https___github.com_cypresssemiconductorco_clib-support/clib-support
+Starting: git -C C:/IOT/iot_mqtt/mtb_shared/mqtt/release-v3.4.2 remote add cypress-offline C:/Users/jethr/.modustoolbox/offline/git/https___github.com_cypresssemiconductorco_mqtt/mqtt
+Success: git -C C:/IOT/iot_mqtt/mtb_shared/recipe-make-cat1a/release-v2.0.0 remote set-url --push cypress https://github.com/cypresssemiconductorco/recipe-make-cat1a
+Starting: git -C C:/IOT/iot_mqtt/mtb_shared/aws-iot-device-sdk-port/release-v2.2.2 remote add cypress-offline C:/Users/jethr/.modustoolbox/offline/git/https___github.com_cypresssemiconductorco_aws-iot-device-sdk-port/aws-iot-device-sdk-port
+Success: git -C C:/IOT/iot_mqtt/mtb_shared/aws-iot-device-sdk-embedded-C/202103.00 remote set-url cypress https://github.com/aws/aws-iot-device-sdk-embedded-C
+Starting: git -C C:/IOT/iot_mqtt/mtb_shared/lwip/STABLE-2_1_2_RELEASE remote set-url --push cypress https://git.savannah.nongnu.org/git/lwip
+Success: git -C C:/IOT/iot_mqtt/mtb_shared/mqtt/release-v3.4.2 remote add cypress-offline C:/Users/jethr/.modustoolbox/offline/git/https___github.com_cypresssemiconductorco_mqtt/mqtt
+Starting: git -C C:/IOT/iot_mqtt/WiFi_MQTT_Client/libs/TARGET_CY8CPROTO-062-4343W remote add cypress-offline C:/Users/jethr/.modustoolbox/offline/git/https___github.com_cypresssemiconductorco_TARGET_CY8CPROTO-062-4343W/TARGET_CY8CPROTO-062-4343W
+Success: git -C C:/IOT/iot_mqtt/mtb_shared/aws-iot-device-sdk-port/release-v2.2.2 remote add cypress-offline C:/Users/jethr/.modustoolbox/offline/git/https___github.com_cypresssemiconductorco_aws-iot-device-sdk-port/aws-iot-device-sdk-port
+Starting: git -C C:/IOT/iot_mqtt/mtb_shared/wpa3-external-supplicant/release-v1.1.0 remote add cypress-offline C:/Users/jethr/.modustoolbox/offline/git/https___github.com_Infineon_wpa3-external-supplicant/wpa3-external-supplicant
+Success: git -C C:/IOT/iot_mqtt/mtb_shared/wpa3-external-supplicant/release-v1.1.0 remote add cypress-offline C:/Users/jethr/.modustoolbox/offline/git/https___github.com_Infineon_wpa3-external-supplicant/wpa3-external-supplicant
+Starting: git -C C:/IOT/iot_mqtt/mtb_shared/abstraction-rtos/release-v1.7.0 remote add cypress-offline C:/Users/jethr/.modustoolbox/offline/git/https___github.com_cypresssemiconductorco_abstraction-rtos/abstraction-rtos
+Success: git -C C:/IOT/iot_mqtt/WiFi_MQTT_Client/libs/TARGET_CY8CPROTO-062-4343W remote add cypress-offline C:/Users/jethr/.modustoolbox/offline/git/https___github.com_cypresssemiconductorco_TARGET_CY8CPROTO-062-4343W/TARGET_CY8CPROTO-062-4343W
+Starting: git -C C:/IOT/iot_mqtt/mtb_shared/freertos/release-v10.4.305 remote add cypress-offline C:/Users/jethr/.modustoolbox/offline/git/https___github.com_cypresssemiconductorco_freertos/freertos
+Success: git -C C:/IOT/iot_mqtt/mtb_shared/lwip/STABLE-2_1_2_RELEASE remote set-url --push cypress https://git.savannah.nongnu.org/git/lwip
+Starting: git -C C:/IOT/iot_mqtt/mtb_shared/lwip-network-interface-integration/release-v1.1.1 remote add cypress-offline C:/Users/jethr/.modustoolbox/offline/git/https___github.com_Infineon_lwip-network-interface-integration/lwip-network-interface-integration
+Success: git -C C:/IOT/iot_mqtt/mtb_shared/abstraction-rtos/release-v1.7.0 remote add cypress-offline C:/Users/jethr/.modustoolbox/offline/git/https___github.com_cypresssemiconductorco_abstraction-rtos/abstraction-rtos
+Starting: git -C C:/IOT/iot_mqtt/mtb_shared/connectivity-utilities/release-v4.1.0 remote add cypress-offline C:/Users/jethr/.modustoolbox/offline/git/https___github.com_cypresssemiconductorco_connectivity-utilities/connectivity-utilities
+Success: git -C C:/IOT/iot_mqtt/mtb_shared/freertos/release-v10.4.305 remote add cypress-offline C:/Users/jethr/.modustoolbox/offline/git/https___github.com_cypresssemiconductorco_freertos/freertos
+Starting: git -C C:/IOT/iot_mqtt/mtb_shared/cat1cm0p/release-v1.0.0 remote add cypress-offline C:/Users/jethr/.modustoolbox/offline/git/https___github.com_Infineon_cat1cm0p/cat1cm0p
+Success: git -C C:/IOT/iot_mqtt/mtb_shared/lwip-network-interface-integration/release-v1.1.1 remote add cypress-offline C:/Users/jethr/.modustoolbox/offline/git/https___github.com_Infineon_lwip-network-interface-integration/lwip-network-interface-integration
+Starting: git -C C:/IOT/iot_mqtt/mtb_shared/core-make/release-v3.0.2 remote add cypress-offline C:/Users/jethr/.modustoolbox/offline/git/https___github.com_cypresssemiconductorco_core-make/core-make
+Success: git -C C:/IOT/iot_mqtt/mtb_shared/cat1cm0p/release-v1.0.0 remote add cypress-offline C:/Users/jethr/.modustoolbox/offline/git/https___github.com_Infineon_cat1cm0p/cat1cm0p
+Starting: git -C C:/IOT/iot_mqtt/mtb_shared/whd-bsp-integration/release-v2.1.0 remote add cypress-offline C:/Users/jethr/.modustoolbox/offline/git/https___github.com_cypresssemiconductorco_whd-bsp-integration/whd-bsp-integration
+Success: git -C C:/IOT/iot_mqtt/mtb_shared/connectivity-utilities/release-v4.1.0 remote add cypress-offline C:/Users/jethr/.modustoolbox/offline/git/https___github.com_cypresssemiconductorco_connectivity-utilities/connectivity-utilities
+Starting: git -C C:/IOT/iot_mqtt/mtb_shared/core-lib/release-v1.3.1 remote add cypress-offline C:/Users/jethr/.modustoolbox/offline/git/https___github.com_cypresssemiconductorco_core-lib/core-lib
+Success: git -C C:/IOT/iot_mqtt/mtb_shared/core-make/release-v3.0.2 remote add cypress-offline C:/Users/jethr/.modustoolbox/offline/git/https___github.com_cypresssemiconductorco_core-make/core-make
+Starting: git -C C:/IOT/iot_mqtt/mtb_shared/secure-sockets/release-v3.2.0 remote add cypress-offline C:/Users/jethr/.modustoolbox/offline/git/https___github.com_cypresssemiconductorco_secure-sockets/secure-sockets
+Success: git -C C:/IOT/iot_mqtt/mtb_shared/whd-bsp-integration/release-v2.1.0 remote add cypress-offline C:/Users/jethr/.modustoolbox/offline/git/https___github.com_cypresssemiconductorco_whd-bsp-integration/whd-bsp-integration
+Starting: git -C C:/IOT/iot_mqtt/mtb_shared/wifi-connection-manager/release-v3.0.1 remote add cypress-offline C:/Users/jethr/.modustoolbox/offline/git/https___github.com_cypresssemiconductorco_wifi-connection-manager/wifi-connection-manager
+Success: git -C C:/IOT/iot_mqtt/mtb_shared/core-lib/release-v1.3.1 remote add cypress-offline C:/Users/jethr/.modustoolbox/offline/git/https___github.com_cypresssemiconductorco_core-lib/core-lib
+Starting: git -C C:/IOT/iot_mqtt/mtb_shared/cmsis/release-v5.8.0 remote set-url cypress https://github.com/Infineon/cmsis
+Success: git -C C:/IOT/iot_mqtt/mtb_shared/secure-sockets/release-v3.2.0 remote add cypress-offline C:/Users/jethr/.modustoolbox/offline/git/https___github.com_cypresssemiconductorco_secure-sockets/secure-sockets
+Starting: git -C C:/IOT/iot_mqtt/mtb_shared/recipe-make-cat1a/release-v2.0.0 remote add cypress-offline C:/Users/jethr/.modustoolbox/offline/git/https___github.com_cypresssemiconductorco_recipe-make-cat1a/recipe-make-cat1a
+Success: git -C C:/IOT/iot_mqtt/mtb_shared/cmsis/release-v5.8.0 remote set-url cypress https://github.com/Infineon/cmsis
+Starting: git -C C:/IOT/iot_mqtt/mtb_shared/aws-iot-device-sdk-embedded-C/202103.00 remote set-url --push cypress https://github.com/aws/aws-iot-device-sdk-embedded-C
+Success: git -C C:/IOT/iot_mqtt/mtb_shared/wifi-connection-manager/release-v3.0.1 remote add cypress-offline C:/Users/jethr/.modustoolbox/offline/git/https___github.com_cypresssemiconductorco_wifi-connection-manager/wifi-connection-manager
+Starting: git -C C:/IOT/iot_mqtt/mtb_shared/lwip/STABLE-2_1_2_RELEASE remote add cypress-offline C:/Users/jethr/.modustoolbox/offline/git/https___git.savannah.nongnu.org_git_lwip/lwip
+Success: git -C C:/IOT/iot_mqtt/mtb_shared/recipe-make-cat1a/release-v2.0.0 remote add cypress-offline C:/Users/jethr/.modustoolbox/offline/git/https___github.com_cypresssemiconductorco_recipe-make-cat1a/recipe-make-cat1a
+Starting: git -C C:/IOT/iot_mqtt/mtb_shared/cmsis/release-v5.8.0 remote set-url --push cypress https://github.com/Infineon/cmsis
+Success: git -C C:/IOT/iot_mqtt/mtb_shared/aws-iot-device-sdk-embedded-C/202103.00 remote set-url --push cypress https://github.com/aws/aws-iot-device-sdk-embedded-C
+Starting: git -C C:/IOT/iot_mqtt/mtb_shared/aws-iot-device-sdk-embedded-C/202103.00 remote add cypress-offline C:/Users/jethr/.modustoolbox/offline/git/https___github.com_aws_aws-iot-device-sdk-embedded-C/aws-iot-device-sdk-embedded-C
+Success: git -C C:/IOT/iot_mqtt/mtb_shared/lwip/STABLE-2_1_2_RELEASE remote add cypress-offline C:/Users/jethr/.modustoolbox/offline/git/https___git.savannah.nongnu.org_git_lwip/lwip
+Success: git -C C:/IOT/iot_mqtt/mtb_shared/cmsis/release-v5.8.0 remote set-url --push cypress https://github.com/Infineon/cmsis
+Starting: git -C C:/IOT/iot_mqtt/mtb_shared/cmsis/release-v5.8.0 remote add cypress-offline C:/Users/jethr/.modustoolbox/offline/git/https___github.com_Infineon_cmsis/cmsis
+Success: git -C C:/IOT/iot_mqtt/mtb_shared/aws-iot-device-sdk-embedded-C/202103.00 remote add cypress-offline C:/Users/jethr/.modustoolbox/offline/git/https___github.com_aws_aws-iot-device-sdk-embedded-C/aws-iot-device-sdk-embedded-C
+Starting: git -C C:/IOT/iot_mqtt/mtb_shared/aws-iot-device-sdk-embedded-C/202103.00 submodule update --init --recursive
+Success: git -C C:/IOT/iot_mqtt/mtb_shared/cmsis/release-v5.8.0 remote add cypress-offline C:/Users/jethr/.modustoolbox/offline/git/https___github.com_Infineon_cmsis/cmsis
+Submodule 'demos/jobs/jobs_demo_mosquitto/libmosquitto' (https://github.com/eclipse/mosquitto.git) registered for path 'demos/jobs/jobs_demo_mosquitto/libmosquitto'
+Submodule 'libraries/3rdparty/CMock' (https://github.com/ThrowTheSwitch/CMock) registered for path 'libraries/3rdparty/CMock'
+Submodule 'libraries/aws/device-defender-for-aws-iot-embedded-sdk' (https://github.com/aws/device-defender-for-aws-iot-embedded-sdk.git) registered for path 'libraries/aws/device-defender-for-aws-iot-embedded-sdk'
+Submodule 'libraries/aws/device-shadow-for-aws-iot-embedded-sdk' (https://github.com/aws/device-shadow-for-aws-iot-embedded-sdk.git) registered for path 'libraries/aws/device-shadow-for-aws-iot-embedded-sdk'
+Submodule '
+libraries/aws/jobs-for-aws-iot-embedded-sdk' (https://github.com/aws/jobs-for-aws-iot-embedded-sdk.git) registered for path 'libraries/aws/jobs-for-aws-iot-embedded-sdk'
+Submodule 'libraries/aws/ota-for-aws-iot-embedded-sdk' (https://github.com/aws/ota-for-aws-iot-embedded-sdk.git) registered for path 'libraries/aws/ota-for-aws-iot-embedded-sdk'
+Submodule 'libraries/standard/backoffAlgorithm' (https://github.com/FreeRTOS/backoffAlgorithm.git) registered for path 'libraries/standard/backoffAlgorithm'
+Submodule 'libraries/standard/coreHTTP' (https://github.com/FreeRTOS/coreHTTP.git) registered for path 'libraries/standard/coreHTTP'
+Submodule 'libraries/standard/coreJSON' (https://github.com/FreeRTOS/coreJSON.git) registered for path 'libraries/standard/coreJSON'
+Submodule 'libraries/standard/coreMQTT' (https://github.com/FreeRTOS/coreMQTT.git) registered for path 'libraries/standard/coreMQTT'
+Submodule 'libraries/standard/corePKCS11' (https://github.com/FreeRTOS/corePKCS11.git) registered for path 'libraries/standard/corePKCS11'
+Cloning into '/cygdrive/c/IOT/iot_mqtt/mtb_shared/aws-iot-device-sdk-embedded-C/202103.00/demos/jobs/jobs_demo_mosquitto/libmosquitto'...
+Note: switching to 'release-v2.5.0'.
+
+You are in 'detached HEAD' state. You can look around, make experimental
+changes and commit them, and you can discard any commits you make in this
+state without impacting any branches by switching back to a branch.
+
+If you want to create a new branch to retain commits you create, you may
+do so (now or later) by using -c with the switch command. Example:
+
+  git switch -c <new-branch-name>
+
+Or undo this operation with:
+
+  git switch -
+
+Turn off this advice by setting config variable advice.detachedHead to false
+
+HEAD is now at 9588d90 Upload wifi-host-driver 2.5.0.15307
+Success: git -C C:/IOT/iot_mqtt/mtb_shared/wifi-host-driver/release-v2.5.0 checkout release-v2.5.0
+Starting: git -C C:/IOT/iot_mqtt/mtb_shared/wifi-host-driver/release-v2.5.0 remote set-url cypress https://github.com/cypresssemiconductorco/wifi-host-driver
+Success: git -C C:/IOT/iot_mqtt/mtb_shared/wifi-host-driver/release-v2.5.0 remote set-url cypress https://github.com/cypresssemiconductorco/wifi-host-driver
+Starting: git -C C:/IOT/iot_mqtt/mtb_shared/wifi-host-driver/release-v2.5.0 remote set-url --push cypress https://github.com/cypresssemiconductorco/wifi-host-driver
+Success: git -C C:/IOT/iot_mqtt/mtb_shared/wifi-host-driver/release-v2.5.0 remote set-url --push cypress https://github.com/cypresssemiconductorco/wifi-host-driver
+Starting: git -C C:/IOT/iot_mqtt/mtb_shared/wifi-host-driver/release-v2.5.0 remote add cypress-offline C:/Users/jethr/.modustoolbox/offline/git/https___github.com_cypresssemiconductorco_wifi-host-driver/wifi-host-driver
+Success: git -C C:/IOT/iot_mqtt/mtb_shared/wifi-host-driver/release-v2.5.0 remote add cypress-offline C:/Users/jethr/.modustoolbox/offline/git/https___github.com_cypresssemiconductorco_wifi-host-driver/wifi-host-driver
+Cloning into '/cygdrive/c/IOT/iot_mqtt/mtb_shared/aws-iot-device-sdk-embedded-C/202103.00/libraries/3rdparty/CMock'...
+Note: switching to '
+mbedtls-2.25.0'.
+
+You are in 'detached HEAD' state. You can look around, make experimental
+changes and commit them, and you can discard any commits you make in this
+state without impacting any branches by switching back to a branch.
+
+If you want to create a new branch to retain commits you create, you may
+do so (now or later) by using -c with the switch command. Example:
+
+  git switch -c <new-branch-name>
+
+Or undo this operation with:
+
+  git switch -
+
+Turn off this advice by setting config variable advice.detachedHead to false
+
+HEAD is now at 1c54b5410 Merge pull request #786 from ARMmbed/dev/yanesca/mbedtls-2.25.0r0-pr
+Success: git -C C:/IOT/iot_mqtt/mtb_shared/mbedtls/mbedtls-2.25.0 checkout mbedtls-2.25.0
+Starting: git -C C:/IOT/iot_mqtt/mtb_shared/mbedtls/mbedtls-2.25.0 remote set-url cypress https://github.com/ARMmbed/mbedtls
+Success: git -C C:/IOT/iot_mqtt/mtb_shared/mbedtls/mbedtls-2.25.0 remote set-url cypress https://github.com/ARMmbed/mbedtls
+Starting: git -C C:/IOT/iot_mqtt/mtb_shared/mbedtls/mbedtls-2.25.0 remote set-url --push cypress https://github.com/ARMmbed/mbedtls
+Success: git -C C:/IOT/iot_mqtt/mtb_shared/mbedtls/mbedtls-2.25.0 remote set-url --push cypress https://github.com/ARMmbed/mbedtls
+Starting: git -C C:/IOT/iot_mqtt/mtb_shared/mbedtls/mbedtls-2.25.0 remote add cypress-offline C:/Users/jethr/.modustoolbox/offline/git/https___github.com_ARMmbed_mbedtls/mbedtls
+Success: git -C C:/IOT/iot_mqtt/mtb_shared/mbedtls/mbedtls-2.25.0 remote add cypress-offline C:/Users/jethr/.modustoolbox/offline/git/https___github.com_ARMmbed_mbedtls/mbedtls
+Cloning into '/cygdrive/c/IOT/iot_mqtt/mtb_shared/aws-iot-device-sdk-embedded-C/202103.00/libraries/aws/device-defender-for-aws-iot-embedded-sdk'...
+Note: switching to 'release-v2.2.0'.
+
+You are in 'detached HEAD' state. You can look around, make experimental
+changes and commit them, and you can discard any commits you make in this
+state without impacting any branches by switching back to a branch.
+
+If you want to create a new branch to retain commits you create, you may
+do so (now or later) by using -c with the switch command. Example:
+
+  git switch -c <new-branch-name>
+
+Or undo this operation with:
+
+  git switch -
+
+Turn off this advice by setting config variable advice.detachedHead to false
+
+HEAD is now at d672ead Upload mtb-hal-cat1 2.2.0.30598
+Success: git -C C:/IOT/iot_mqtt/mtb_shared/mtb-hal-cat1/release-v2.2.0 checkout release-v2.2.0
+Starting: git -C C:/IOT/iot_mqtt/mtb_shared/mtb-hal-cat1/release-v2.2.0 remote set-url cypress https://github.com/cypresssemiconductorco/mtb-hal-cat1
+Success: git -C C:/IOT/iot_mqtt/mtb_shared/mtb-hal-cat1/release-v2.2.0 remote set-url cypress https://github.com/cypresssemiconductorco/mtb-hal-cat1
+Starting: git -C C:/IOT/iot_mqtt/mtb_shared/mtb-hal-cat1/release-v2.2.0 remote set-url --push cypress https://github.com/cypresssemiconductorco/mtb-hal-cat1
+Success: git -C C:/IOT/iot_mqtt/mtb_shared/mtb-hal-cat1/release-v2.2.0 remote set-url --push cypress https://github.com/cypresssemiconductorco/mtb-hal-cat1
+Starting: git -C C:/IOT/iot_mqtt/mtb_shared/mtb-hal-cat1/release-v2.2.0 remote add cypress-offline C:/Users/jethr/.modustoolbox/offline/git/https___github.com_cypresssemiconductorco_mtb-hal-cat1/mtb-hal-cat1
+Success: git -C C:/IOT/iot_mqtt/mtb_shared/mtb-hal-cat1/release-v2.2.0 remote add cypress-offline C:/Users/jethr/.modustoolbox/offline/git/https___github.com_cypresssemiconductorco_mtb-hal-cat1/mtb-hal-cat1
+Cloning into '/cygdrive/c/IOT/iot_mqtt/mtb_shared/aws-iot-device-sdk-embedded-C/202103.00/libraries/aws/device-shadow-for-aws-iot-embedded-sdk'...
+Cloning into '/cygdrive/c/IOT/iot_mqtt/mtb_shared/aws-iot-device-sdk-embedded-C/202103.00/libraries/aws/jobs-for-aws-iot-embedded-sdk'...
+Cloning into '/cygdrive/c/IOT/iot_mqtt/mtb_shared/aws-iot-device-sdk-embedded-C/202103.00/libraries/aws/ota-for-aws-iot-embedded-sdk'...
+Cloning into '/cygdrive/c/IOT/iot_mqtt/mtb_shared/aws-iot-device-sdk-embedded-C/202103.00/libraries/standard/backoffAlgorithm'...
+Cloning into '/cygdrive/c/IOT/iot_mqtt/mtb_shared/aws-iot-device-sdk-embedded-C/202103.00/libraries/standard/coreHTTP'...
+Cloning into '/cygdrive/c/IOT/iot_mqtt/mtb_shared/aws-iot-device-sdk-embedded-C/202103.00/libraries/standard/coreJSON'...
+Cloning into '/cygdrive/c/IOT/iot_mqtt/mtb_shared/aws-iot-device-sdk-embedded-C/202103.00/libraries/standard/coreMQTT'...
+Cloning into '/cygdrive/c/IOT/iot_mqtt/mtb_shared/aws-iot-device-sdk-embedded-C/202103.00/libraries/standard/corePKCS11'...
+Submodule path 'demos/jobs/jobs_demo_mosquitto/libmosquitto': checked out '0bdf630c2757047dcbf1fd3ad6b7a245addd87fa'
+Submodule path 'libraries/3rdparty/CMock': checked out '150573c742ce15061a0b675aa0f8e29c85008062'
+Submodule 'vendor/c_exception' (https://github.com/throwtheswitch/cexception.git) registered for path 'libraries/3rdparty/CMock/vendor/c_exception'
+Submodule 'vendor/unity' (https://github.com/throwtheswitch/unity.git) registered for path 'libraries/3rdparty/CMock/vendor/unity'
+Cloning into '/cygdrive/c/IOT/iot_mqtt/mtb_shared/aws-iot-device-sdk-embedded-C/202103.00/libraries/3rdparty/CMock/vendor/c_exception'...
+Cloning into '/cygdrive/c/IOT/iot_mqtt/mtb_shared/aws-iot-device-sdk-embedded-C/202103.00/libraries/3rdparty/CMock/vendor/unity'...
+Submodule path 'libraries/3rdparty/CMock/vendor/c_exception': checked out '71b47be7c950f1bf5f7e5303779fa99a16224bb6'
+Submodule path 'libraries/3rdparty/CMock/vendor/unity': checked out 'cf949f45ca6d172a177b00da21310607b97bc7a7'
+Submodule path 'libraries/aws/device-defender-for-aws-iot-embedded-sdk': checked out '548b4688b26d16d0e6134d7d93dcbae103994e40'
+Submodule 'test/cbmc/aws-templates-for-cbmc-proofs' (https://github.com/awslabs/aws-templates-for-cbmc-proofs.git) registered for path 'libraries/aws/device-defender-for-aws-iot-embedded-sdk/test/cbmc/aws-templates-for-cbmc-proofs'
+Submodule 'test/cbmc/litani' (https://github.com/awslabs/aws-build-accumulator) registered for path 'libraries/aws/device-defender-for-aws-iot-embedded-sdk/test/cbmc/litani'
+Submodule 'test/unit-test/Unity' (https://github.com/ThrowTheSwitch/Unity) registered for path 'libraries/aws/device-defender-for-aws-iot-embedded-sdk/test/unit-test/Unity'
+Skipping submodule '../../../libraries/aws/device-defender-for-aws-iot-embedded-sdk/'
+Skipping submodule '../../../libraries/aws/device-defender-for-aws-iot-embedded-sdk/'
+Skipping submodule '../../../libraries/aws/device-defender-for-aws-iot-embedded-sdk/'
+Submodule path 'libraries/aws/device-shadow-for-aws-iot-embedded-sdk': checked out 'ff5a3e174ca8f805051c14d9c15b500196e3f79a'
+Submodule 'test/cbmc/aws-templates-for-cbmc-proofs' (https://github.com/awslabs/aws-templates-for-cbmc-proofs.git) registered for path 'libraries/aws/device-shadow-for-aws-iot-embedded-sdk/test/cbmc/aws-templates-for-cbmc-proofs'
+Submodule 'test/cbmc/litani' (https://github.com/awslabs/aws-build-accumulator) registered for path 'libraries/aws/device-shadow-for-aws-iot-embedded-sdk/test/cbmc/litani'
+Submodule 'test/unit-test/CMock' (https://github.com/ThrowTheSwitch/CMock) registered for path 'libraries/aws/device-shadow-for-aws-iot-embedded-sdk/test/unit-test/CMock'
+Skipping submodule '../../../libraries/aws/device-shadow-for-aws-iot-embedded-sdk/'
+Skipping submodule '../../../libraries/aws/device-shadow-for-aws-iot-embedded-sdk/'
+Skipping submodule '../../../libraries/aws/device-shadow-for-aws-iot-embedded-sdk/'
+Submodule path 'libraries/aws/jobs-for-aws-iot-embedded-sdk': checked out '19788445bca7f8f85167c83ac12379d3d1022295'
+Submodule 'test/cbmc/aws-templates-for-cbmc-proofs' (https://github.com/awslabs/aws-templates-for-cbmc-proofs.git) registered for path 'libraries/aws/jobs-for-aws-iot-embedded-sdk/test/cbmc/aws-templates-for-cbmc-proofs'
+Submodule 'test/cbmc/litani' (https://github.com/awslabs/aws-build-accumulator) registered for path 'libraries/aws/jobs-for-aws-iot-embedded-sdk/test/cbmc/litani'
+Submodule 'test/unit-test/Unity' (https://github.com/ThrowTheSwitch/Unity) registered for path 'libraries/aws/jobs-for-aws-iot-embedded-sdk/test/unit-test/Unity'
+Skipping submodule '../../../libraries/aws/jobs-for-aws-iot-embedded-sdk/'
+Skipping submodule '../../../libraries/aws/jobs-for-aws-iot-embedded-sdk/'
+Skipping submodule '../../../libraries/aws/jobs-for-aws-iot-embedded-sdk/'
+Submodule path 'libraries/aws/ota-for-aws-iot-embedded-sdk': checked out '666241d0f643b07d5146a3715b649d80f8135e0b'
+Submodule 'tinycbor' (https://github.com/intel/tinycbor.git) registered for path 'libraries/aws/ota-for-aws-iot-embedded-sdk/source/dependency/3rdparty/tinycbor'
+Submodule 'coreJSON' (https://github.com/FreeRTOS/coreJSON.git) registered for path 'libraries/aws/ota-for-aws-iot-embedded-sdk/source/dependency/coreJSON'
+Submodule 'test/unit-test/CMock' (https://github.com/ThrowTheSwitch/CMock.git) registered for path 'libraries/aws/ota-for-aws-iot-embedded-sdk/test/unit-test/CMock'
+Cloning into '/cygdrive/c/IOT/iot_mqtt/mtb_shared/aws-iot-device-sdk-embedded-C/202103.00/libraries/aws/ota-for-aws-iot-embedded-sdk/source/dependency/3rdparty/tinycbor'...
+Note: switching to 'release-v3.2.0'.
+
+You are in 'detached HEAD' state. You can look around, make experimental
+changes and commit them, and you can discard any commits you make in this
+state without impacting any branches by switching back to a branch.
+
+If you want to create a new branch to retain commits you create, you may
+do so (now or later) by using -c with the switch command. Example:
+
+  git switch -c <new-branch-name>
+
+Or undo this operation with:
+
+  git switch -
+
+Turn off this advice by setting config variable advice.detachedHead to false
+
+HEAD is now at 3bd35be Upload mtb-pdl-cat1 3.2.0.20064 [335]
+Success: git -C C:/IOT/iot_mqtt/mtb_shared/mtb-pdl-cat1/release-v3.2.0 checkout release-v3.2.0
+Starting: git -C C:/IOT/iot_mqtt/mtb_shared/mtb-pdl-cat1/release-v3.2.0 remote set-url cypress https://github.com/cypresssemiconductorco/mtb-pdl-cat1
+Success: git -C C:/IOT/iot_mqtt/mtb_shared/mtb-pdl-cat1/release-v3.2.0 remote set-url cypress https://github.com/cypresssemiconductorco/mtb-pdl-cat1
+Starting: git -C C:/IOT/iot_mqtt/mtb_shared/mtb-pdl-cat1/release-v3.2.0 remote set-url --push cypress https://github.com/cypresssemiconductorco/mtb-pdl-cat1
+Success: git -C C:/IOT/iot_mqtt/mtb_shared/mtb-pdl-cat1/release-v3.2.0 remote set-url --push cypress https://github.com/cypresssemiconductorco/mtb-pdl-cat1
+Starting: git -C C:/IOT/iot_mqtt/mtb_shared/mtb-pdl-cat1/release-v3.2.0 remote add cypress-offline C:/Users/jethr/.modustoolbox/offline/git/https___github.com_cypresssemiconductorco_mtb-pdl-cat1/mtb-pdl-cat1
+Success: git -C C:/IOT/iot_mqtt/mtb_shared/mtb-pdl-cat1/release-v3.2.0 remote add cypress-offline C:/Users/jethr/.modustoolbox/offline/git/https___github.com_cypresssemiconductorco_mtb-pdl-cat1/mtb-pdl-cat1
+Cloning into '/cygdrive/c/IOT/iot_mqtt/mtb_shared/aws-iot-device-sdk-embedded-C/202103.00/libraries/aws/ota-for-aws-iot-embedded-sdk/source/dependency/coreJSON'...
+Skipping submodule '../../../libraries/aws/ota-for-aws-iot-embedded-sdk/'
+Submodule path 'libraries/aws/ota-for-aws-iot-embedded-sdk/source/dependency/3rdparty/tinycbor': checked out '9924cfed3b95ad6de299ae675064430fdb886216'
+Submodule path 'libraries/aws/ota-for-aws-iot-embedded-sdk/source/dependency/coreJSON': checked out '97a906a2761b71434ffa9d838cd0500543b7dadc'
+Submodule 'test/cbmc/aws-templates-for-cbmc-proofs' (https://github.com/awslabs/aws-templates-for-cbmc-proofs.git) registered for path 'libraries/aws/ota-for-aws-iot-embedded-sdk/source/dependency/coreJSON/test/cbmc/aws-templates-for-cbmc-proofs'
+Submodule 'test/cbmc/litani' (https://github.com/awslabs/aws-build-accumulator) registered for path 'libraries/aws/ota-for-aws-iot-embedded-sdk/source/dependency/coreJSON/test/cbmc/litani'
+Submodule 'test/unit-test/Unity' (https://github.com/ThrowTheSwitch/Unity) registered for path 'libraries/aws/ota-for-aws-iot-embedded-sdk/source/dependency/coreJSON/test/unit-test/Unity'
+Skipping submodule '../../../libraries/aws/ota-for-aws-iot-embedded-sdk/source/dependency/coreJSON/'
+Skipping submodule '../../../libraries/aws/ota-for-aws-iot-embedded-sdk/source/dependency/coreJSON/'
+Skipping submodule '../../../libraries/aws/ota-for-aws-iot-embedded-sdk/source/dependency/coreJSON/'
+Submodule path 'libraries/standard/backoffAlgorithm': checked out '741697917a5b9264cd5c11e54e23ce3fe3472636'
+Submodule 'test/unit-test/Unity' (https://github.com/ThrowTheSwitch/Unity) registered for path 'libraries/standard/backoffAlgorithm/test/unit-test/Unity'
+Skipping submodule '../../../libraries/standard/backoffAlgorithm/'
+Submodule path 'libraries/standard/coreHTTP': checked out '88c836c18f46c5ab862810f56b023ecb2ddf7b7b'
+Submodule 'source/dependency/3rdparty/http_parser' (https://github.com/nodejs/http-parser.git) registered for path 'libraries/standard/coreHTTP/source/dependency/3rdparty/http_parser'
+Submodule 'test/cbmc/aws-templates-for-cbmc-proofs' (https://github.com/awslabs/aws-templates-for-cbmc-proofs.git) registered for path 'libraries/standard/coreHTTP/test/cbmc/aws-templates-for-cbmc-proofs'
+Submodule 'test/cbmc/litani' (https://github.com/awslabs/aws-build-accumulator) registered for path 'libraries/standard/coreHTTP/test/cbmc/litani'
+Submodule 'test/unit-test/CMock' (https://github.com/ThrowTheSwitch/CMock.git) registered for path 'libraries/standard/coreHTTP/test/unit-test/CMock'
+Cloning into '/cygdrive/c/IOT/iot_mqtt/mtb_shared/aws-iot-device-sdk-embedded-C/202103.00/libraries/standard/coreHTTP/source/dependency/3rdparty/http_parser'...
+Skipping submodule '../../../libraries/standard/coreHTTP/'
+Skipping submodule '../../../libraries/standard/coreHTTP/'
+Skipping submodule '../../../libraries/standard/coreHTTP/'
+Submodule path 'libraries/standard/coreHTTP/source/dependency/3rdparty/http_parser': checked out 'ec8b5ee63f0e51191ea43bb0c6eac7bfbff3141d'
+Submodule path 'libraries/standard/coreJSON': checked out '19b48dbf1b1f8753d61d8e2916137904ce12b293'
+Submodule 'test/cbmc/aws-templates-for-cbmc-proofs' (https://github.com/awslabs/aws-templates-for-cbmc-proofs.git) registered for path 'libraries/standard/coreJSON/test/cbmc/aws-templates-for-cbmc-proofs'
+Submodule 'test/cbmc/litani' (https://github.com/awslabs/aws-build-accumulator) registered for path 'libraries/standard/coreJSON/test/cbmc/litani'
+Submodule 'test/unit-test/Unity' (https://github.com/ThrowTheSwitch/Unity) registered for path 'libraries/standard/coreJSON/test/unit-test/Unity'
+Skipping submodule '../../../libraries/standard/coreJSON/'
+Skipping submodule '../../../libraries/standard/coreJSON/'
+Skipping submodule '../../../libraries/standard/coreJSON/'
+Submodule path 'libraries/standard/coreMQTT': checked out 'ffb68182abfab5e2b9df6ac24b17e3e0fec7b67f'
+Submodule 'test/cbmc/aws-templates-for-cbmc-proofs' (https://github.com/awslabs/aws-templates-for-cbmc-proofs.git) registered for path 'libraries/standard/coreMQTT/test/cbmc/aws-templates-for-cbmc-proofs'
+Submodule 'test/cbmc/litani' (https://github.com/awslabs/aws-build-accumulator) registered for path 'libraries/standard/coreMQTT/test/cbmc/litani'
+Submodule 'test/unit-test/CMock' (https://github.com/ThrowTheSwitch/CMock) registered for path 'libraries/standard/coreMQTT/test/unit-test/CMock'
+Skipping submodule '../../../libraries/standard/coreMQTT/'
+Skipping submodule '../../../libraries/standard/coreMQTT/'
+Skipping submodule '../../../libraries/standard/coreMQTT/'
+Submodule path 'libraries/standard/corePKCS11': checked out 'a739b86f90bde81aeea19dab6315250983730211'
+Submodule 'source/dependency/3rdparty/mbedtls' (https://github.com/ARMmbed/mbedtls.git) registered for path 'libraries/standard/corePKCS11/source/dependency/3rdparty/mbedtls'
+Submodule 'source/dependency/3rdparty/pkcs11' (https://github.com/amazon-freertos/pkcs11.git) registered for path 'libraries/standard/corePKCS11/source/dependency/3rdparty/pkcs11'
+Submodule 'test/cbmc/aws-templates-for-cbmc-proofs' (https://github.com/awslabs/aws-templates-for-cbmc-proofs) registered for path 'libraries/standard/corePKCS11/test/cbmc/aws-templates-for-cbmc-proofs'
+Submodule 'test/cbmc/litani' (https://github.com/awslabs/aws-build-accumulator.git) registered for path 'libraries/standard/corePKCS11/test/cbmc/litani'
+Submodule 'test/unit-test/CMock' (https://github.com/ThrowTheSwitch/CMock.git) registered for path 'libraries/standard/corePKCS11/test/unit-test/CMock'
+Skipping submodule '../../../../libraries/standard/corePKCS11/'
+Cloning into '/cygdrive/c/IOT/iot_mqtt/mtb_shared/aws-iot-device-sdk-embedded-C/202103.00/libraries/standard/corePKCS11/source/dependency/3rdparty/pkcs11'...
+Skipping submodule '../../../libraries/standard/corePKCS11/'
+Skipping submodule '../../../libraries/standard/corePKCS11/'
+Skipping submodule '../../../libraries/standard/corePKCS11/'
+Submodule path 'libraries/standard/corePKCS11/source/dependency/3rdparty/pkcs11': checked out '9304ef6842d08d881ccd1daa8d3a428f3a9671ee'
+Success: git -C C:/IOT/iot_mqtt/mtb_shared/aws-iot-device-sdk-embedded-C/202103.00 submodule update --init --recursive
+Copying template files from C:/IOT/iot_mqtt/WiFi_MQTT_Client/templates/TARGET_CY8CPROTO-062-4343W to C:/IOT/iot_mqtt/WiFi_MQTT_Client/bsps/TARGET_APP_CY8CPROTO-062-4343W
+Requested to change the active target to 'APP_CY8CPROTO-062-4343W'.
+Removed the file 'C:/IOT/iot_mqtt/WiFi_MQTT_Client/deps/TARGET_CY8CPROTO-062-4343W.mtb'.
+Writing the file 'C:/IOT/iot_mqtt/WiFi_MQTT_Client/libs/app.mk'.
+Successfully committed changes to the project 'mtb-example-wifi-mqtt-client'.
+Project "WiFi_MQTT_Client" created successfully.
+Successfully created "WiFi_MQTT_Client" application.
+==============================================================================
+= Export "WiFi_MQTT_Client" application to Eclipse IDE for ModusToolbox™ =
+==============================================================================
+C:/Users/jethr/ModusToolbox/tools_3.0/modus-shell/bin/make.exe eclipse CY_IDE_PRJNAME=WiFi_MQTT_Client CY_MAKE_IDE=eclipse CY_MAKE_IDE_VERSION=3.0 CY_TOOLS_PATHS=C:/Users/jethr/ModusToolbox/tools_3.0 MTB_MAKE_ECLIPSE_FORCE_REGENERATE_PROJECT=1
+Tools Directory: C:/Users/jethr/ModusToolbox/tools_3.0
+Searching installed tools in progress...
+Searching installed tools complete
+
+
+
+
+Prebuild operations complete
+
+Auto-discovery in progress...
+Auto-discovery complete
+Commencing build operations...
+
+Tools Directory: C:/Users/jethr/ModusToolbox/tools_3.0
+
+Initializing build: mtb-example-wifi-mqtt-client Debug APP_CY8CPROTO-062-4343W GCC_ARM
+
+Constructing build rules...
+Build rules construction complete
+
+==============================================================================
+= Generating IDE files =
+==============================================================================
+Generated C:/IOT/iot_mqtt/WiFi_MQTT_Client/.mtbLaunchConfigs/WiFi_MQTT_Client Attach (JLink).launch
+Generated C:/IOT/iot_mqtt/WiFi_MQTT_Client/.mtbLaunchConfigs/WiFi_MQTT_Client Attach (KitProg3_MiniProg4).launch
+Generated C:/IOT/iot_mqtt/WiFi_MQTT_Client/.mtbLaunchConfigs/WiFi_MQTT_Client Debug (JLink).launch
+Generated C:/IOT/iot_mqtt/WiFi_MQTT_Client/.mtbLaunchConfigs/WiFi_MQTT_Client Debug (KitProg3_MiniProg4).launch
+Generated C:/IOT/iot_mqtt/WiFi_MQTT_Client/.mtbLaunchConfigs/WiFi_MQTT_Client Erase (JLink).launch
+Generated C:/IOT/iot_mqtt/WiFi_MQTT_Client/.mtbLaunchConfigs/WiFi_MQTT_Client Erase (KitProg3_MiniProg4).launch
+Generated C:/IOT/iot_mqtt/WiFi_MQTT_Client/.mtbLaunchConfigs/WiFi_MQTT_Client Program (JLink).launch
+Generated C:/IOT/iot_mqtt/WiFi_MQTT_Client/.mtbLaunchConfigs/WiFi_MQTT_Client Program (KitProg3_MiniProg4).launch
+Generated C:/IOT/iot_mqtt/WiFi_MQTT_Client/.project
+Generated C:/IOT/iot_mqtt/WiFi_MQTT_Client/.cproject
+Instructions:
+1. Open Eclipse IDE for ModusToolbox
+2. Select 'Import Existing Application In-Place' from the QuickPanel
+3. Browse to the application root directory
+  
+The application "WiFi_MQTT_Client" was successfully exported to Eclipse IDE for ModusToolbox™.
+0 error(s), 0 warning(s)
+
+Summary:
+
+Successfully created and exported "WiFi_MQTT_Client" application.
