@@ -51,6 +51,7 @@
 
 #include "ControllerData.h"
 #include "SensorData.h"
+#include "ActuationData.h"
 
 #include "TaskController.h"
 #include "TaskActuation.h"
@@ -122,6 +123,7 @@ int main(void)
 		xTaskCreate(TaskBattery, "Task Battery", TASKBATTERY_STACK_SIZE, NULL, TASKBATTERY_PRIORITY, &TaskBatteryHandle);
 
 		queue_controller_handle = xQueueCreate(1, sizeof(controller_data_msg_t));
+		queue_actuation_handle = xQueueCreate(1, sizeof(actuation_data_msg_t));
 		queue_battery_handle = xQueueCreate(1, sizeof(sensor_data_msg_t));
 
 		vTaskStartScheduler();
