@@ -123,8 +123,10 @@ int main(void)
 		xTaskCreate(TaskBattery, "Task Battery", TASKBATTERY_STACK_SIZE, NULL, TASKBATTERY_PRIORITY, &TaskBatteryHandle);
 
 		queue_controller_handle = xQueueCreate(1, sizeof(controller_data_msg_t));
-		queue_actuation_handle = xQueueCreate(1, sizeof(actuation_data_msg_t));
+		queue_actuation_handle_pld = xQueueCreate(1, sizeof(actuation_data_msg_t));
+		queue_actuation_handle_servo = xQueueCreate(1, sizeof(actuation_data_msg_t));
 		queue_battery_handle = xQueueCreate(1, sizeof(sensor_data_msg_t));
+	        
 
 		vTaskStartScheduler();
 
