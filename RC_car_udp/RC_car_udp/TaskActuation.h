@@ -15,6 +15,12 @@
 #include "task.h"
 #include "queue.h"
 
+typedef struct
+{
+    float pwmPLD;
+    float pwmServo;
+} timer_params_t;
+
 /*******************************************************************************
  * Function prototype
  ******************************************************************************/
