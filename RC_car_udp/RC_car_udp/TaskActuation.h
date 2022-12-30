@@ -24,7 +24,8 @@ void TaskActuation(void *arg);
 
 /* Actuation Client task handle. */
 extern TaskHandle_t TaskActuationHandle;
-extern QueueHandle_t queue_actuation_handle;
+extern QueueHandle_t queue_actuation_handle_pld;
+extern QueueHandle_t queue_actuation_handle_servo;
 extern TimerHandle_t timer_handle_actuation;
 extern actuation_data_msg_t actuation_data;
 
