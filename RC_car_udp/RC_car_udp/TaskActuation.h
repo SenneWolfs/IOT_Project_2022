@@ -14,12 +14,8 @@
 #include "FreeRTOS.h"
 #include "task.h"
 #include "queue.h"
+#include "ActuationData.h"
 
-typedef struct
-{
-    float pwmPLD;
-    float pwmServo;
-} timer_params_t;
 
 /*******************************************************************************
  * Function prototype
@@ -30,5 +26,6 @@ void TaskActuation(void *arg);
 extern TaskHandle_t TaskActuationHandle;
 extern QueueHandle_t queue_actuation_handle;
 extern TimerHandle_t timer_handle_actuation;
+extern actuation_data_msg_t actuation_data;
 
 #endif /* TASKACTUATION_H_ */
