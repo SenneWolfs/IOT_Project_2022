@@ -21,14 +21,29 @@
 #include <task.h>
 #include <queue.h>
 
+#include "ActuationData.h"
+#include "TaskActuation.h"
 #include "ControllerData.h"
 #include "TaskController.h"
+
+QueueHandle_t queue_actuation_handle_pld;
+QueueHandle_t queue_actuation_handle_servo;
+TimerHandle_t timer_handle_actuation;
+actuation_data_msg_t actuation_data;
 
 /* PWM Frequency = 2Hz */
 #define PWM_FREQUENCY (50u)
 /* PWM Duty-cycle = 50% */
 #define PWM_DUTY_CYCLE (7.6f)
 
+void timer_callback_actuation(TimerHandle_t xTimer)
+{
+    actuation_data_msg_t *pwms = (actuation_data_msg_t *)pvTimerGetTimerID(xTimer);
+    float pwmP = actuation_data->pwmPLD;
+    float pwmS = actuation_data->pwmServo;
+	xQueueSendToBack(queue_actuation_handle_pld, &pwmP, 0UL);
+    xQueueSendToBack(queue_actuation_handle_servo, &pwmS, 0UL);
+}
 
 void TaskActuation(void *arg)
 {
@@ -91,6 +106,9 @@ void TaskActuation(void *arg)
     float pwmBLDCDutyCycle = PWM_DUTY_CYCLE;
     float pwmServoDutyCycle = PWM_DUTY_CYCLE;
 
+    timer_handle_actuation = xTimerCreate("Timer Actuation", pdMS_TO_TICKS(10000UL), pdTRUE, &actuation_data, timer_callback_actuation);
+	xTimerStart(timer_handle_actuation, 0);
+
     printf("Task Actuation: peripherals configured.\r\n");
     for (;;)
     {
@@ -101,12 +119,11 @@ void TaskActuation(void *arg)
         switch (controller_data_msg->id)
         {
             case 0: // empty
-                
             break;
             case 202: // right_trigger        
                 pwmBLDCDutyCycle = PWM_DUTY_CYCLE + deltaDC*controller_data_msg->value;
                 cyhal_pwm_set_duty_cycle(&pwm_bldc_motor, pwmBLDCDutyCycle, PWM_FREQUENCY);
-                printf("Task Actuation: BLDC duty cycle = %f\r\n", pwmBLDCDutyCycle);
+                printf("Task Actuation: BLDC duty cycle = %f\r\n", pwmBLDCDutyCycle);    
             break;
             case 201: // left_trigger
                 pwmBLDCDutyCycle = PWM_DUTY_CYCLE;
@@ -120,10 +137,10 @@ void TaskActuation(void *arg)
                 printf("Task Actuation: Servo duty cycle = %f\r\n", pwmServoDutyCycle);
 			break;
             default: // scam!
-
             break;
         }
-
+        actuation_data.pwmPLD = pwmBLDCDutyCycle;
+        actuation_data.pwmServo = pwmServoDutyCycle;
 
     }
 }
