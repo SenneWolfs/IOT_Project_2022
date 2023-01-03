@@ -49,7 +49,7 @@ def handle_mqtt_message(client, userdata, message):
     # print(plain_text)
     
     df = pd.read_csv("data/log.csv")
-    new_samp = json.loads(message.payload.decode())
+    new_samp = json.loads(message.payload.decode()) #plain_text indien met encryptie
     new_row = {'time':str_date_time, 'batteryLevel':new_samp["batteryLevel"], 'Speed':new_samp["Speed"], 'Servo':new_samp["Servo"]}
     df = df.append(new_row, ignore_index=True)
     df.to_csv("data/log.csv", index=False)
@@ -65,35 +65,35 @@ def index():
 @app.route('/battery')
 def battery():
     df = pd.read_csv("data/log.csv")
-    fig = px.line(df[-10:], x="time", y="batteryLevel", title='Battery level')
+    fig = px.line(df[-30:], x="time", y="batteryLevel", title='Battery level')
 
     graphJSON = json.dumps(fig, cls=plotly.utils.PlotlyJSONEncoder)
     header="Battery level of the RC cart"
     description = """
-    This graph shows the last 10 values of the battery level of the RC cart.
+    This graph shows the last 30 values of the battery level of the RC cart.
     """
     return render_template('notdash2.html', graphJSON=graphJSON, header=header,description=description)
 
 @app.route('/speed')
 def speed():
     df = pd.read_csv("data/log.csv")
-    fig = px.line(df[-10:], x="time", y="Speed", title='Motor Speed')
+    fig = px.line(df[-30:], x="time", y="Speed", title='Motor Speed')
 
     graphJSON = json.dumps(fig, cls=plotly.utils.PlotlyJSONEncoder)
     header="Motor Speed"
     description = """
-    This graph shows the last 10 values of the motor speed of the RC cart.
+    This graph shows the last 30 values of the motor speed of the RC cart.
     """
     return render_template('notdash2.html', graphJSON=graphJSON, header=header,description=description)
 
 @app.route('/servo')
 def servo():
     df = pd.read_csv("data/log.csv")
-    fig = px.line(df[-10:], x="time", y="Servo", title='Servo angle')
+    fig = px.line(df[-30:], x="time", y="Servo", title='Servo angle')
 
     graphJSON = json.dumps(fig, cls=plotly.utils.PlotlyJSONEncoder)
     header="Servo angle"
     description = """
-    This graph shows the last 10 values of the servo of the RC cart.
+    This graph shows the last 30 values of the servo of the RC cart.
     """
     return render_template('notdash2.html', graphJSON=graphJSON, header=header,description=description)
