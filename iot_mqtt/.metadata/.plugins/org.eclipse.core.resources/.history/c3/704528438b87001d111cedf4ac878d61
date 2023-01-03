@@ -1,0 +1,42 @@
+/*
+ * inputs.c
+ *
+ *  Created on: 29 dec. 2022
+ *      Author: jethr
+ */
+
+#include "inputs.h"
+#include "cybsp.h"
+#include "cyhal.h"
+#include "cycfg.h"
+#include "cycfg_capsense.h"
+#include "cy_retarget_io.h"
+#include "stdlib.h"
+#include "FreeRTOS.h"
+#include "task.h"
+#include "queue.h"
+#include "timers.h"
+
+
+
+void task_inp() {
+
+	for(;;) {
+
+	}
+}
+
+void clock_init(void)
+{
+    /* Initialize the PLL */
+    cyhal_clock_reserve(&pll_clock, &CYHAL_CLOCK_PLL[0]);
+    cyhal_clock_set_frequency(&pll_clock, AUDIO_SYS_CLOCK_HZ, NULL);
+    cyhal_clock_set_enabled(&pll_clock, true, true);
+
+    /* Initialize the audio subsystem clock (CLK_HF[1])
+     * The CLK_HF[1] is the root clock for the I2S and PDM/PCM blocks */
+    cyhal_clock_reserve(&audio_clock, &CYHAL_CLOCK_HF[1]);
+
+    /* Source the audio subsystem clock from PLL */
+    cyhal_clock_set_source(&audio_clock, &pll_clock);
+    cyhal_clock_set_enabled(&audio_clock, true, true);

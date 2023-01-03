@@ -1,0 +1,58 @@
+11:56:35 **** Incremental Build of configuration Debug for project Cryptography_AES_Demonstration ****
+"C:\\Users\\jethr\\ModusToolbox\\tools_3.0\\modus-shell\\bin\\make" CY_MAKE_IDE=eclipse CY_IDE_TOOLS_DIR=C:/Users/jethr/ModusToolbox/tools_3.0 CY_IDE_BT_TOOLS_DIR= -j8 all 
+Tools Directory: C:/Users/jethr/ModusToolbox/tools_3.0
+Searching installed tools in progress...
+Searching installed tools complete
+
+
+
+
+Prebuild operations complete
+
+Auto-discovery in progress...
+Auto-discovery complete
+Commencing build operations...
+
+Tools Directory: C:/Users/jethr/ModusToolbox/tools_3.0
+
+Initializing build: mtb-example-psoc6-crypto-aes Debug APP_CY8CPROTO-062-4343W GCC_ARM
+
+Constructing build rules...
+Build rules construction complete
+
+==============================================================================
+= Building application =
+==============================================================================
+Generating compilation database file...
+-> ./build/compile_commands.json
+Compilation database file generation complete
+Building 197 file(s)
+==============================================================================
+= Build complete =
+==============================================================================
+
+Calculating memory consumption: CY8C624ABZI-S2D44 GCC_ARM
+
+   ---------------------------------------------------- 
+  | Section Name         |  Address      |  Size       | 
+   ---------------------------------------------------- 
+  | .cy_m0p_image        |  0x10000000   |  6224       | 
+  | .text                |  0x10002000   |  40528      | 
+  | .ARM.exidx           |  0x1000be50   |  8          | 
+  | .copy.table          |  0x1000be58   |  24         | 
+  | .zero.table          |  0x1000be70   |  8          | 
+  | .data                |  0x080022e0   |  1544       | 
+  | .cy_sharedmem        |  0x080028e8   |  8          | 
+  | .noinit              |  0x080028f0   |  224        | 
+  | .bss                 |  0x080029d0   |  1320       | 
+  | .heap                |  0x08002ef8   |  1030408    | 
+   ---------------------------------------------------- 
+
+  Total Internal Flash (Available)          2097152    
+  Total Internal Flash (Utilized)           50320      
+
+
+  
+
+11:56:42 Build Finished. 0 errors, 0 warnings. (took 7s.386ms)
+

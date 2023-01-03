@@ -1,0 +1,20 @@
+/*
+ * inputs.c
+ *
+ *  Created on: 29 dec. 2022
+ *      Author: jethr
+ */
+
+#include "inputs.h"
+#include "cybsp.h"
+#include "cyhal.h"
+#include "cycfg.h"
+#include "cycfg_capsense.h"
+#include "cy_retarget_io.h"
+#include "stdlib.h"
+#include "FreeRTOS.h"
+#include "task.h"
+#include "queue.h"
+#include "timers.h"
+
+
